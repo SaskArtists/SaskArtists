@@ -25,7 +25,7 @@ var macDoList = [
   {lat:50.646281,lng:-104.867569,data:{name:"Lumsden"}},
 
   {lat:52.100418,lng:-105.761042,data:{name:"Meacham"}},
-  {lat:50.391142,lng:-105.535049,data:{name:"Moose Jaw!!!!!!!!!"}},
+  {lat:50.391142,lng:-105.535049,data:{name:"Moose Jaw"}},
 
   {lat:53.362353,lng:-104.013005,data:{name:"Nipawin"}},
   {lat:52.772884,lng:-108.299656,data:{name:"North Battleford"}},
