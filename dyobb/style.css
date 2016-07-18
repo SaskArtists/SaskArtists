@@ -1,0 +1,108 @@
+body {
+		
+	}
+	
+#header {
+	background-color: #24913c;
+	border-top-right-radius: 5px;
+	box-shadow: 10px -5px 5px black;
+	border-top-left-radius: 5px;
+	text-align: center;
+	height: 75px;
+	width: 870px;
+	padding-top:1px;
+	}
+
+#nav {
+	background-color: #65e080;
+	text-align: center;
+	width: 150px;
+	height: auto;
+	float: left;
+	padding-top:20px;
+	}
+#nav.gallery {
+	height: 3782px;
+	}
+#nav.index {
+	height: 410px;
+	}
+#nav.contact {
+	height: 410px;
+	}
+#nav.about{
+	height: 410px;
+	}
+
+#content {
+	text-align: left;
+	width: 700px;
+	height: auto;
+	background-color: #ffffff;
+	padding-bottom: 20px;
+	padding-left:20px;
+	float: left;
+	background-image:url('pics/questomatic_myths_067.jpg');
+	box-shadow: 10px 0px 5px black;
+	}
+#content.about {
+	height:410px;
+	}
+#content.index {
+	height:410;
+	}
+div.transbox  {
+	width:680px;
+	height:auto;
+	margin-top: 20px;
+	background-color:#ffffff;
+	border:1px solid black;
+	opacity:0.8;
+	padding-left: 10px;
+	filter:alpha(opacity=60); /* For IE8 and earlier */
+  }
+
+#content.gallery {
+	background-image: none;
+	background-color: #00c12b;
+	height: auto;
+	}
+	
+#footer {
+	float: left;
+	width: 870px;
+	height: auto;
+	text-align: center;
+	font-size: 12px;
+	background: #007d1c;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	box-shadow: 10px 0px 5px black;
+	}
+	
+#wrapper {
+	width: 800px;
+	background-color: black;
+	margin: 0 auto;
+	}
+	
+a:link {
+	color: black;
+	text-decoration: none;
+	}	
+	
+a:hover {
+	color: #007d1c;
+	font-weight: bold;
+	}
+a:visited {
+	color: black;
+	text-decoration: none;
+	}
+	
+
+	
+	
+	
+	
+	

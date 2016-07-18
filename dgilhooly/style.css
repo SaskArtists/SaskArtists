@@ -1,0 +1,62 @@
+body{
+background: white;
+color: #FFFFFF;
+}
+
+#wrapper{
+background: grey;
+width: 1200px;
+margin: auto;
+text-align: center;
+padding-bottom: 10px;
+padding-top: 20px;
+}
+
+#content{
+width: 1100spx;
+color:white;
+background-color: black;
+margin-right:40px;
+margin-left:40px;
+padding-top:5px;
+padding-left:10px;
+padding-right: 10px;
+padding-bottom: 25px;  
+}
+
+#footer{
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainpic {
+text-align: center;
+border-style:solid;
+border-color:white;
+border-width:15px;
+
+}
+
+
+a:link {color:#FFFFFF;}
+a:visited {color:#FFFFFF;}  
+a:hover {color:#FFFFFF;}  
+a:active {color:#FFFFFF;}  
+
+

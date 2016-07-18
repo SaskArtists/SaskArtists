@@ -1,0 +1,138 @@
+/* 
+** flowertree - default stylesheet
+** This CSS file makes the website look pretty ;-)
+** 
+** Nov 18, 2006 - (version 1.0)
+** 
+** This is a part of the open source layout by 
+** Jonas John (www.jonasjohn.de) !
+*/
+
+/* page overall: */
+
+body,div,p,img,form,h1,h2,h3,h4,h5,h6 { 
+    margin: 0; 
+    padding: 0; 
+    border: 0;
+}
+
+ul {
+	padding-left: 2em;	
+}
+
+body {
+	/* BG-Color: */
+	background-color: #D4D0C8;
+	text-align: center;
+	margin-top: 8em;
+}
+
+.page {
+	/* Page width: */
+	width: 60%;
+}
+
+#logo {
+	margin: 0 auto;
+	text-align: left;
+	font-family: Union, Trebuchet MS, Arial;
+	font-size: 1.7em;	
+	margin-bottom: 0.2em;
+	letter-spacing: -0.01em;
+}
+
+#logo a:link, #logo a:visited, #logo a:hover, #logo a:active {
+	text-decoration: none;
+	/* logo color 1: */
+	color: #C43917;
+}
+
+#logo_black {
+	/* logo color 2: */
+	color: #000000;
+}
+
+#contentbox {
+	background-color: #FFFFFF;                
+	margin: 0 auto;
+	text-align: left;
+}
+
+/* menu: */
+
+#menu {
+	margin: 0 auto;
+	text-align: center;
+	color: #99846E;
+	font-family: Verdana, Arial;
+	font-size: 0.7em;
+	margin-top: 0.3em;
+}
+
+#menu a:link, #menu a:visited {
+	color: #99846E;
+	text-decoration: none;
+}
+
+#menu a:hover, #menu a:active {
+	color: #C43917;
+	text-decoration: none;
+}
+
+#padding {
+	padding: 1em;
+}
+
+#innerpage {
+	/* Background image: */
+	background-color: url("flowertree.css");
+	background-repeat: no-repeat;
+	padding: 1em;
+	height: 40em;
+	width:	30em
+	;
+}
+
+/*
+ Styles that apply to the 
+ content area:
+*/
+
+#content {
+	background-color: #ffffff; 
+	filter: Alpha(opacity=70); 
+	opacity: .7; 
+	float: right; 
+	width: 20em; 
+	height: 23.8em;
+	padding: 0.5em;
+	font-family: Verdana, Arial;
+	font-size: 0.8em;
+	overflow: auto;
+}
+
+#content p {
+	font-size: 0.9em;
+}
+
+/* heading */
+#content h1 {
+	font-size: 1.3em;
+	font-family: Trebuchet MS;
+	margin-top: 0.2em;
+	margin-bottom: 0.3em;
+	color: #BF2016;
+}
+
+/* link colors */
+#content a:link {
+	color: #C2361D;
+}
+
+#content a:hover, #content a:active {
+	color: #33201D;
+}
+
+#content a:visited {
+	color: #892614;
+}

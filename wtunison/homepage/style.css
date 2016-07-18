@@ -1,0 +1,44 @@
+body {
+	font-family: Rockwell, Arial, sans-serif;
+	background-image:url('background.png');
+	background-repeat:repeat-x;
+}
+
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
+
+header, article ul, footer {
+	margin: 10px;
+	padding: 10px 20px 20px;	
+	border-radius: 8px;
+	-webkit-border-radius:.2em;
+	-moz-border-radius:.2em;
+	background: #a6a600;
+}
+
+header {
+	display: block;
+	width: 898px;
+	text-align: center;
+}
+
+article ul {
+	padding: 20px 20px 10px 20px; 
+	width: 898px;
+	text-align: center;
+	list-style-type:none;
+	text-decoration: none;
+}
+
+footer {
+	display: block;
+	width: 898px;
+	text-align: center;
+}
+
+a:hover {
+	color: #000000
+}

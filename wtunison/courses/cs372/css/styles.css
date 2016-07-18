@@ -1,0 +1,104 @@
+/* DEFAULT STYLESHEET
+styles.css
+Copyright © 2002 Gabriel Boyer
+08/06/2002
+*/
+
+#printhide {}
+
+body { background: #DDE3DD; }
+
+p {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11;
+    text-align: justify;
+}
+
+.red { color: #FF0000; }
+
+a.non:link { color: #658408; text-decoration: none; }
+a.non:visited { color: #658408; text-decoration: none; }
+a.non:hover { color: #FF7979; text-decoration: underline; }
+
+a:link { color: #658408; text-decoration: underline; }
+a:visited { color: #658408; text-decoration: underline; }
+a:hover { color: #FF7979; text-decoration: none; }
+
+a.redlink:link { color: #FF0000; text-decoration: underline; }
+a.redlink:visited { color: #FF0000; text-decoration: underline; }
+a.redlink:hover { color: #FF0000; text-decoration: none; }
+
+.main {
+    background: #FFFFFF;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11;
+}
+
+h1 { 
+    font-family: Western, Arial, sans-serif;
+    font-size: 17;
+    text-decoration: underline;
+}
+
+h2 { 
+    font-family: Western, Arial, sans-serif;
+    font-size: 15;
+    text-decoration: underline;
+}
+
+h3 {
+    font-family: Western, Arial, sans-serif;
+    font-size: 12;
+    text-decoration: underline;
+}
+
+.table { 
+    border : 2px; 
+    border-color : #FFFFFF; 
+    border-style : groove;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    background: #FFFFFF;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10;
+} 
+
+.td {
+    border : 2px; 
+    border-color : #FFFFFF; 
+    border-style : groove;
+    border-spacing: 0px;
+    background: #EEEEEE;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10;
+}
+
+.th {
+    border : 2px; 
+    border-color : #FFFFFF; 
+    border-style : groove;
+    border-spacing: 0px;
+    background: #BBBBBB;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10;
+}
+
+.tdred {
+    border : 2px; 
+    border-color : #FFFFFF; 
+    border-style : groove;
+    border-spacing: 0px;
+    background: #FFDDDD;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10;
+}
+
+.thred {
+    border : 2px; 
+    border-color : #FFFFFF; 
+    border-style : groove;
+    border-spacing: 0px;
+    background: #FF9595;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10;
+}

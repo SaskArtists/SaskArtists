@@ -1,0 +1,74 @@
+.header{
+	
+	text-align: center;
+	color: black;
+}
+
+.nav{
+
+	display: inline-block;
+	background: #B0ACC7;
+	border-radius: 5px;
+	border: 2px outset;
+
+}
+
+.centerBlock{
+
+ 	margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+
+}
+
+body{
+
+	background: #756CA0;
+}
+
+.slideShowImages { 
+    border: 2px #41357B solid;
+    background-color: #5B518F;
+}   
+
+.footer{
+
+	border-top: 3px #41357B inset;
+	background-color: #756CA0;
+	text-align: center;
+}
+
+.slideShowImages img { 
+	margin: auto;
+    border: 0.5em black solid;
+   /* padding-right: 8px;
+    padding-left: 8px;
+    padding-bottom: 5px;
+    padding-top: 5px*/
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+/* selected link */
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+
+ 

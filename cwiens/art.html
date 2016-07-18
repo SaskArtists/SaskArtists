@@ -1,0 +1,44 @@
+<DOCTYPE html> 
+<html>
+	<head>
+		<title> Clifford Wiens Artist Page </title>
+		<link rel="stylesheet" type="text/css" href="cliffordWiensStyle.css" />
+		<script src="photoCycle.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="Header">
+				<img src="CliffordWiensBanner.jpg" style="width:95%"/>
+			</div>
+			<div id="nav">
+				<a href="index.html"> Home </a>
+				<a href="art.html"> Works </a>
+				<a href="about.html"> Biography </a>
+			</div>
+			<div class="cycle">
+				<table style="margin:auto">
+					<tr>
+						<td>
+							<button onClick="lastPhoto(0)">Previous</button>
+						</td>
+						<td style="height:500px; width:500px">
+							<img src="OutdoorChapel.jpg" alt="The CBC Broadcast Center" style="max-width:500px; margin:auto" class="cycleImage"/>
+						</td>
+						<td>
+							<button onClick="nextPhoto(0)">Next</button>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3">
+							<p class="cycleText">A chapel in Silton, Saskatchewan. Designed by Cliffor Wiens in 1969.</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div id="footer">
+				<p> All Buildings &#169 Clifford Wiens. Website Designed by Bennett Eidsness, 2015 </p>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,60 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	width: 960px;
+	background-image:url('ocean.jpg');
+	background-attachment:fixed;
+
+}
+
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
+
+header {
+	float: left;
+	width: 898px;
+	text-align: center;
+}
+
+header, section, article, footer {
+	margin: 10px;
+	padding: 10px 20px 20px;
+	border-radius: 8px;
+	-webkit-border-radius:.8em;
+	-moz-border-radius:.8em;
+	background: #FFFFFF
+}
+
+section {
+	float: left;
+	width: 178px;
+	text-align: center;
+}
+
+article {
+	float: right;
+	width: 658px;
+
+}
+
+footer { 
+	display: block;
+	clear:both !important;
+	width: 898px;
+	text-align: center;
+}
+
+nav ul, nav li{
+	list-style-type:none;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #0A67A9;
+}
+
+a:hover {
+	color: #000000
+}

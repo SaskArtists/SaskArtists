@@ -1,0 +1,20 @@
+body {
+		background-color: #88BEBF; 
+		background-image: url("images/background.jpg");
+		background-repeat: repeat-y;
+		background-size: 100%; 
+}
+
+.content {
+		background-color: #FBD6FF;
+		width: 70%;
+		margin: 0 auto 0 auto;
+		border-style: solid;
+		border-color: 1DB594;
+		text-align: center;
+}
+
+h1 {
+	text-align: center;
+	color: #26AB5;
+}

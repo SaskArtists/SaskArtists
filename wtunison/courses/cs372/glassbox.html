@@ -1,0 +1,178 @@
+<html>
+<head>
+<title>CS 372 >> Glass Box Testing</title>
+<meta http-equiv="Content-Type" content="text/html;">
+<link rel="stylesheet" type="text/css" href="css/styles.css" title="style1">
+<link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+<script language="javascript" src="javascript/script.js"></script>
+</head>
+<body bgcolor="#DDE3DD">
+<a name="top"></a>
+<table border=0 cellpadding=0 cellspacing=0 align="center">
+  <tr>
+    <td colspan=4 valign="top"><div id="printhide"><img src="images/top.gif" width=620 height=50></div></td>
+  </tr>
+  <tr>
+    <td background="images/left.gif" width=30></td>
+    <td bgcolor="#FFFFFF" valign="top" width=560 class="main">
+          
+<!-- PAGE CONTENT BEGINS HERE -->    
+
+<p><a href="index.html">Home</a> >> <b>Glass Box Testing</b></p>
+
+<h1>Contents</h1>
+<ul>
+    <li><a href="glassbox.html#GLASS">Definition</a>
+    <li><a href="glassbox.html#STATEMENT">Statement Coverage</a>
+    <li><a href="glassbox.html#BRANCH">Branch Coverage</a>
+    <li><a href="glassbox.html#CONDITION">Condition Coverage</a>
+    <li><a href="glassbox.html#PATH">Path Coverage</a>
+</ul>
+<hr>
+
+<a name="GLASS"><h1>Glass Box Testing</h1></a>
+<p>
+  The testing of software based on the internal logic of a
+  module/system.  Glass Box Testing operates
+  in both inspection and demonstration mode (debug feature).
+</p>
+<a href="glassbox.html#TOP">Back to top</a>
+<hr>
+
+<a name="STATEMENT"><h1>Statement Coverage</h1></a>
+<p>Tests such that every statement is executed at least once.</p>
+<ul>
+    <b><u>Advantages</u>:</b>
+    <p><ul>
+        <li>Easy to design
+        <li>Easy to communicate
+    </ul></p>
+    <b><u>Disadvantages</u>:</b>
+    <p><ul>
+        <li>Does no exercise all conditions
+        <li>Inflection points produce accurate anomolies.
+    </ul></p>
+</ul>
+<p>This is a reasonable minimum test.</p>
+<br>
+<p><b>Example:</b> Insert a number Y into a descending sorted array X of N values.</p>
+<table class="main" cellpadding=5 cellspacing=0 border=0 align="center">
+  <tr>
+    <th>Test Case #1: X={6,4,2}, Y=1</th>
+    <td width=20></td>
+    <th>Test Case #2: X={6,4,2}, Y=7</th>
+  </tr>
+  <tr align="center">
+    <td width=200>
+      <a href='glassbox.html#null' onClick="openImgPopup('images/flowchart_testcase1.gif', 510, 590, 'Test Case #1: X={6,4,2}, Y=1')">
+        <img src='images/flowchart_testcase1_small.gif' width=200 height=231 border=1>
+        Click to enlarge
+      </a>
+    </td>
+    <td></td>
+    <td width=200>
+      <a href='glassbox.html#null' onClick="openImgPopup('images/flowchart_testcase2.gif', 510, 590, 'Test Case #2: X={6,4,2}, Y=7')">
+        <img src='images/flowchart_testcase2_small.gif' width=200 height=231 border=1>
+        Click to enlarge
+      </a>
+    </td>
+  </tr>
+</table>
+<br>
+<a href="glassbox.html#TOP">Back to top</a>
+<hr>
+
+<a name="BRANCH"><h1>Branch Coverage</h1></a>
+<p>Tests such that each branch of code executes at least once (or every
+decision gets at least one T and at least one F).</p>
+<ul>
+    <b><u>Advantage</u>:</b>
+    <p><ul>
+        <li>Easy to design
+    </ul></p>
+    <b><u>Disadvantage</u>:</b>
+    <p><ul>
+        <li>Does not excercise all conditions
+    </ul></p>
+</ul>
+<p>Using 85% of the branches usually produces acceptable results.</p>
+<a href="glassbox.html#TOP">Back to top</a>
+<hr>
+
+<a name="CONDITION"><h1>Condition Coverage</h1></a>
+<p>Tests such that every combination of conditions is executed.</p>
+<ul>
+    <b><u>Advantage</u>:</b>
+    <p><ul>
+        <li>Logical
+    </ul></p>
+    <b><u>Disadvantages</u>:</b>
+    <p><ul>
+        <li>Inflection points of produce ambiguity
+        <li>Number of cases explodes
+    </ul></p>
+</ul>
+<br>
+<p><b>Example:</b> Insert a number Y into a descending sorted array X of N values.</p>
+<table class="main" cellpadding=5 cellspacing=0 border=0 align="center">
+  <tr>
+    <th>Test Case #3: X={4}, Y=3</th>
+  </tr>
+  <tr align="center">
+    <td width=200>
+      <a href='glassbox.html#null' onClick="openImgPopup('images/flowchart_testcase3.gif', 510, 590, 'Test Case #3: X={4}, Y=3')">
+        <img src='images/flowchart_testcase3_small.gif' width=200 height=231 border=1>
+        Click to enlarge
+      </a>
+    </td>
+  </tr>
+</table>
+<br>
+<a href="glassbox.html#TOP">Back to top</a>
+<hr>
+
+<a name="PATH"><h1>Path Coverage</h1></a>
+<p>Tests such that every execution path is travelled.</p>
+<ul>
+    <b><u>Advantage</u>:</b>
+    <p><ul>
+        <li>Logical and Complete
+    </ul></p>
+    <b><u>Disadvantage</u>:</b>
+    <p><ul>
+        <li>Many test cases
+    </ul></p>
+</ul>
+<br>
+<p><b>Example:</b> Insert a number Y into a descending sorted array X of N values.</p>
+<table class="main" cellpadding=5 cellspacing=0 border=0 align="center">
+  <tr>
+    <th>Test Case #4: X={}, Y=5</th>
+  </tr>
+  <tr align="center">
+    <td width=200>
+      <a href='glassbox.html#null' onClick="openImgPopup('images/flowchart_testcase4.gif', 510, 590, 'Test Case #4: X={}, Y=5')">
+        <img src='images/flowchart_testcase4_small.gif' width=200 height=231 border=1>
+        Click to enlarge
+      </a>
+    </td>
+  </tr>
+</table>
+<br>
+<p>
+  This is approximately 10 fold more analysis and cases than Branch Coverage.
+  This is imparative for medical and other critical components.
+</p>
+<a href="glassbox.html#TOP">Back to top</a>
+
+<!-- PAGE CONTENT ENDS HERE -->
+      
+    </td>
+    <td background="images/right.gif" width=30></td>  
+  </tr>
+  <tr>
+    <td colspan=4 valign="top"><div id="printhide"><img src="images/bottom.gif" width=620 hieght=50></div></td>
+  </tr>
+</table>
+</body>
+</html>
