@@ -27,7 +27,7 @@ height:auto !important; /* real browsers */
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
-	background-image: url('http://saskartists.ca/swhalley/images/content2_bg.png');
+	background-image: url('images/content2_bg.png');
 	background-repeat: repeat-y;
 padding: 0px 0px 0px 46px;
 }
@@ -94,7 +94,7 @@ padding: 10px 0px 10px 0px;
 	width: 892px;
 	float: left;
 	clear: both;
-	background-image: url('http://saskartists.ca/swhalley/images/nav_bg.png');
+	background-image: url('images/nav_bg.png');
 	background-repeat: repeat-x;
 	height: 60px;
 	margin: 0px 0px 0px 0px;

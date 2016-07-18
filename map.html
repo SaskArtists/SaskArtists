@@ -29,19 +29,19 @@
         -webkit-text-shadow: 0 0 2px #000;
       }
       .cluster-1{
-        background: url(http://saskartists.ca/images/m1.png) no-repeat;
+        background: url(images/m1.png) no-repeat;
         line-height:50px;
       	width: 50px;
       	height: 40px;
       }
       .cluster-2{
-        background: url(http://saskartists.ca/images/m2.png) no-repeat;
+        background: url(images/m2.png) no-repeat;
         line-height:53px;
       	width: 60px;
       	height: 48px;
       }
       .cluster-3{
-        background: url(http://saskartists.ca/images/m3.png) no-repeat;
+        background: url(images/m3.png) no-repeat;
         line-height:66px;
       	width: 70px;
       	height: 56px;
@@ -82,7 +82,7 @@
         margin-top: -17px;
       }
       .infobulle.drive .text{
-        background: url(http://saskartists.ca/images/drive.png) no-repeat 2px center;
+        background: url(images/drive.png) no-repeat 2px center;
         padding:4px 20px 4px 36px;
       }
       .arrow{
@@ -148,7 +148,7 @@
               	var length = artists.length, element = null;
 				for (var i = 0; i < length; i++) {
 					if(artists[i].city == context.data.name)
-  						$('#artists').html($('#artists').html() + "</br><a href="http://saskartists.ca/\'&quot;" + artists[i].link + "\'>"+artists[i].name+"</a>");
+  						$('#artists').html($('#artists').html() + "</br><a href=\'" + artists[i].link + "\'>"+artists[i].name+"</a>");
 				}	
               },
               mouseover: function(marker, event, context){
