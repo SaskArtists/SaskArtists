@@ -1,16 +1,16 @@
 /*
 	How To Add Data
-	
+
 	Get lat and long of a location: http://itouchmap.com/latlong.html
-	
-	
+
+
 */
 
 var macDoList = [
   //{lat:49.633567,lng:-105.991792,data:{name:"Assiniboia"}},
 
   {lat:50.946830,lng:-104.211685,data:{name:"Cupar"}},
-  
+
   {lat:53.566667,lng:-105.883333,data:{name:"Emma Lake"}},
   //{lat:49.139084,lng:-102.991481,data:{name:"Estevan"}},
 
@@ -61,13 +61,13 @@ var artists = [
 //D
 	{name:"Joyce Deutscher",link:'jdeutscher/index.html',city:'Regina'},
 //E
-	{name:"Emma Lake Artists' Workshops",link:'emmalake/index.html',city:'Emma Lake'},	
+	{name:"Emma Lake Artists' Workshops",link:'emmalake/index.html',city:'Emma Lake'},
 	{name:"Carole Epp",link:'cepp/index.html',city:'Saskatoon'},
 //F
 	{name:"Joe Fafard",link:'jfafard/index.html',city:'Sainte-Marthe'},
 	{name:"Charley Farrero",link:'cfarrero/index.html',city:'Meacham'},
 	{name:"Amber Fyfe",link:'afyfe/index.html',city:'Regina'},
-//G	
+//G
 	{name:"Grace Garden",link:'ggarden/index.htm',city:'Regina'},
 	{name:"David Garneau",link:'dgarneau/index.html',city:'Regina'},
 	{name:"David Gilhooly",link:'dgilhooly/index.html',city:'Regina'},
@@ -126,7 +126,7 @@ var artists = [
 	{name:"Inglis Sheldon-Williams",link:'inglis/index.html',city:'Regina'},
 	{name:"Dmytro Stryjek",link:'dstryjek/index.html',city:'Saskatoon'},
 	{name:"Jack Sures",link:'jsures/index.html',city:'Regina'},
-//T	
+//T
 	{name:"F. Wayne Tunison",link:'wtunison/index.htm',city:'Regina'},
 	{name:"Marlo V",link:'mv/index.html',city:'Cupar'},
 //U
