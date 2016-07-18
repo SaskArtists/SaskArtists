@@ -233,17 +233,17 @@ a:hover {
 /* Background */
 
 #bg1 {
-	background: url(http://saskartists.ca/rarnott/images/img06.jpg) repeat-y left top;
+	background: url(images/img06.jpg) repeat-y left top;
 }
 
 #bg2 {
-	background: url(http://saskartists.ca/rarnott/images/img05.jpg) no-repeat left top;
+	background: url(images/img05.jpg) no-repeat left top;
 }
 
 #bg3 {
 	overflow: hidden;
 	padding: 50px;
-	background: url(http://saskartists.ca/rarnott/images/img07.jpg) no-repeat left bottom;
+	background: url(images/img07.jpg) no-repeat left bottom;
 }
 
 /* Page */
