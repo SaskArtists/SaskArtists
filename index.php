@@ -10,7 +10,6 @@ function generate_tabs() {
 		echo '<li><a data-toggle="tab" href="#'.strtolower($alpha).'">'.$alpha.'</a></li>';
 	}
     echo '<li><a data-toggle="tab" href="#num">#</a></li>';
-    echo '<li><a data-toggle="tab" href="#search">Search</a></li>';
 	echo '</ul>';
 }
 
@@ -132,11 +131,7 @@ if ($db->connect_errno) {
             $db->close();
         ?>
 		<div id="map" class="tab-pane fade in active">
-    		<h3>Map of Artist Locations</h3>
-            <a href="http://saskartists.ca/map.html">Map</a>
-  		</div>
-		<div id="search" class="tab-pane fade">
-    		<h3>Search</h3>
+            <h3>Search</h3>
             <div class="form-inline">
                 <div class="form-group">
                     <input class="form-control" type="text" placeholder="Search..." id="search-box">
@@ -146,6 +141,8 @@ if ($db->connect_errno) {
             <p id="search-result-count"></p>
             <ul id="search-results">
             </ul>
+    		<h3>Map of Artist Locations</h3>
+            <a href="http://saskartists.ca/map.html">Map</a>
   		</div>
 	</div>
 </div>
