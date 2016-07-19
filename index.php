@@ -148,7 +148,7 @@ if ($db->connect_errno) {
 </div>
 <footer class="container text-center">
 	<hr>
-	<p> <a href="http://www.metric-hosting.ca/index.php">Sponsor</a> <br>
+	<p> <a href="http://www.metric-hosting.ca/">Sponsor</a> <br>
 	Revised: 2015
 </footer>
 </p>
