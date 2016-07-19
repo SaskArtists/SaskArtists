@@ -37,15 +37,25 @@ if ($db->connect_errno) {
 	<script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
 	<script type="text/javascript" src="gmap3.js"></script>
 	<script type="text/javascript" src="artists.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<style>
+
+	body{
+		width: 100%;
+		padding-left: 200px;
+	}
+
 		#container{
 			position:relative;
 			height:700px;
+			width:1000px;
 		}
 		#googleMap{
 			border: 1px dashed #C0C0C0;
 			width: 75%;
 			height: 700px;
+			margin-bottom: 50px;
 		}
 
 		/* cluster */
@@ -227,14 +237,12 @@ if(e.which == 74 && isCtrl == true) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Saskatchewan Artists</title>
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="search.js"></script>
 </head>
 <body>
-<div class="container">
+<div id="container">
 	<font color="#800080"><h2><a href="http://saskartists.ca/">Saskatchewan Artists</a></h2> </font>
 	<p>Artists presented here were born, raised, or live in Saskatchewan, Canada. </p>
 
@@ -253,7 +261,7 @@ if(e.which == 74 && isCtrl == true) {
                 else {
                     echo "<div class='item'>";
                 }
-                echo "<img src='".$row["work_url"]."' style='max-height: 500px; width:100%;'>";
+                echo "<img src='".$row["work_url"]."'>";
                 echo "<div class='carousel-caption'>";
                 echo "<h3><a style='color:white;' href='http://saskartists.ca/".$row["short"]."'>".$row["first"]." ".$row["last"]."</a></h3>";
                 echo "<p>".$row["title"]."</p>";
