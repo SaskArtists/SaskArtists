@@ -1,0 +1,21 @@
+body{
+  background-color:#F0F0F0
+}
+h1{
+  text-align: center;
+  background-color:#CDCDCD
+}
+p{
+  text-align: center;
+}
+
+img.centeredImg{
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+}
+.imgBox img{
+  margin-left:auto;
+  margin-right:auto;
+  display:block
+}
