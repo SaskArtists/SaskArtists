@@ -235,7 +235,7 @@ if(e.which == 74 && isCtrl == true) {
 </head>
 <body>
 <div class="container">
-	<font color="#800080"><h2><a href="http://saskartists.ca/saskartists.html">Saskatchewan Artists</a></h2> </font>
+	<font color="#800080"><h2><a href="http://saskartists.ca/">Saskatchewan Artists</a></h2> </font>
 	<p>Artists presented here were born, raised, or live in Saskatchewan, Canada. </p>
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
