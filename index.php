@@ -43,13 +43,13 @@ if ($db->connect_errno) {
 
 	body{
 		width: 100%;
-		padding-left: 200px;
+		padding-left: 100px;
 	}
 
 		#container{
 			position:relative;
 			height:700px;
-			width:1000px;
+			width:1250px;
 		}
 		#googleMap{
 			border: 1px dashed #C0C0C0;
