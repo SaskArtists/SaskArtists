@@ -43,19 +43,24 @@ if ($db->connect_errno) {
 
 	body{
 		width: 100%;
-		padding-left: 100px;
 	}
 
 		#container{
 			position:relative;
 			height:700px;
 			width:1250px;
+			display:block;
+			margin-left:auto;
+			margin-right:auto;
 		}
 		#googleMap{
 			border: 1px dashed #C0C0C0;
 			width: 75%;
 			height: 700px;
 			margin-bottom: 50px;
+			margin-left:auto;
+			margin-right:auto;
+			margin-top: 50px;
 		}
 
 		/* cluster */
