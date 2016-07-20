@@ -248,7 +248,7 @@ if(e.which == 74 && isCtrl == true) {
 </head>
 <body>
 <div id="container">
-	<font color="#800080"><h2><a href="http://saskartists.ca/">Saskatchewan Artists</a></h2> </font>
+	<font color="#800080"><h2><a href="index.php">Saskatchewan Artists</a></h2> </font>
 	<p>Artists presented here were born, raised, or live in Saskatchewan, Canada. </p>
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -268,7 +268,7 @@ if(e.which == 74 && isCtrl == true) {
                 }
                 echo "<img src='".$row["work_url"]."'>";
                 echo "<div class='carousel-caption'>";
-                echo "<h3><a style='color:white;' href='http://saskartists.ca/".$row["short"]."'>".$row["first"]." ".$row["last"]."</a></h3>";
+                echo "<h3><a style='color:white;' href='".$row["short"]."'>".$row["first"]." ".$row["last"]."</a></h3>";
                 echo "<p>".$row["title"]."</p>";
                 echo "</div>";
                 echo "</div>";
@@ -305,7 +305,7 @@ if(e.which == 74 && isCtrl == true) {
             //this fills the assoc array with values from the database
             while ($row = $res->fetch_assoc()) {
                 if ($row) {
-                    $link = '<li><a href="http://saskartists.ca/'.$row['short'].'">'.$row['first']. ' ' .$row['last']. '</a> '.$row['description'].'</li>';
+                    $link = '<li><a href="'.$row['short'].'">'.$row['first']. ' ' .$row['last']. '</a> '.$row['description'].'</li>';
                     $last_name_letter = strtolower(substr($row['last'], 0, 1));
                     if (is_numeric($last_name_letter)) {
                         array_push($artists["num"], $link);
