@@ -348,12 +348,13 @@ if(e.which == 74 && isCtrl == true) {
 				<div id="artists"></div>
   		</div>
 	</div>
-</div>
-<footer class="container text-center">
+    <footer class="text-center">
 	<hr>
-	<p> <a href="http://www.metric-hosting.ca/">Sponsor</a> <br>
+	<p>Visit us on <a href='https://github.com/SaskArtists/SaskArtists/'>GitHub</a></p>
+	<p> <a href="http://www.metric-hosting.ca/">Sponsor</a> <br></p>
 	Revised: 2015
 </footer>
-</p>
+</div>
+
 </body>
 </html>
