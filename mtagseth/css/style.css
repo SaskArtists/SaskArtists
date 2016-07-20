@@ -1,12 +1,27 @@
 body{
-  background-color:#F0F0F0
-}
-h1{
+  background-color:#F0F0F0;
+  margin-top:29px;
   text-align: center;
-  background-color:#CDCDCD
 }
-p{
+
+div#head{
+  top:0px;
+  width:100%;
   text-align: center;
+  background-color:#CDCDCD;
+  position:fixed;
+}
+div#head h1{
+  margin:0px;
+}
+
+div#bio{
+  width:75%;
+  margin:auto;
+}
+div#bio p{
+  text-align:left;
+  text-indent:50px;
 }
 
 img.centeredImg{
@@ -14,7 +29,7 @@ img.centeredImg{
   margin-right:auto;
   display:block;
 }
-.imgBox img{
+div.imgBox img{
   margin-left:auto;
   margin-right:auto;
   display:block
