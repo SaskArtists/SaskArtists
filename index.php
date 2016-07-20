@@ -36,7 +36,6 @@ if ($db->connect_errno) {
 	<script type="text/javascript" src="jquery-3.1.0.min.js"></script>
 	<script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
 	<script type="text/javascript" src="gmap3.js"></script>
-	<script type="text/javascript" src="artists.js"></script>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<style>
@@ -145,6 +144,11 @@ if ($db->connect_errno) {
 	</style>
 
 	<script type="text/javascript">
+
+	var macDoList = <?php include('locations.php'); ?>;
+
+	var artists = <?php include('artists.php'); ?>;
+
 		$(function(){
 
 			$("#googleMap").gmap3({
