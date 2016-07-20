@@ -1,0 +1,72 @@
+/*--- Avanquest WebEasy Document Style ---*/
+
+*                   { /* All Elements */
+	margin          : 0px;
+	padding         : 0px;
+	}
+a:link              { /* Document Links */
+	color           : #000000;
+	}
+a:visited           { /* Visited Links */
+	color           : #000000;
+	}
+a:hover             { /* Hover Links */
+	color           : #000000;
+	}
+a:active            { /* Active Links */
+	color           : #000000;
+	}
+ol,ul               { /* All Lists */
+	margin          : 1em;
+	padding-left    : 2em;
+	}
+p                   { /* All Paragraphs */
+	margin-bottom   : 1em;
+	}
+.address            {
+	color           : #000000;
+	font            : 10pt 'Verdana', 'Lucida Grande', Arial, sans-serif;
+	}
+.citation           {
+	color           : #000000;
+	font            : italic 12pt 'Verdana', 'Lucida Grande', Arial, sans-serif;
+	}
+.code               {
+	color           : #000080;
+	font            : 12pt 'Courier New', monospace;
+	}
+.emphasis           {
+	color           : #000000;
+	font            : bold 12pt 'Verdana', 'Lucida Grande', Arial, sans-serif;
+	}
+.heading1           {
+	color           : #000000;
+	font            : bold 24pt 'Arial', Helvetica, sans-serif;
+	}
+.heading2           {
+	color           : #000000;
+	font            : bold 20pt 'Arial', Helvetica, sans-serif;
+	}
+.heading3           {
+	color           : #000000;
+	font            : 18pt 'Arial', Helvetica, sans-serif;
+	}
+.heading4           {
+	color           : #000000;
+	font            : italic 16pt 'Arial', Helvetica, sans-serif;
+	}
+.heading5           {
+	color           : #000000;
+	font            : 14pt 'Arial', Helvetica, sans-serif;
+	}
+.heading6           {
+	color           : #000000;
+	font            : 12pt 'Arial', Helvetica, sans-serif;
+	}
+.small              {
+	color           : #000000;
+	font            : 10pt 'Verdana', 'Lucida Grande', Arial, sans-serif;
+	}
+
+
+/*--- EndOfFile ---*/
