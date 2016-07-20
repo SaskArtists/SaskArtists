@@ -351,6 +351,7 @@ if(e.which == 74 && isCtrl == true) {
 </div>
 <footer class="container text-center">
 	<hr>
+	<p>Noticed a problem? Found a typo? Go <a href=https://github.com/SaskArtists/SaskArtists/issues/new>here</a> to submit a bug report!</a>
 	<p> <a href="http://www.metric-hosting.ca/">Sponsor</a> <br>
 	Revised: 2015
 </footer>
