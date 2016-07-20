@@ -14,11 +14,11 @@ body
 }
 
 #header{
-	background: #22395D;
+	background: #f6f5f4;
 	margin: auto;
 	text-align: center;
 	}
-	
+
 #content{
 	opacity:0.7;
 	background-color: #f6f5f4;
@@ -63,7 +63,7 @@ h1 {
 	border-radius: 0;
 }
 
-a{
+.a{
 	color: #0a689b;
 	font-size: 16px;
 	padding: 8px;
@@ -72,7 +72,7 @@ a{
 	text-decoration: none;
 	box-shadow: 0px 1px 2px #000;
 	font-weight: bold;
-}
+}.b{	font-size: auto;}
 a:hover {
     color: #0acbf2;
     background-color: #0a689b;
@@ -100,7 +100,7 @@ table {
 	margin-left: auto;
     margin-right: auto;
 }
- 
+
 
 #ex4 img {
 	margin: 20px;
@@ -113,9 +113,8 @@ table {
 	-moz-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
 }
- 
+
 #ex4 img:hover {
 -webkit-transform: scale(1.5);
 
 }
-
