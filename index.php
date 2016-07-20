@@ -33,19 +33,34 @@ if ($db->connect_errno) {
 <html>
 <head>
 
-	<script type="text/javascript" src="jquery-1.6.1.min.js"></script>
+	<script type="text/javascript" src="jquery-3.1.0.min.js"></script>
 	<script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
 	<script type="text/javascript" src="gmap3.js"></script>
 	<script type="text/javascript" src="artists.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<style>
+
+	body{
+		width: 100%;
+	}
+
 		#container{
 			position:relative;
 			height:700px;
+			width:1250px;
+			display:block;
+			margin-left:auto;
+			margin-right:auto;
 		}
 		#googleMap{
 			border: 1px dashed #C0C0C0;
 			width: 75%;
 			height: 700px;
+			margin-bottom: 50px;
+			margin-left:auto;
+			margin-right:auto;
+			margin-top: 50px;
 		}
 
 		/* cluster */
@@ -227,15 +242,13 @@ if(e.which == 74 && isCtrl == true) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Saskatchewan Artists</title>
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="search.js"></script>
 </head>
 <body>
-<div class="container">
-	<font color="#800080"><h2><a href="http://saskartists.ca/">Saskatchewan Artists</a></h2> </font>
+<div id="container">
+	<font color="#800080"><h2><a href="index.php">Saskatchewan Artists</a></h2> </font>
 	<p>Artists presented here were born, raised, or live in Saskatchewan, Canada. </p>
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -253,9 +266,9 @@ if(e.which == 74 && isCtrl == true) {
                 else {
                     echo "<div class='item'>";
                 }
-                echo "<img src='".$row["work_url"]."' style='max-height: 500px; width:100%;'>";
+                echo "<img src='".$row["work_url"]."'>";
                 echo "<div class='carousel-caption'>";
-                echo "<h3><a style='color:white;' href='http://saskartists.ca/".$row["short"]."'>".$row["first"]." ".$row["last"]."</a></h3>";
+                echo "<h3><a style='color:white;' href='".$row["short"]."'>".$row["first"]." ".$row["last"]."</a></h3>";
                 echo "<p>".$row["title"]."</p>";
                 echo "</div>";
                 echo "</div>";
@@ -292,7 +305,7 @@ if(e.which == 74 && isCtrl == true) {
             //this fills the assoc array with values from the database
             while ($row = $res->fetch_assoc()) {
                 if ($row) {
-                    $link = '<li><a href="http://saskartists.ca/'.$row['short'].'">'.$row['first']. ' ' .$row['last']. '</a> '.$row['description'].'</li>';
+                    $link = '<li><a href="'.$row['short'].'">'.$row['first']. ' ' .$row['last']. '</a> '.$row['description'].'</li>';
                     $last_name_letter = strtolower(substr($row['last'], 0, 1));
                     if (is_numeric($last_name_letter)) {
                         array_push($artists["num"], $link);
