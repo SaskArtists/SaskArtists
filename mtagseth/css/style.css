@@ -4,13 +4,15 @@ body{
   text-align: center;
 }
 
-div#head h1{
+div#head{
   top:0px;
-  margin:0px;
   width:100%;
   text-align: center;
   background-color:#CDCDCD;
   position:fixed;
+}
+div#head h1{
+  margin:0px;
 }
 
 div#bio{
