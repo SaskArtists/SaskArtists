@@ -1,6 +1,6 @@
 body{
   background-color:#F0F0F0;
-  margin-top:29px;
+  margin-top:55px;
   text-align: center;
 }
 
@@ -11,8 +11,23 @@ div#head{
   background-color:#CDCDCD;
   position:fixed;
 }
+div#head button{
+  float:left;
+}
 div#head h1{
   margin:0px;
+}
+
+div#navBar{
+  display:none;
+  position:fixed;
+  left:0;
+  top:30px;
+  background-color:#E0E0FF
+}
+div#navBar a{
+  text-align:left;
+  display:block;
 }
 
 div#bio{
@@ -33,4 +48,8 @@ div.imgBox img{
   margin-left:auto;
   margin-right:auto;
   display:block
+}
+
+#tsubo{
+  cursor:pointer;
 }
