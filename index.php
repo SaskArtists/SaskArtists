@@ -2,15 +2,21 @@
 include("config.php");
 //FUNCTIONS
 function generate_tabs() {
-	echo '<ul class="nav nav-tabs">
-			<li class="active"><a data-toggle="tab" href="#map">Map</a></li>';
+	$letters = range('A', 'Z');
+	array_push($letters, "#");
 
-	$alphas = range('A', 'Z');
-	foreach ($alphas as $alpha) {
-		echo '<li><a data-toggle="tab" href="#'.strtolower($alpha).'">'.$alpha.'</a></li>';
-	}
-    echo '<li><a data-toggle="tab" href="#num">#</a></li>';
-	echo '</ul>';
+	echo "<ul class=\"nav nav-tabs\">";
+		echo "<li class=\"active\"><a data-toggle=\"tab\" href=\"#map\">Map</a></li>";
+		foreach ($letters as $letter){
+			if($letter == "#"){
+				$letter = "Group";
+				$text = "<i class=\"fa fa-users\" aria-hidden=\"true\"></i>";
+			}else{
+				$text = $letter;
+			}
+			echo "<li><a data-toggle=\"tab\" href=\"#$letter\">$text</a></li>";
+		}
+	echo "</ul>";
 }
 
 function generate_carousel_indicators($num_slides) {
@@ -38,6 +44,7 @@ if ($db->connect_errno) {
 	<script type="text/javascript" src="gmap3.js"></script>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<style>
 
 	body{
@@ -296,43 +303,23 @@ if(e.which == 74 && isCtrl == true) {
 
 	<div class="tab-content">
         <?php
-            //fetch the artist info
-            $res = $db->query("SELECT * FROM artists ORDER BY last");
-
-            //init the artists assoc array. We sort them into an assoc array by last name, first letter
-            $artists = array();
-            foreach(range('a', 'z') as $char) {
-                $artists[$char] = array();
-            }
-            $artists["num"] = array();
-
-            //this fills the assoc array with values from the database
-            while ($row = $res->fetch_assoc()) {
-                if ($row) {
-                    $link = '<li><a href="'.$row['short'].'">'.$row['first']. ' ' .$row['last']. '</a> '.$row['description'].'</li>';
-                    $last_name_letter = strtolower(substr($row['last'], 0, 1));
-                    if (is_numeric($last_name_letter)) {
-                        array_push($artists["num"], $link);
-                    } else {
-                        array_push($artists[$last_name_letter], $link);
-                    }
-                }
-            }
-
-            foreach($artists as $letter => $names) {
-                if (count($names) == 0) {
-                    array_push($artists[$letter], "<li>There are no artists here, yet.</li>");
-                }
-            }
-
-            //now me have to make the divs to put the names into and actually put them there. Not really a big deal.
-            foreach($artists as $letter => $names) {
-                echo '<div id="'.$letter.'" class="tab-pane fade"><h3>'.ucwords($letter).' Section</h3><br /><ul>';
-                foreach($names as $name) {
-                    echo $name;
-                }
-                echo '</ul></div>';
-            }
+				$letters = range('A', 'Z');
+				array_push($letters, "#");
+				echo "<div class=\"tab-content\">";
+				foreach ($letters as $letter){
+					$q = $db->query("SELECT * FROM artists where sort LIKE \"%$letter%\"");
+					if($letter == "#"){
+						$letter = "Group";
+					}
+					echo "<div id=\"$letter\" class=\"tab-pane fade\">";
+						echo "<h3>$letter Section</h3>";
+					echo "<ul>";
+					while ($row = $q->fetch_assoc()){
+								echo "<li><a href=".$row['short'].">".$row['name']."</a></li>";
+					}
+					echo  "</ul>";
+				echo  "</div>";
+				}
             $db->close();
         ?>
 		<div id="map" class="tab-pane fade in active">
