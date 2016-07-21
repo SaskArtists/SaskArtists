@@ -325,10 +325,10 @@ if(e.which == 74 && isCtrl == true) {
 		<div id="map" class="tab-pane fade in active">
             <h3>Search</h3>
             <div class="form-inline">
-                <div class="form-group">
+                <form class="form-group">
                     <input class="form-control" type="text" placeholder="Search..." id="search-box">
-                    <button class="btn btn-primary" id="search-button">Search</button>
-                </div>
+                    <input type="submit" class="btn btn-primary" id="search-button" value="Search">
+                </form>
             </div>
             <p id="search-result-count"></p>
             <ul id="search-results">

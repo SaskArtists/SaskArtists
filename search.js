@@ -1,5 +1,6 @@
 $(function() {
-    $("#search-button").click(function() {
+    $("#search-button").submit(function(e) {
+        e.preventDefault();
         if ($("#search-box").val() === "") {
             alert("Please insert some text to search for.");
             return;
