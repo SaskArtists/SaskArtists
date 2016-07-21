@@ -12,20 +12,20 @@
     <title>Heather Benning - Sask Artists</title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="http://saskartists.ca/hbenning/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
     <!-- Custom Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="http://saskartists.ca/hbenning/font-awesome/css/font-awesome.min.css" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
 
     <!-- Plugin CSS -->
-    <link rel="stylesheet" href="http://saskartists.ca/hbenning/css/animate.min.css" type="text/css">
-    <link rel="stylesheet" href="http://saskartists.ca/hbenning/css/blueimp-gallery.min.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+    <link rel="stylesheet" href="css/blueimp-gallery.min.css" type="text/css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="http://saskartists.ca/hbenning/css/creative.css" type="text/css">
-    <link rel="stylesheet" type="text/css" href="http://saskartists.ca/hbenning/css/main.css">
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
 <body id="page-top">
@@ -40,20 +40,20 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="hbenning#page-top">Heather Benning</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Heather Benning</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="hbenning#gallery">Gallery</a>
+                        <a class="page-scroll" href="#gallery">Gallery</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="hbenning#about">About Heather</a>
+                        <a class="page-scroll" href="#about">About Heather</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="hbenning#press">In the Media</a>
+                        <a class="page-scroll" href="#press">In the Media</a>
                     </li>
 <!--                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -74,7 +74,7 @@
 
                 <p>In the background is a picture of <i>Kil(n) Hand</i>, an abandoned tobacco kiln that Heather hung hundreds of sculptures of hands in, in the place of sticks of tobacco.</p>
 
-                <a href="hbenning#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
             </div>
         </div>
     </header>
@@ -143,26 +143,26 @@
     </footer>
 
     <div id="links">
-        <a href="http://saskartists.ca/hbenning/img/gallery/doll_on_the_roof.jpg" title="The doll on the roof of the Slate gallery"></a>
-        <a href="http://saskartists.ca/hbenning/img/gallery/dollhouse_burning.jpg" title="The Dollhouse, burning (2013)"></a>
-        <a href="http://saskartists.ca/hbenning/img/gallery/work_hard_be_nice.jpg" title="Work hard, be nice (2014)"></a>
-        <a href="http://saskartists.ca/hbenning/img/gallery/dollhouse.jpg" title="The Dollhouse (opened in 2007)"></a>
+        <a href="img/gallery/doll_on_the_roof.jpg" title="The doll on the roof of the Slate gallery"></a>
+        <a href="img/gallery/dollhouse_burning.jpg" title="The Dollhouse, burning (2013)"></a>
+        <a href="img/gallery/work_hard_be_nice.jpg" title="Work hard, be nice (2014)"></a>
+        <a href="img/gallery/dollhouse.jpg" title="The Dollhouse (opened in 2007)"></a>
     </div>
 
     <!-- jQuery -->
-    <script src="http://saskartists.ca/hbenning/js/jquery.js"></script>
+    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="http://saskartists.ca/hbenning/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="http://saskartists.ca/hbenning/js/jquery.easing.min.js"></script>
-    <script src="http://saskartists.ca/hbenning/js/jquery.fittext.js"></script>
-    <script src="http://saskartists.ca/hbenning/js/wow.min.js"></script>
-    <script src="http://saskartists.ca/hbenning/js/blueimp-gallery.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/blueimp-gallery.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="http://saskartists.ca/hbenning/js/creative.js"></script>
+    <script src="js/creative.js"></script>
 
     <script>
     document.getElementById('links').onclick = function (event) {

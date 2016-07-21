@@ -72,5 +72,5 @@
 /* preloading images */
 .owl-item.loading{
 	min-height: 150px;
-	background: url(http://saskartists.ca/jhustak/css/AjaxLoader.gif) no-repeat center center
+	background: url(AjaxLoader.gif) no-repeat center center
 }

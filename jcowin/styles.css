@@ -1,0 +1,18 @@
+.nav{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: 06FFFF;
+  margin: 10px;
+}
+
+.navbar {
+  list-style: none;
+  padding: 1px;
+  margin:0;
+  text-align: center;
+}
+
+.nav-link {
+  display: inline;
+  padding: 1px;
+}
