@@ -15,4 +15,4 @@ before_install:
 install:
  - pip install html5validator
 
-script: html5validator --root . --ignore "Use CSS instead."
+script: html5validator --root . --ignore "Use CSS instead." "An \"img\" element must have an \"alt\" attribute"
