@@ -11,9 +11,11 @@
   echo '[';
   $x = 1;
   while($row=$q->fetch_assoc()){
-    echo "{\"lat\":".$row['lat'].",\"lng\":".$row['lon'].",\"data\":{\"name\":\"".$row['name']."\"}}";
-    if($x != $q->num_rows){
-      echo ",";
+    if($db->query("SELECT * FROM artists WHERE location=".$row['id'])->num_rows != 0){
+      echo "{\"lat\":".$row['lat'].",\"lng\":".$row['lon'].",\"data\":{\"name\":\"".$row['name']."\"}}";
+      if($x != $q->num_rows){
+        echo ",";
+      }
     }
     $x += 1;
   }
