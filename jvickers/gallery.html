@@ -1,64 +1,93 @@
-<html>
-	<head>
-		<title>Jon Vickers</title>
-		<link rel="stylesheet" href="style.css" type="text/css">
-		<script type="text/javascript" src="./flowplayer/flowplayer-3.2.11.min.js"></script>
-	</head>
-	<body>
-		<div id="wrapper">
-			<div id="header">
-				<div id="title"><span class="whitetext">jon</span><span class="tantext">vickers</span></div>
-				<div id="nav">
-					<a href="./index.html">Home</a>
-					<a href="">Gallery</a>
-					<a href="./timeline.html">Timeline</a>
-					<a href="../">Sask Artists</a>
-				</div>
-			</div>
-			<div id="content">
-				<div class="leftcontent"><img src="./images/backstage.jpg" width="400px"/></div>
-				<div class="rightcontent"><p>Jonathon backstage before performing in 'Andrea Chenier'. <br />1961 - at Lyric Opera of Chicago.</p></div><br/>
-				<div class="leftcontent">
-				<a href="./vid1.flv" style="display:block;width:420px;height:315px;" id="player"></a>
-				<script language="javascript">
-					flowplayer("player", "./flowplayer/flowplayer-3.2.12.swf", {
-						clip:  {
-						  autoPlay: false,
-						  autoBuffering: true
-						}
-					});
-				</script>
-				</div>
-				<div class="rightcontent"><p>Jon Vickers as Peter Grimes by Britten</p></div>
-				<div class="leftcontent">
-				<a href="./vid2.flv" style="display:block;width:420px;height:315px;" id="player2"></a>
-				<script language="javascript">
-					flowplayer("player2", "./flowplayer/flowplayer-3.2.12.swf", {
-						clip:  {
-						  autoPlay: false,
-						  autoBuffering: true
-						}
-					});
-				</script>
-				</div>
-				<div class="rightcontent"><p>Jon Vickers as Peter Grimes by Britten</p></div>
-				<div class="leftcontent">
-				<a href="./vid3.flv" style="display:block;width:420px;height:315px;" id="player3"></a>
-				<script language="javascript">
-					flowplayer("player3", "./flowplayer/flowplayer-3.2.12.swf", {
-						clip:  {
-						  autoPlay: false,
-						  autoBuffering: true
-						}
-					});
-				</script>
-				</div>
-				<div class="rightcontent"><p>Jon Vickers - Recondita Armonia</p></div>
-				You can find more videos by clicking here: <a href="http://www.youtube.com/results?search_query=jon+vickers">Youtube Search - Jon Vickers</a>
-			</div>
-			<div id="footer">
-				<p style="background-color: #EFE7B1">Page Created 2012 by Taylor Petrychyn</p>
-			</div>
-		</div>
-	</body>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Jon Vickers
+        </title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script type="text/javascript" src="./flowplayer/flowplayer-3.2.11.min.js">
+        </script>
+        <style type="text/css">
+        p.c2 {background-color: #EFE7B1}
+        a.c1 {display:block;width:420px;height:315px;}
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header">
+                <div id="title">
+                    <span class="whitetext">jon</span><span class="tantext">vickers</span>
+                </div>
+                <div id="nav">
+                    <a href="./index.html">Home</a> <a href="">Gallery</a> <a href="./timeline.html">Timeline</a> <a href="../">Sask Artists</a>
+                </div>
+            </div>
+            <div id="content">
+                <div class="leftcontent">
+                    <img src="./images/backstage.jpg" width="400" alt="no alt text">
+                </div>
+                <div class="rightcontent">
+                    <p>
+                        Jonathon backstage before performing in 'Andrea Chenier'.
+                        <br>
+                        1961 - at Lyric Opera of Chicago.
+                    </p>
+                </div>
+                <br>
+                <div class="leftcontent">
+                    <a href="./vid1.flv" class="c1" id="player"></a> 
+                    <script language="javascript">
+                                        flowplayer("player", "./flowplayer/flowplayer-3.2.12.swf", {
+                                                clip:  {
+                                                  autoPlay: false,
+                                                  autoBuffering: true
+                                                }
+                                        });
+                    </script>
+                </div>
+                <div class="rightcontent">
+                    <p>
+                        Jon Vickers as Peter Grimes by Britten
+                    </p>
+                </div>
+                <div class="leftcontent">
+                    <a href="./vid2.flv" class="c1" id="player2"></a> 
+                    <script language="javascript">
+                                        flowplayer("player2", "./flowplayer/flowplayer-3.2.12.swf", {
+                                                clip:  {
+                                                  autoPlay: false,
+                                                  autoBuffering: true
+                                                }
+                                        });
+                    </script>
+                </div>
+                <div class="rightcontent">
+                    <p>
+                        Jon Vickers as Peter Grimes by Britten
+                    </p>
+                </div>
+                <div class="leftcontent">
+                    <a href="./vid3.flv" class="c1" id="player3"></a> 
+                    <script language="javascript">
+                                        flowplayer("player3", "./flowplayer/flowplayer-3.2.12.swf", {
+                                                clip:  {
+                                                  autoPlay: false,
+                                                  autoBuffering: true
+                                                }
+                                        });
+                    </script>
+                </div>
+                <div class="rightcontent">
+                    <p>
+                        Jon Vickers - Recondita Armonia
+                    </p>
+                </div>You can find more videos by clicking here: <a href="http://www.youtube.com/results?search_query=jon+vickers">Youtube Search - Jon Vickers</a>
+            </div>
+            <div id="footer">
+                <p class="c2">
+                    Page Created 2012 by Taylor Petrychyn
+                </p>
+            </div>
+        </div>
+    </body>
 </html>

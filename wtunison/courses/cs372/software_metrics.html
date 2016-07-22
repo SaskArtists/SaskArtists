@@ -1,309 +1,0 @@
-<html>
-<head>
-<title>CS 372 >> Software Metrics</title>
-<meta http-equiv="Content-Type" content="text/html;">
-<link rel="stylesheet" type="text/css" href="css/styles.css" title="style1">
-<link rel="stylesheet" type="text/css" href="css/print.css" media="print">
-<script language="javascript" src="javascript/script.js"></script>
-</head>
-<body bgcolor="#DDE3DD">
-<a name="TOP"></a>
-<table border=0 cellpadding=0 cellspacing=0 align="center">
-  <tr>
-    <td colspan=4 valign="top"><div id="printhide"><img src="images/top.gif" width=620 height=50></div></td>
-  </tr>
-  <tr>
-    <td background="images/left.gif" width=30></td>
-    <td bgcolor="#FFFFFF" valign="top" width=560 class="main">
-          
-<!-- PAGE CONTENT BEGINS HERE -->    
-
-<p><a href="index.html">Home</a> >> <b>Software Metrics</b></p>
-
-<h1>Contents</h1>
-<ul>
-    <li><a href="#LINES">Lines of Code</a>
-    <li><a href="#DEFECTS">Defects</a>
-    <li><a href="#POINTS">Function Points</a>
-    <ul>
-      <li><a href="#FPC"><i>Function Point Computation</i></a>
-    </ul>
-    <li><a href="#ESTIMATE">Estimation Models</a>
-    <li><a href="#DESIGNMETRICS">Design Metrics</a>
-    <ul>
-      <li><a href="#COUPLING"><i>Coupling</i></a></li>
-      <li><a href="#COHESION"><i>Cohesion</i></a></li>
-      <li><a href="#FANIN"><i>Fan-In</i></a></li>
-      <li><a href="#FANOUT"><i>Fan-Out</i></a></li>
-    </ul>
-</ul>
-<hr>
-
-<a name="LINES"><h1>Lines of Code</h1></a>
-<ul>
-    <li>Direct measure of size
-    <h3>Advantages</h3>
-    <ul>
-        <li>Easy to count
-        <li>Easy to define
-        <li>A body of literature
-    </ul>
-    <h3>Disadvantages</h3>
-    <ul>
-        <li>It is a hindsight measure
-        <li>Is there equality among lines of code?
-    </ul>
-</ul>
-<a href="#TOP">Back to top</a>
-<hr>
-<a name="DEFECTS"><h1>Defects</h1></a>
-<ul>
-    <li>Similar to lines of code as a direct measure
-    <li>It has a negative persona
-</ul>
-<a href="#TOP">Back to top</a>
-<hr>
-<a name="POINTS"><h1>Function Points</h1></a>
-<ul>
-    <li>A normalized measure of delivered functionality
-    <h3>Advantages</h3>
-    <ul>
-        <li>Computed rather than measured
-        <li>A body of literature
-        <li>For those with faith they incorporate complexity, quality, and size
-    </ul>
-    <h3>Disadvantages</h3>
-    <ul>
-        <li>Computation domains are not fully standardized
-        <li>Hard to define
-    </ul>
-    <br>
-    <a href="#TOP">Back to top</a>
-    <hr>
-    <a name="FPC"></a>
-    <h1>Function Point Computation</h1>
-    
-    <table class="table" align=top border="2" cellpadding="5" cellspacing="0" width="480">
-      <tr>
-        <th class="th"></th>
-        <th class="th" colspan="3">Complexity</th>
-        <th class="th"></th>
-      </tr>
-      <tr>
-        <th class="th">Description</th>
-        <th class="th">Low</th>
-        <th class="th">Medium</th>
-        <th class="th">High</th>
-        <th class="th">Total</th>
-      </tr>
-      <tr>
-        <td class="td">Inputs</td>
-        <td class="td">___ x 3</td>
-        <td class="td">___ x 4</td>
-        <td class="td">___ x 6</td>
-        <td class="td">___</td>
-      </tr>
-      <tr>
-        <td class="td">Outputs</td>
-        <td class="td">___ x 4</td>
-        <td class="td">___ x 5</td>
-        <td class="td">___ x 7</td>
-        <td class="td">___</td>
-      </tr>
-      <tr>
-        <td class="td">Queries</td>
-        <td class="td">___ x 3</td>
-        <td class="td">___ x 4</td>
-        <td class="td">___ x 6</td>
-        <td class="td">___</td>
-      </tr>
-      <tr>
-        <td class="td">Files</td>
-        <td class="td">___ x 7</td>
-        <td class="td">___ x 10</td>
-        <td class="td">___ x 15</td>
-        <td class="td">___</td>
-      </tr>
-      <tr>
-        <td class="td">Program interfaces</td>
-        <td class="td">___ x 5</td>
-        <td class="td">___ x 7</td>
-        <td class="td">___ x 10</td>
-        <td class="td">___                 </td>
-      </tr>
-    </table>
-    <table class="table" border="0" cellpadding="3" cellspacing="0" width="480">
-        <tr>
-            <td class="td" align=right><b>COUNT:  __________________</b></td>
-        </tr>
-    </table>
-    <br><br>
-    <li>
-    Rate each factor on a scale of 0 to 5:<br><br>
-    <img src="images/function.gif" width="410" height="57"><br clear=all>
-    <p>
-    <font size=4><b><i>F<sub>i</sub> :</i></b></font>
-    <table border="0" cellpadding="5" cellspacing="10" width="480">
-    <tr>
-      <td class="td">
-      <br>
-      <ol>
-        <li>Does the system require reliable backup and recovery?
-        <li>Are data communications required?
-        <li>Are there distributed processing functions?
-        <li>Is performance critical?
-        <li>Will the system run in an existing, heavily utilized operational environment?
-        <li>Does the system require on-line data entry?
-        <li>Does the on-line data entry require the input transaction to be built
-            over multiple screens or operations?
-        <li>Are the master files updated on-line?
-        <li>Are the inputs, outputs, files, or inquiries complex?
-        <li>Is the code designed to be reusable?    
-        <li>Is the internal processing complex?
-        <li>Are conversion and installation included in the design?
-        <li>Is the system designed for multiple installations in different organizations?
-        <li>Is the application design to facilitate change and ease of use by the user?
-      </ol>
-      </td>
-      <td>
-        <img src="images/sum.gif" width="141" height="101">
-      </td>
-    </table>
-    <li><img align=middle src="images/formula.gif" width="381" height="61">
-    </ul>
-</ul>
-<a href="#TOP">Back to top</a>
-<hr>
-
-<a name="ESTIMATE"><h1>Estimation Models</h1></a>
-<ul>
-    <p>Pressman, p.121:</p>
-    <table class="table" border="0" cellpadding="5" cellspacing="0" width="480">
-        <tr>
-            <td class="td"><i>E</i> = 5.2 x (KLOC)<sup>0.91</sup></td>
-            <td class="td">Walston-Felix Model</td>
-        </tr>
-        <tr>
-            <td class="td"><i>E</i> = 5.5 + 0.73 x (KLOC)<sup>1.16</sup></td>
-            <td class="td">Bailey-Basili Model</td>
-        </tr>
-        <tr>
-            <td class="td"><i>E</i> = 3.2 x (KLOC)<sup>1.05</sup></td>
-            <td class="td">Boehm Simple Model</td>
-        </tr>
-        <tr>
-            <td class="td"><i>E</i> = 5.288 x (KLOC)<sup>1.047</sup></td>
-            <td class="td">Doty Model for KLOC > 9</td>
-        <tr>
-            <td class="td" colspan="2"><i>FP-oriented models have also been proposed.  These include:</i></td>
-        </tr>
-        <tr>
-            <td class="td"><i>E</i> = -13.39 + 0.0545 FP</td>
-            <td class="td">Albrecht and Gaffney Model</td>
-        </tr>
-        <tr>
-            <td class="td"><i>E</i> = 60.62 x 7.728 x 10<sup>-8</sup> FP<sup>3</sup></td>
-            <td class="td">Kemerer Model</td>
-        </tr>
-            <td class="td"><i>E</i> = 585.7 + 15.12 FP</td>
-            <td class="td">Matson, Barnett, and Mellichamp Model</td>
-    </table>
-</ul>
-<a href="#TOP">Back to top</a>
-<hr>
-
-<a name="DESIGNMETRICS"></a>
-<h1>Design Metrics</h1>
-<ol>
-  <p>
-  <li><a name="COUPLING"></a>
-    <b>Coupling</b> - measure of the dependance of modules on one and other.  
-    Generally you design to minimize coupling.  There are many kinds of 
-    coupling:
-    <p>
-    <ol>
-      <li><b>Data Coupling:</b> Variable Passing
-      <li><b>Stamp Coupling:</b> Record Passing
-      <li><b>Control Coupling:</b> Control Flags
-      <li><b>Common Coupling:</b> Global Variables
-      <li><b>Content Coupling:</b> Control Flags
-    </ol>
-  </li>
-  </p>
-  <p>
-  <li><a name="COHESION"></a>
-    <b>Cohesion</b> - measure of the focus upon one (or more) functions. 
-    Generally you design to mazimize cohesion (sharpen focus).  The following 
-    scale shows six classes of cohesion from preferred to less preferred:
-    <p>
-    <ol>
-      <li>
-        <b>Functional Cohesion</b> - all code pertains to one function
-      <li>
-        <b>Sequential Cohesion</b> - a single thread of sub functions all 
-        pertaining to one function.  Execution order is important.
-      <li>
-        <b>Communications Cohesion</b> - several functions operate on the same 
-        data.  The functions can be executed in any order.
-      <li>
-        <b>Procedural Cohesion</b> - a single thread of several functions using 
-        different data.
-      <li>
-        <b>Temporal Cohesion</b> - several functions operate on a variety of 
-        data in any order.
-      <li>
-        <b>Coincidental Cohesion</b> - no relationship among functions, data and
-        execution order.
-    </ol>
-  </li>
-  </p>
-  <p>
-  <li><a name="FANIN"></a>
-    <b>Fan-In</b> - is the number of parent (immediately previously executed) 
-    modules that a module has.
-    <p>
-    <table class="table" cellpadding=8 cellspacing=0 border=1 align="center"><tr><td width=420 align="center">
-      <img src="images/fanin.gif" width="385" height="140">
-    </td></tr></table>
-    </p>
-    <p>
-    <ul>
-      <b>Rule of Thumb</b>
-      <ul>
-        <li>maximize Fan-In
-      </ul>
-    </ul>
-  </li>
-  <p>
-  <li><a name="FANOUT"></a>
-    <b>Fan-Out</b> - is the number of children (immediately executed afterwards)
-    modules that a module has.
-    <p>
-    <table class="table" cellpadding=8 cellspacing=0 border=1 align="center"><tr><td width=420 align="center">
-      <img src="images/fanout.gif" width="361" height="147">
-    </td></tr></table>
-    </p>
-    <p>
-    <ul>
-      <b>Rule of Thumb (especially top-down)</b>
-      <ul>
-        <li>minimize Fan-Out
-        <li>Fan-Out should not exceed 7
-      </ul>
-    </ul>
-  </li>
-  </p>
-</ol>
-<a href="#TOP">Back to top</a>
-
-<!-- PAGE CONTENT ENDS HERE -->
-      
-    </td>
-    <td background="images/right.gif" width=30></td>  
-  </tr>
-  <tr>
-    <td colspan=4 valign="top"><div id="printhide"><img src="images/bottom.gif" width=620 hieght=50></div></td>
-  </tr>
-</table>
-</body>
-</html>

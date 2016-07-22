@@ -26,7 +26,7 @@ body{
 orange{
 	color: #C43917;
 }
-#header{
+.header{
 	margin-left: 10px;
 	font-size: 170%;
 	text-align: left;

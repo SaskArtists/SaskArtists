@@ -1,236 +1,0 @@
-<html>
-<head>
-<title>CS 372 >> Interface Design</title>
-<meta http-equiv="Content-Type" content="text/html;">
-<link rel="stylesheet" type="text/css" href="css/styles.css" title="style1">
-<link rel="stylesheet" type="text/css" href="css/print.css" media="print">
-<script language="javascript" src="javascript/script.js"></script>
-</head>
-<body bgcolor="#DDE3DD">
-<a name="top"></a>
-<table border=0 cellpadding=0 cellspacing=0 align="center">
-  <tr>
-    <td colspan=4 valign="top"><div id="printhide"><img src="images/top.gif" width=620 height=50></div></td>
-  </tr>
-  <tr>
-    <td background="images/left.gif" width=30></td>
-    <td bgcolor="#FFFFFF" valign="top" width=560 class="main">
-          
-<!-- PAGE CONTENT BEGINS HERE -->    
-
-<p><a href="index.html">Home</a> >> <b>Interface Design</b></p>
-
-<h1>Contents</h1>
-<ul>
-  <li><a href="#architect">Architectural Concerns (Input Devices)</a>
-  </li>
-  <li><a href="#interact" >Interaction Methods</a>
-    <ul>
-      <li><a href="#cmdlang"><i>Command Language</i></a></li>
-      <li><a href="#forms"><i>Form Interaction</i></a></li>
-      <li><a href="#menus"><i>Menus</i></a></li>
-      <li><a href="#winobj"><i>Window or Object</i></a></li>
-      <li><a href="#natlang"><i>Natural Language</i></a></li>
-    </ul>
-  </li>
-  <li><a href="#dialogs"  >Dialogs</a>
-    <ul>
-      <li><a href="#manage"><i>Dialog Management</i></a></li>
-      <li><a href="#diagrams"><i>Dialog Diagrams</i></a></li>
-    </ul>
-  </li>
-  <li><a href="#respond">Responding to the User</a></li>
-</ul>
-<hr>
-
-<a name="architect"></a>
-<h1>Architectural Concerns (Input Devices)</h1>
-<p>
-<table class="table" cellpadding=5 cellspacing=0 border=1 width=500 align="center">
-  <tr>
-    <th class="th" width=100>Input Device</th>
-    <th class="th">Advantages</th>
-    <th class="th">Disadvantages</th>
-  </tr>
-  <tr>
-    <td align="center" class="td"><b>Keyboard</b></td>
-    <td class="td">      
-      <ol>
-        <li>Good for alphanumeric input</li>
-        <li>Speed is a learned skill</li>
-        <li>Usable with little training</li>
-      </ol>
-    </td>
-    <td class="td">      
-      <ol>
-        <li>Bulk size</li>
-        <li>Icon unfriendly</li>
-        <li>Slow for the unskilled</li>
-      </ol>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" class="td"><b>Mouse</b></td>
-    <td class="td">      
-      <ol>
-        <li>Icon friendly</li>
-        <li>Usable with little training</li>
-      </ol>
-    </td>
-    <td class="td">      
-      <ol>
-        <li>Linked to repetitive strain injury</li>
-        <li>Demands moderate operating space</li>
-        <li>Text unfriendly</li>
-      </ol>
-    </td>
-  </tr>  
-  <tr>
-    <td align="center" class="td"><b>Trackball</b></td>
-    <td class="td">      
-      <ol>
-        <li>Icon friendly</li>
-        <li>Helps many with mobility problems</li>
-        <li>Usable with little training</li>
-        <li>Demands operating space</li>
-      </ol>
-    </td>
-    <td class="td">      
-      <ol>
-        <li>Text unfriendly</li>
-      </ol>
-    </td>
-  </tr>  
-  <tr>
-    <td align="center" class="td"><b>Joystick</b></td>
-    <td class="td">      
-      <ol>
-        <li>Icon friendly</li>
-        <li>Demand for small operating space</li>
-        <li>Usable with little training</li>
-      </ol>
-    </td>
-    <td class="td">      
-      <ol>
-        <li>Accuracy</li>
-        <li>Text unfriendly</li>
-      </ol>
-    </td>
-  </tr>  
-  <tr>
-    <td align="center" class="td"><b>Touch Screen</b></td>
-    <td class="td">      
-      <ol>
-        <li>Highly usable</li>
-        <li>Environmentally robust</li>
-        <li>Solution to some dexterity problems</li>
-      </ol>
-    </td>
-    <td class="td">      
-      <ol>
-        <li>Inaccurate</li>
-        <li>Text is slow</li>
-        <li>Link to repetitive strain injury</li>
-      </ol>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" class="td"><b>Voice</b></td>
-    <td class="td">      
-      <ol>
-        <li>Hands are free for other tasks</li>
-        <li>Solves many mobility problems</li>
-        <li>May contain implied security</li>
-      </ol>
-    </td>
-    <td class="td">
-      <ol>
-        <li>Subject to language abilities</li>
-        <li>Background noise</li>
-        <li>Vocal problems can be inflated</li>
-      </ol>
-    </td>
-  </tr>
-  <tr height=75>
-    <td align="center" class="td"><b>Other Sources</b></td>
-    <td class="td" colspan=2>
-      <ol>Scanners, light pen, graphics tablet, digital camera, sensors, instruments, etc.</ol>
-    </td>
-  </tr>
-</table>
-</p>
-<a href="#top">Back to top</a>
-<hr>
-
-<a name="interact"></a>
-<h1>Interaction Methods</h1>
-<ul>
-  <a name="cmdlang"></a>
-  <li><h3>Command Language</h3>
-    <p>A formal language used to direct the system; eg. MS-DOS, JES2, TSO</p>
-  </li>
-  <a name="forms"></a>
-  <li><h3>Form Interaction</h3>
-    <p>A paradigm of fill-in-the-blanks used to gather textual data; eg. bank 
-       deposit screens, logon screens.</p>
-  </li>
-  <a name="menus"></a>
-  <li><h3>Menus</h3>
-    <p>Selection of options and suboptions out of lists. Interactivity can 
-       ensure completeness and consistency; eg. similar to restaurant graphic 
-       software; uses menu for color, brush size.</p>
-  </li>
-  <a name="winobj"></a>
-  <li><h3>Window or Object</h3>
-    <p>Icons representing objects are activated and manipulated; eg. Windows, 
-       OS/2, many Web applications, Pow Wow, CU C-ME (eg. Chinese, French).</p>
-  </li>
-  <a name="natlang"></a>
-  <li><h3>Natural Language</h3>
-    <p>The use of human language to direct the computer operation; eg. 'Ask 
-       Jeeves.'</p>
-  </li>
-</ul>
-<a href="#top">Back to top</a>
-<hr>
-
-<a name="dialogs"></a>
-<h1>Dialogs</h1>
-<ul>
-  <a name="manage"></a>
-  <li><h3>Dialog Management</h3>
-    <p>Planning, design, and control of the multiple interactions between 
-       computer and users.</p>
-  </li>
-  <a name="diagrams"></a>
-  <li><h3>Dialog Diagrams</h3>
-    <p><b>Screen / Window box</b>:</p>
-    <p><img src="images/dialogdiag1.gif" width=285 height=100 border=1></p>
-    <p><b>Example:</b></p>
-    <p><img src="images/dialogdiag_eg.gif" width=450 height=490 border=1></p>
-  </li>
-</ul>
-<a href="#top">Back to top</a>
-<hr>
-
-<a name="respond"></a>
-<h1>Responding to the User</h1>
-<ol>
-  <p><li><b>Error Messages</b>: when an input or processing exception occurs an error message should be triggered.</li></p>
-  <p><li><b>Prompting</b>: when input is not forthcoming, a prompt may lubricate the dialog.</li></p>
-  <p><li><b>Help</b>: is a user request for clarification. Help may be an attribute to all information structures within the system.</li></p>
-  <p><li><b>Status</b>: is a computer communication to inform the user of current activity.</li></p>
-</ol>
-<a href="#top">Back to top</a>
-
-<!-- PAGE CONTENT ENDS HERE -->
-      
-    </td>
-    <td background="images/right.gif" width=30></td>  
-  </tr>
-  <tr>
-    <td colspan=4 valign="top"><div id="printhide"><img src="images/bottom.gif" width=620 hieght=50></div></td>
-  </tr>
-</table>
-</body>
-</html>
