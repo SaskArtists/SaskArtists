@@ -39,7 +39,7 @@ if ($db->connect_errno) {
 <html>
 <head>
 
-	<script type="text/javascript" src="jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="jquery.js"></script>
 	<script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
 	<script type="text/javascript" src="gmap3.js"></script>
 	<!-- Latest compiled and minified CSS -->
