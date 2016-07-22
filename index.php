@@ -279,7 +279,7 @@ if(e.which == 74 && isCtrl == true) {
                 }
                 echo "<img src='".$row["work_url"]."'>";
                 echo "<div class='carousel-caption'>";
-                echo "<h3><a style='color:white;' href='".$row["short"]."'>".$row["first"]." ".$row["last"]."</a></h3>";
+                echo "<h3><a style='color:white;' href='".$row["short"]."'>".$row["name"]."</a></h3>";
                 echo "<p>".$row["title"]."</p>";
                 echo "</div>";
                 echo "</div>";

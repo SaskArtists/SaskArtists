@@ -1,0 +1,54 @@
+@import 'https://fonts.googleapis.com/css?family=Slabo+27px';
+body {
+  background-color: #737373;
+}
+
+.header {
+  background-color: #BFBFBF;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Slabo 27px', serif;
+  position: absolute;
+  top: 0;
+  margin-left: 20%;
+  margin-right: 10%;
+  border-radius: 10%;
+}
+
+.nav-sask {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-home {
+  padding-left: 50px;
+  padding-right: 100px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-gal {
+  padding-left: 50px;
+  padding-right: 70px;
+  text-decoration: none;
+  color: black;
+}
+
+.info {
+  background-color: #BFBFBF;
+  font-size: 30px;
+  font-family: 'Slabo 27px', serif;
+  margin-top: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 10%;
+  text-align: center;
+}
+
+.footer {
+  font-size: 20px;
+  font-family: 'Slabo 27px', serif;
+  margin-left: 50px;
+}
