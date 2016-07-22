@@ -54,7 +54,7 @@ if ($db->connect_errno) {
 		#container{
 			position:relative;
 			height:700px;
-			width:1250px;
+			width:auto;
 			display:block;
 			margin-left:auto;
 			margin-right:auto;
