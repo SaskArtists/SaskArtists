@@ -315,7 +315,7 @@ if(e.which == 74 && isCtrl == true) {
 						echo "<h3>$letter Section</h3>";
 					echo "<ul>";
 					while ($row = $q->fetch_assoc()){
-								echo "<li><a href=".$row['short'].">".$row['name']."</a></li>";
+								echo "<li><a href=".$row['short'].">".$row['name']."</a> ".$row['description']."</li>";
 					}
 					echo  "</ul>";
 				echo  "</div>";
@@ -343,7 +343,8 @@ if(e.which == 74 && isCtrl == true) {
 	<hr>
 	<p>Visit us on <a href='https://github.com/SaskArtists/SaskArtists/'>GitHub</a></p>
 	<p> <a href="http://www.metric-hosting.ca/">Sponsor</a> <br></p>
-	Revised: 2015
+	<p><a href="disclaimer.html">Disclaimer</p>
+	<p>Revised: 2016</p>
 </footer>
 </div>
 
