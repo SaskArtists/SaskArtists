@@ -50,15 +50,6 @@ if ($db->connect_errno) {
 	body{
 		width: 100%;
 	}
-
-		#container{
-			position:relative;
-			height:700px;
-			width:auto;
-			display:block;
-			margin-left:auto;
-			margin-right:auto;
-		}
 		#googleMap{
 			border: 1px dashed #C0C0C0;
 			width: 75%;
@@ -237,15 +228,6 @@ if ($db->connect_errno) {
 
 		});
 		var isCtrl = false;
-
-$(document).keyup(function (e) {
-if(e.which == 17) isCtrl=false;
-}).keydown(function (e) {
-if(e.which == 17) isCtrl=true;
-if(e.which == 74 && isCtrl == true) {
-	$('#newInfo').show('slow');
-	return false;
-}
 });
 	</script>
 
@@ -258,7 +240,7 @@ if(e.which == 74 && isCtrl == true) {
     <script src="search.js"></script>
 </head>
 <body>
-<div id="container">
+<div class="container">
 	<font color="#800080"><h2><a href="index.php">Saskatchewan Artists</a></h2> </font>
 	<p>Artists presented here were born, raised, or live in Saskatchewan, Canada. </p>
 
@@ -337,7 +319,6 @@ if(e.which == 74 && isCtrl == true) {
             <ul id="search-results">
             </ul>
     		<h3>Map of Artist Locations</h3>
-				<div id='newInfo' style='display:none'><input type='button' id='scanMeta' value='Scan Metadata'/></div>
 				<div id="googleMap"></div>
 				<div id="artists"></div>
   		</div>
