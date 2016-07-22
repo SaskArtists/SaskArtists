@@ -258,7 +258,7 @@ if(e.which == 74 && isCtrl == true) {
     <script src="search.js"></script>
 </head>
 <body>
-<div id="container">
+<div class="container">
 	<font color="#800080"><h2><a href="index.php">Saskatchewan Artists</a></h2> </font>
 	<p>Artists presented here were born, raised, or live in Saskatchewan, Canada. </p>
 
