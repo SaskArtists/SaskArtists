@@ -10,8 +10,19 @@
         <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
         <script language="javascript" src="javascript/script.js">
         </script>
+        <style type="text/css">
+        body {
+        background-color: #DDE3DD;
+        }
+        td.c6 {background-color: #FFFFFF}
+        div.c5 {margin-left: 2em}
+        td.c4 {font-style: italic}
+        span.c3 {font-size: 120%; font-style: italic; font-weight: bold}
+        td.c2 {font-weight: bold}
+        a.c1 {font-style: italic}
+        </style>
     </head>
-    <body bgcolor="#DDE3DD">
+    <body>
         <a id="TOP"></a>
         <table border="0" cellpadding="0" cellspacing="0" align="center">
             <tr>
@@ -23,7 +34,7 @@
             </tr>
             <tr>
                 <td background="images/left.gif" width="30"></td>
-                <td bgcolor="#FFFFFF" valign="top" width="560" class="main">
+                <td valign="top" width="560" class="main c6">
                     <!-- PAGE CONTENT BEGINS HERE -->
                     <p>
                         <a href="index.html">Home</a> &gt;&gt; <b>Software Metrics</b>
@@ -42,7 +53,7 @@
                             <a href="#POINTS">Function Points</a>
                             <ul>
                                 <li>
-                                    <a href="#FPC"><i>Function Point Computation</i></a>
+                                    <a class="c1" href="#FPC">Function Point Computation</a>
                                 </li>
                             </ul>
                         </li>
@@ -53,16 +64,16 @@
                             <a href="#DESIGNMETRICS">Design Metrics</a>
                             <ul>
                                 <li>
-                                    <a href="#COUPLING"><i>Coupling</i></a>
+                                    <a class="c1" href="#COUPLING">Coupling</a>
                                 </li>
                                 <li>
-                                    <a href="#COHESION"><i>Cohesion</i></a>
+                                    <a class="c1" href="#COHESION">Cohesion</a>
                                 </li>
                                 <li>
-                                    <a href="#FANIN"><i>Fan-In</i></a>
+                                    <a class="c1" href="#FANIN">Fan-In</a>
                                 </li>
                                 <li>
-                                    <a href="#FANOUT"><i>Fan-Out</i></a>
+                                    <a class="c1" href="#FANOUT">Fan-Out</a>
                                 </li>
                             </ul>
                         </li>
@@ -254,8 +265,8 @@
                             </table>
                             <table class="table" border="0" cellpadding="3" cellspacing="0" width="480">
                                 <tr>
-                                    <td class="td" align="right">
-                                        <b>COUNT: __________________</b>
+                                    <td class="td c2" align="right">
+                                        COUNT: __________________
                                     </td>
                                 </tr>
                             </table>
@@ -268,7 +279,7 @@
                             <img src="images/function.gif" width="410" height="57" alt="no alt text">
                             <br clear="all">
                             <p>
-                                <font size="4"><b><i>F<sub>i</sub> :</i></b></font>
+                                <span class="c3">F<sub>i</sub> :</span>
                             </p>
                             <table border="0" cellpadding="5" cellspacing="10" width="480">
                                 <tr>
@@ -320,7 +331,7 @@
                     <h1>
                         <a id="ESTIMATE">Estimation Models</a>
                     </h1><a id="ESTIMATE"></a>
-                    <div style="margin-left: 2em">
+                    <div class="c5">
                         <p>
                             Pressman, p.121:
                         </p>
@@ -358,8 +369,8 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td class="td" colspan="2">
-                                    <i>FP-oriented models have also been proposed. These include:</i>
+                                <td class="td c4" colspan="2">
+                                    FP-oriented models have also been proposed. These include:
                                 </td>
                             </tr>
                             <tr>
@@ -446,7 +457,7 @@
                                     </td>
                                 </tr>
                             </table>
-                            <div style="margin-left: 2em">
+                            <div class="c5">
                                 <b>Rule of Thumb</b>
                                 <ul>
                                     <li>maximize Fan-In
@@ -463,7 +474,7 @@
                                     </td>
                                 </tr>
                             </table>
-                            <div style="margin-left: 2em">
+                            <div class="c5">
                                 <b>Rule of Thumb (especially top-down)</b>
                                 <ul>
                                     <li>minimize Fan-Out

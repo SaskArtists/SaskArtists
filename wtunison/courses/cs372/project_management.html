@@ -10,8 +10,19 @@
         <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
         <script language="javascript" src="javascript/script.js">
         </script>
+        <style type="text/css">
+        body {
+        background-color: #DDE3DD;
+        }
+        td.c6 {background-color: #FFFFFF}
+        li.c5 {list-style: none; display: inline}
+        div.c4 {margin-left: 2em}
+        span.c3 {font-size: larger}
+        li.c2 {list-style: none}
+        div.c1 {text-align: center}
+        </style>
     </head>
-    <body bgcolor="#DDE3DD">
+    <body>
         <a id="top"></a>
         <table border="0" cellpadding="0" cellspacing="0" align="center">
             <tr>
@@ -23,7 +34,7 @@
             </tr>
             <tr>
                 <td background="images/left.gif" width="30"></td>
-                <td bgcolor="#FFFFFF" valign="top" width="560" class="main">
+                <td valign="top" width="560" class="main c6">
                     <!-- PAGE CONTENT BEGINS HERE -->
                     <p>
                         <a href="index.html">Home</a> &gt;&gt; <b>Project Management</b>
@@ -50,14 +61,14 @@
                     <h1>
                         What is Project Management?
                     </h1>
-                    <center>
+                    <div class="c1">
                         <img src="images/project.gif" width="540" height="372" alt="no alt text">
-                    </center>
+                    </div>
                     <table border="0" cellspacing="5" cellpadding="3">
                         <tr>
                             <td>
                                 <ul>
-                                    <li style="list-style: none">
+                                    <li class="c2">
                                         <br>
                                     </li>
                                     <li>
@@ -69,7 +80,7 @@
                                 </ul>
                             </td>
                             <td>
-                                <font size="7">}</font>
+                                <span class="c3">}</span>
                             </td>
                             <td>
                                 <p>
@@ -83,7 +94,7 @@
                     <h1>
                         Planning
                     </h1>
-                    <div style="margin-left: 2em">
+                    <div class="c4">
                         <h3>
                             Task Analysis
                         </h3>
@@ -160,7 +171,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li style="list-style: none">
+                        <li class="c2">
                             <br>
                         </li>
                         <li>
@@ -174,7 +185,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li style="list-style: none; display: inline">
+                        <li class="c5">
                             <h3>
                                 Checks and Balances
                             </h3>
@@ -202,7 +213,7 @@
                                 </li>
                             </ul>
                             <br>
-                            <div style="margin-left: 2em">
+                            <div class="c4">
                                 eg.)
                                 <br>
                                 <img src="images/organ.gif" width="377" height="180" alt="no alt text">
@@ -286,16 +297,16 @@
                         </tr>
                     </table>
                     <ol>
-                        <li style="list-style: none">
+                        <li class="c2">
                             <br>
                         </li>
                         <li>
                             <h3>
                                 Single Thread
                             </h3>
-                            <center>
+                            <div class="c1">
                                 <img src="images/singlethread_eg.gif" width="500" height="200" border="1" alt="no alt text">
-                            </center>
+                            </div>
                             <p>
                                 <b>Time: 41 min</b>
                             </p>
@@ -305,13 +316,13 @@
                             <h3>
                                 Multi-Thread
                             </h3>
-                            <center>
+                            <div class="c1">
                                 <img src="images/multithread_eg.gif" onmouseover="document.images[4].src = 'images/multi_crit_eg.gif'" onmouseout="document.images[4].src = 'images/multithread_eg.gif'" width="255" height="325" border="1" alt="no alt text">
                                 <br>
-                                <center>
+                                <div class="c1">
                                     <u>Place mouse cursor over diagram to view Critical Path</u>
-                                </center>
-                            </center>
+                                </div>
+                            </div>
                             <p>
                                 <b>Time for Critical Path: 16 min</b>
                             </p>
@@ -327,13 +338,13 @@
                             <p>
                                 <b>Constraint #2</b>: There are only 2 burners.
                             </p>
-                            <center>
+                            <div class="c1">
                                 <img src="images/multithread_cons_eg.gif" onmouseover="document.images[5].src = 'images/multi_cons_crit_eg.gif'" onmouseout="document.images[5].src = 'images/multithread_cons_eg.gif'" width="350" height="265" border="1" alt="no alt text">
                                 <br>
-                                <center>
+                                <div class="c1">
                                     <u>Place mouse cursor over diagram to view Critical Path</u>
-                                </center>
-                            </center>
+                                </div>
+                            </div>
                             <p>
                                 <b>Time for Critical Path: 17 min</b>
                             </p>

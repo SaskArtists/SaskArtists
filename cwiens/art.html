@@ -8,23 +8,29 @@
         <script src="photoCycle.js">
         </script>
         <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+        <style type="text/css">
+        table.c4 {margin:auto}
+        td.c3 {height:500px; width:500px}
+        img.c2 {max-width:500px; margin:auto}
+        img.c1 {width:95%}
+        </style>
     </head>
     <body>
         <div id="wrapper">
             <div id="Header">
-                <img src="CliffordWiensBanner.jpg" style="width:95%" alt="no alt text">
+                <img src="CliffordWiensBanner.jpg" class="c1" alt="no alt text">
             </div>
             <div id="nav">
                 <a href="index.html">Home</a> <a href="art.html">Works</a> <a href="about.html">Biography</a>
             </div>
             <div class="cycle">
-                <table style="margin:auto">
+                <table class="c4">
                     <tr>
                         <td>
                             <button onclick="lastPhoto(0)">Previous</button>
                         </td>
-                        <td style="height:500px; width:500px">
-                            <img src="OutdoorChapel.jpg" alt="The CBC Broadcast Center" style="max-width:500px; margin:auto" class="cycleImage">
+                        <td class="c3">
+                            <img src="OutdoorChapel.jpg" alt="The CBC Broadcast Center" class="cycleImage c2">
                         </td>
                         <td>
                             <button onclick="nextPhoto(0)">Next</button>

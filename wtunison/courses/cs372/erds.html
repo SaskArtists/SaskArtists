@@ -10,8 +10,20 @@
         <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
         <script language="javascript" src="javascript/script.js">
         </script>
+        <style type="text/css">
+        body {
+        background-color: #DDE3DD;
+        }
+        td.c7 {background-color: #FFFFFF}
+        td.c6 {font-weight: bold}
+        a.c5 {font-weight: bold; text-decoration: underline}
+        span.c4 {text-decoration: underline}
+        b.c3 {text-decoration: underline}
+        div.c2 {margin-left: 2em}
+        a.c1 {font-style: italic}
+        </style>
     </head>
-    <body bgcolor="#DDE3DD">
+    <body>
         <a id="top"></a>
         <table border="0" cellpadding="0" cellspacing="0" align="center">
             <tr>
@@ -23,7 +35,7 @@
             </tr>
             <tr>
                 <td background="images/left.gif" width="30"></td>
-                <td bgcolor="#FFFFFF" valign="top" width="560" class="main">
+                <td valign="top" width="560" class="main c7">
                     <!-- PAGE CONTENT BEGINS HERE -->
                     <p>
                         <a href="index.html">Home</a> &gt;&gt; <b>Entity Relationship Diagrams</b>
@@ -48,7 +60,7 @@
                             <a href="#DBI">Data Base Implementation</a>
                             <ul>
                                 <li>
-                                    <a href="#EXAM2"><i>Example</i></a>
+                                    <a class="c1" href="#EXAM2">Example</a>
                                 </li>
                             </ul>
                         </li>
@@ -58,7 +70,7 @@
                     <h1>
                         <a id="PURPOSE">Purpose</a>
                     </h1><a id="PURPOSE"></a>
-                    <div style="margin-left: 2em">
+                    <div class="c2">
                         <p>
                             The purpose of ERD's (Entity Relationship Diagrams) is to describe how various data structures relate to each other.
                         </p>
@@ -68,7 +80,7 @@
                     <h1>
                         <a id="SYMBOLS">Symbols</a>
                     </h1><a id="SYMBOLS"></a>
-                    <div style="margin-left: 2em">
+                    <div class="c2">
                         <table class="table" border="1" cellpadding="5" cellspacing="0" width="500">
                             <tr>
                                 <th class="th" colspan="2">
@@ -90,7 +102,7 @@
                                     <img src="images/relation.gif" width="84" height="111" border="1" alt="no alt text">
                                 </td>
                                 <td class="td" width="250">
-                                    A <b><u>Relationship</u></b> or <b><u>Connection</u></b> is labelled in two directions.
+                                    A <b class="c3">Relationship</b> or <b class="c3">Connection</b> is labelled in two directions.
                                 </td>
                             </tr>
                         </table>
@@ -153,7 +165,7 @@
                         </table>
                         <br>
                         <b>Note:</b>
-                        <div style="margin-left: 2em">
+                        <div class="c2">
                             <p>
                                 <img src="images/note1.gif" width="270" height="60" alt="no alt text">
                             </p>
@@ -164,7 +176,7 @@
                                 <img src="images/note2.gif" width="420" height="100" alt="no alt text">
                             </p>
                             <p>
-                                -- <i>This</i> is the legitimate form using the <u>Associative Entity</u>.
+                                -- <i>This</i> is the legitimate form using the <span class="c4">Associative Entity</span>.
                             </p>
                         </div>
                     </div><a href="#TOP">Back to top</a>
@@ -173,7 +185,7 @@
                     <h1>
                         Examples
                     </h1>
-                    <div style="margin-left: 2em">
+                    <div class="c2">
                         <p>
                             <img src="images/example.gif" width="506" height="346" alt="no alt text">
                         </p>
@@ -183,38 +195,38 @@
                     <h1>
                         <a id="TEXT">Textual Representation</a>
                     </h1><a id="TEXT"></a>
-                    <div style="margin-left: 2em">
-                        Mother (<u>MotherID</u>, Name, Birth Date)
+                    <div class="c2">
+                        Mother (<span class="c4">MotherID</span>, Name, Birth Date)
                     </div><a href="#TOP">Back to top</a>
                     <hr>
                     <a id="DBI"></a>
                     <h1>
                         Data Base Implementation
                     </h1>
-                    <div style="margin-left: 2em">
+                    <div class="c2">
                         <p>
-                            <b><u>First Normal Form:</u></b> All fields/records/areas are atomic.
+                            <b class="c3">First Normal Form:</b> All fields/records/areas are atomic.
                         </p>
                         <p>
-                            <b><u>Second Normal Form:</u></b> Implies that there exists a unique primary key and that all attributes are functionally dependant on that key.
+                            <b class="c3">Second Normal Form:</b> Implies that there exists a unique primary key and that all attributes are functionally dependant on that key.
                         </p>
                         <p>
-                            <b><u>Third Normal Form:</u></b> Implies that second normal form criteria is met and that no transitive dependencies exist.
+                            <b class="c3">Third Normal Form:</b> Implies that second normal form criteria is met and that no transitive dependencies exist.
                         </p>
                         <p>
-                            <a id="EXAM2"><b><u>Examples:</u></b></a>
+                            <a class="c5" id="EXAM2">Examples:</a>
                         </p>
                         <ul>
                             <li>Mother gives birth to child (has mother)
                                 <p>
-                                    Mother (<u>MotherID</u>, Name, Birth Date)
+                                    Mother (<span class="c4">MotherID</span>, Name, Birth Date)
                                     <br>
-                                    Child (<u>ChildID</u>, Name, Birth Place, Birth Date, MotherID)
+                                    Child (<span class="c4">ChildID</span>, Name, Birth Place, Birth Date, MotherID)
                                 </p>
                                 <table class="table" border="0" cellpadding="5" cellspacing="0">
                                     <tr>
-                                        <td valign="top" rowspan="3">
-                                            <b>Note:</b>
+                                        <td class="c6" valign="top" rowspan="3">
+                                            Note:
                                         </td>
                                         <td>
                                             MotherID is the primary key of Mother()
@@ -236,14 +248,14 @@
                                     <br>
                                     UNION unites Father (belongs to UNION)
                                 </p>
-                                <div style="margin-left: 2em">
-                                    Mother (<u>MotherID</u>, Name, Birth Date)
+                                <div class="c2">
+                                    Mother (<span class="c4">MotherID</span>, Name, Birth Date)
                                     <br>
-                                    Father (<u>FatherID</u>, Name, Birth Date)
+                                    Father (<span class="c4">FatherID</span>, Name, Birth Date)
                                     <br>
-                                    UNION (<u>MotherID</u>, <u>FatherID</u>) OR
+                                    UNION (<span class="c4">MotherID</span>, <span class="c4">FatherID</span>) OR
                                     <br>
-                                    UNION (<u>MotherID</u>, <u>FatherID</u>, <u>StartTime</u>, EndTime)
+                                    UNION (<span class="c4">MotherID</span>, <span class="c4">FatherID</span>, <span class="c4">StartTime</span>, EndTime)
                                 </div>
                             </li>
                         </ul>

@@ -10,8 +10,18 @@
         <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
         <script language="javascript" src="javascript/script.js">
         </script>
+        <style type="text/css">
+        body {
+        background-color: #DDE3DD;
+        }
+        td.c5 {background-color: #FFFFFF}
+        div.c4 {text-align: center}
+        div.c3 {margin-left: 2em}
+        th.c2 {font-weight: bold}
+        a.c1 {font-style: italic}
+        </style>
     </head>
-    <body bgcolor="#DDE3DD" onunload="closeImgPopup()">
+    <body onunload="closeImgPopup()">
         <a id="TOP"></a>
         <table border="0" cellpadding="0" cellspacing="0" align="center">
             <tr>
@@ -23,7 +33,7 @@
             </tr>
             <tr>
                 <td background="images/left.gif" width="30"></td>
-                <td bgcolor="#FFFFFF" valign="top" width="560" class="main">
+                <td valign="top" width="560" class="main c5">
                     <!-- PAGE CONTENT BEGINS HERE -->
                     <p>
                         <a href="index.html">Home</a> &gt;&gt; <b>Software Life Cycle</b>
@@ -39,16 +49,16 @@
                             <a href="#PROCESSES">Software Life Cycle Processes</a>
                             <ul>
                                 <li>
-                                    <a href="#WATERFALL"><i>Waterfall</i></a>
+                                    <a class="c1" href="#WATERFALL">Waterfall</a>
                                 </li>
                                 <li>
-                                    <a href="#PHASED"><i>Phased Development</i></a>
+                                    <a class="c1" href="#PHASED">Phased Development</a>
                                 </li>
                                 <li>
-                                    <a href="#PROTOTYPE"><i>Prototype</i></a>
+                                    <a class="c1" href="#PROTOTYPE">Prototype</a>
                                 </li>
                                 <li>
-                                    <a href="#THROWAWAY"><i>Throwaway Prototype</i></a>
+                                    <a class="c1" href="#THROWAWAY">Throwaway Prototype</a>
                                 </li>
                             </ul>
                         </li>
@@ -61,14 +71,14 @@
                         <a id="LIFECYCLE">Software Life Cycle</a>
                     </h1>
                     <br>
-                    <div style="margin-left: 2em">
+                    <div class="c3">
                         <table border="1" cellpadding="5" width="489" cellspacing="0" class="table">
                             <tr>
-                                <th class="th" width="165">
-                                    <b>Phase</b>
+                                <th class="th c2" width="165">
+                                    Phase
                                 </th>
-                                <th class="th" width="298">
-                                    <b>Possible Outcomes</b>
+                                <th class="th c2" width="298">
+                                    Possible Outcomes
                                 </th>
                             </tr>
                             <tr>
@@ -214,15 +224,15 @@
                     <h1>
                         <a id="PROCESSES">Software Life Cycle Processes</a>
                     </h1>
-                    <div style="margin-left: 2em">
+                    <div class="c3">
                         <h2>
                             <a id="WATERFALL">Waterfall</a>
                         </h2>
-                        <center>
+                        <div class="c4">
                             <a href='#null' onclick="openImgPopup('images/waterfall.gif', 197, 603, 'Waterfall Development Process')"><img src='images/waterfall_small.gif' width="100" height="306" border="1" alt="no alt text">
                             <br>
                             Click to enlarge</a>
-                        </center>
+                        </div>
                         <h3>
                             Characteristics
                         </h3>
@@ -258,11 +268,11 @@
                         <h2>
                             <a id="PHASED">Phased Development</a>
                         </h2>
-                        <center>
+                        <div class="c4">
                             <a href='#null' onclick="openImgPopup('images/phased.gif', 660, 584, 'Phased Development Process')"><img src='images/phased_small.gif' width="250" height="221" border="1" alt="no alt text">
                             <br>
                             Click to enlarge</a>
-                        </center>
+                        </div>
                         <h3>
                             Characteristics
                         </h3>
@@ -298,11 +308,11 @@
                         <h2>
                             <a id="PROTOTYPE">Prototype</a>
                         </h2>
-                        <center>
+                        <div class="c4">
                             <a href='#null' onclick="openImgPopup('images/prototype.gif', 681, 411, 'Prototype Development Process')"><img src='images/prototype_small.gif' width="250" height="151" border="1" alt="no alt text">
                             <br>
                             Click to enlarge</a>
-                        </center>
+                        </div>
                         <h3>
                             Characteristics
                         </h3>
@@ -340,11 +350,11 @@
                         <h2>
                             <a id="THROWAWAY">Throwaway Prototype</a>
                         </h2>
-                        <center>
+                        <div class="c4">
                             <a href='#null' onclick="openImgPopup('images/throwaway.gif', 861, 511, 'Throwaway Prototype Development Process')"><img src='images/throwaway_small.gif' width="250" height="148" border="1" alt="no alt text">
                             <br>
                             Click to enlarge</a>
-                        </center>
+                        </div>
                         <h3>
                             Characteristics
                         </h3>
@@ -377,7 +387,7 @@
                     <h1>
                         Example: Engineer Documents & Software Life Cycle Phase
                     </h1>
-                    <div style="margin-left: 2em">
+                    <div class="c3">
                         <table class="table" border="1" cellpadding="4" cellspacing="0">
                             <tr>
                                 <th class="th" width="95">
@@ -480,9 +490,9 @@
                             Traceability
                         </h3>
                     </div>
-                    <center>
+                    <div class="c4">
                         <img src="images/traceability.gif" width="313" height="253" border="1" alt="no alt text">
-                    </center><a href="#TOP">Back to top</a> <!-- PAGE CONTENT ENDS HERE -->
+                    </div><a href="#TOP">Back to top</a> <!-- PAGE CONTENT ENDS HERE -->
                 </td>
                 <td background="images/right.gif" width="30"></td>
             </tr>
