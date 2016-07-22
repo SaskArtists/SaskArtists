@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta name="generator" content="HTML Tidy for HTML5 for Linux version 5.2.0">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -104,10 +103,8 @@
         </script> 
         <script src="js/onepage-scroll.js">
         </script> <!-- Bootstrap Core JavaScript -->
-         
         <script src="js/bootstrap.min.js">
         </script> <!-- Custom Theme JavaScript -->
-         
         <script>
         $(".main").onepage_scroll();
         // Closes the sidebar menu
@@ -115,18 +112,15 @@
         e.preventDefault();
         $("#sidebar-wrapper").toggleClass("active");
         });
-
         // Opens the sidebar menu
         $("#menu-toggle").click(function(e) {
         e.preventDefault();
         $("#sidebar-wrapper").toggleClass("active");
         });
-
         // Scrolls to the selected menu item on the page
         $(function() {
         $('a[href*=#]:not([href=#])').click(function() {
             if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
                 var target = $(this.hash);
                 target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
                 if (target.length) {
