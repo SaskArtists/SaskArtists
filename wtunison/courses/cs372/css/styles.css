@@ -102,3 +102,6 @@ h3 {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 10;
 }
+.b1 {
+    border: 1px solid black;
+}
