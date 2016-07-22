@@ -17,6 +17,11 @@
   padding: 1px;
 }
 
+li {
+  list-style: none;
+  display:inline-block;
+}
+
 .footer{
 
 	height: 70px;
