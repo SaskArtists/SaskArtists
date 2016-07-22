@@ -2,15 +2,21 @@
 include("config.php");
 //FUNCTIONS
 function generate_tabs() {
-	echo '<ul class="nav nav-tabs">
-			<li class="active"><a data-toggle="tab" href="#map">Map</a></li>';
+	$letters = range('A', 'Z');
+	array_push($letters, "#");
 
-	$alphas = range('A', 'Z');
-	foreach ($alphas as $alpha) {
-		echo '<li><a data-toggle="tab" href="#'.strtolower($alpha).'">'.$alpha.'</a></li>';
-	}
-    echo '<li><a data-toggle="tab" href="#num">#</a></li>';
-	echo '</ul>';
+	echo "<ul class=\"nav nav-tabs\">";
+		echo "<li class=\"active\"><a data-toggle=\"tab\" href=\"#map\">Map</a></li>";
+		foreach ($letters as $letter){
+			if($letter == "#"){
+				$letter = "Group";
+				$text = "<i class=\"fa fa-users\" aria-hidden=\"true\"></i>";
+			}else{
+				$text = $letter;
+			}
+			echo "<li><a data-toggle=\"tab\" href=\"#$letter\">$text</a></li>";
+		}
+	echo "</ul>";
 }
 
 function generate_carousel_indicators($num_slides) {
@@ -36,16 +42,31 @@ if ($db->connect_errno) {
 	<script type="text/javascript" src="jquery-3.1.0.min.js"></script>
 	<script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
 	<script type="text/javascript" src="gmap3.js"></script>
-	<script type="text/javascript" src="artists.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<style>
+
+	body{
+		width: 100%;
+	}
+
 		#container{
 			position:relative;
 			height:700px;
+			width:1250px;
+			display:block;
+			margin-left:auto;
+			margin-right:auto;
 		}
 		#googleMap{
 			border: 1px dashed #C0C0C0;
 			width: 75%;
 			height: 700px;
+			margin-bottom: 50px;
+			margin-left:auto;
+			margin-right:auto;
+			margin-top: 50px;
 		}
 
 		/* cluster */
@@ -130,6 +151,11 @@ if ($db->connect_errno) {
 	</style>
 
 	<script type="text/javascript">
+
+	var macDoList = <?php include('locations.php'); ?>;
+
+	var artists = <?php include('artists.php'); ?>;
+
 		$(function(){
 
 			$("#googleMap").gmap3({
@@ -227,15 +253,13 @@ if(e.which == 74 && isCtrl == true) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Saskatchewan Artists</title>
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="search.js"></script>
 </head>
 <body>
-<div class="container">
-	<font color="#800080"><h2><a href="http://saskartists.ca/">Saskatchewan Artists</a></h2> </font>
+<div id="container">
+	<font color="#800080"><h2><a href="index.php">Saskatchewan Artists</a></h2> </font>
 	<p>Artists presented here were born, raised, or live in Saskatchewan, Canada. </p>
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -253,9 +277,9 @@ if(e.which == 74 && isCtrl == true) {
                 else {
                     echo "<div class='item'>";
                 }
-                echo "<img src='".$row["work_url"]."' style='max-height: 500px; width:100%;'>";
+                echo "<img src='".$row["work_url"]."'>";
                 echo "<div class='carousel-caption'>";
-                echo "<h3><a style='color:white;' href='http://saskartists.ca/".$row["short"]."'>".$row["first"]." ".$row["last"]."</a></h3>";
+                echo "<h3><a style='color:white;' href='".$row["short"]."'>".$row["first"]." ".$row["last"]."</a></h3>";
                 echo "<p>".$row["title"]."</p>";
                 echo "</div>";
                 echo "</div>";
@@ -279,52 +303,32 @@ if(e.which == 74 && isCtrl == true) {
 
 	<div class="tab-content">
         <?php
-            //fetch the artist info
-            $res = $db->query("SELECT * FROM artists ORDER BY last");
-
-            //init the artists assoc array. We sort them into an assoc array by last name, first letter
-            $artists = array();
-            foreach(range('a', 'z') as $char) {
-                $artists[$char] = array();
-            }
-            $artists["num"] = array();
-
-            //this fills the assoc array with values from the database
-            while ($row = $res->fetch_assoc()) {
-                if ($row) {
-                    $link = '<li><a href="http://saskartists.ca/'.$row['short'].'">'.$row['first']. ' ' .$row['last']. '</a> '.$row['description'].'</li>';
-                    $last_name_letter = strtolower(substr($row['last'], 0, 1));
-                    if (is_numeric($last_name_letter)) {
-                        array_push($artists["num"], $link);
-                    } else {
-                        array_push($artists[$last_name_letter], $link);
-                    }
-                }
-            }
-
-            foreach($artists as $letter => $names) {
-                if (count($names) == 0) {
-                    array_push($artists[$letter], "<li>There are no artists here, yet.</li>");
-                }
-            }
-
-            //now me have to make the divs to put the names into and actually put them there. Not really a big deal.
-            foreach($artists as $letter => $names) {
-                echo '<div id="'.$letter.'" class="tab-pane fade"><h3>'.ucwords($letter).' Section</h3><br /><ul>';
-                foreach($names as $name) {
-                    echo $name;
-                }
-                echo '</ul></div>';
-            }
+				$letters = range('A', 'Z');
+				array_push($letters, "#");
+				echo "<div class=\"tab-content\">";
+				foreach ($letters as $letter){
+					$q = $db->query("SELECT * FROM artists where sort LIKE \"%$letter%\"");
+					if($letter == "#"){
+						$letter = "Group";
+					}
+					echo "<div id=\"$letter\" class=\"tab-pane fade\">";
+						echo "<h3>$letter Section</h3>";
+					echo "<ul>";
+					while ($row = $q->fetch_assoc()){
+								echo "<li><a href=".$row['short'].">".$row['name']."</a></li>";
+					}
+					echo  "</ul>";
+				echo  "</div>";
+				}
             $db->close();
         ?>
 		<div id="map" class="tab-pane fade in active">
             <h3>Search</h3>
             <div class="form-inline">
-                <div class="form-group">
+                <form id="search-form" class="form-group">
                     <input class="form-control" type="text" placeholder="Search..." id="search-box">
-                    <button class="btn btn-primary" id="search-button">Search</button>
-                </div>
+                    <input type="submit" class="btn btn-primary" id="search-button" value="Search">
+                </form>
             </div>
             <p id="search-result-count"></p>
             <ul id="search-results">
@@ -335,12 +339,13 @@ if(e.which == 74 && isCtrl == true) {
 				<div id="artists"></div>
   		</div>
 	</div>
-</div>
-<footer class="container text-center">
+    <footer class="text-center">
 	<hr>
-	<p> <a href="http://www.metric-hosting.ca/">Sponsor</a> <br>
+	<p>Visit us on <a href='https://github.com/SaskArtists/SaskArtists/'>GitHub</a></p>
+	<p> <a href="http://www.metric-hosting.ca/">Sponsor</a> <br></p>
 	Revised: 2015
 </footer>
-</p>
+</div>
+
 </body>
 </html>
