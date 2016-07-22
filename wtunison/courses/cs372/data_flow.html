@@ -1,134 +1,172 @@
-<html>
-<head>
-<title>CS 372 >> Data Flow Diagrams</title>
-<meta http-equiv="Content-Type" content="text/html;">
-<link rel="stylesheet" type="text/css" href="css/styles.css" title="style1">
-<link rel="stylesheet" type="text/css" href="css/print.css" media="print">
-<script language="javascript" src="javascript/script.js"></script>
-</head>
-<body bgcolor="#DDE3DD">
-<a name="top"></a>
-<table border=0 cellpadding=0 cellspacing=0 align="center">
-  <tr>
-    <td colspan=4 valign="top"><div id="printhide"><img src="images/top.gif" width=620 height=50></div></td>
-  </tr>
-  <tr>
-    <td background="images/left.gif" width=30></td>
-    <td bgcolor="#FFFFFF" valign="top" width=560 class="main">
-          
-<!-- PAGE CONTENT BEGINS HERE -->    
-
-<p><a href="index.html">Home</a> >> <b>Data Flow Diagrams</b></p>
-
-<h1>Contents</h1>
-<ul>
-    <li><a href="#PURPOSE">Purpose</a>
-    <li><a href="#SYMBOLS">Symbols</a>
-    <li><a href="#ADVANT">Advantages</a>
-    <li><a href="#DISADV">Disadvantages</a>
-    <li><a href="#RULES">Rules</a>
-    <li><a href="#EXAMPLE">Example</a>
-    <ul>
-        <li><a href="#DIAG1"><i>Diagram 1</i></a>
-        <li><a href="#DIAG2"><i>Diagram 2</i></a>
-    </ul>
-</ul>
-<hr>
-
-<a name="PURPOSE"></a>
-<h1>Purpose:</h1>
-<ul>
-    To capture the processes of a system in a top/down manner.
-</ul>
-<a href="#TOP">Back to top</a>
-<hr>
-
-<a name="SYMBOLS"><h1>Symbols</h1></a>
-<ul>
-    <table class='table' border="1" cellpadding="5" cellspacing="0">
-      <tr>
-        <th class='th' width=110>Symbol
-        <th class='th' width=110>Description
-      </tr>
-      <tr align="center">
-        <td class='td' height=85><img src="images/dataflow_process.gif" width="90" height="70" border=1></td>
-        <td class='td'><b>Process</b></td>   
-      </tr>
-      <tr align="center">
-        <td class='td' height=85><img src="images/external.gif" width="80" height="80" border=1></td>
-        <td class='td'><b>External</b></td>
-      </tr>
-      <tr align="center">
-        <td class='td' height=85><img src="images/datafile.gif" width="110" height="40" border=1></td>
-        <td class='td'><b>Data File</b></td>
-      </tr>
-      <tr align="center">
-        <td class='td' height=85><img src="images/flow.gif" width="110" height="40" border=1></td>
-        <td class='td'><b>Flow of Data</b></td>
-      </tr>
-    </table>
-</ul>
-<a href="#TOP">Back to top</a>
-<hr>
-
-<a name="ADVANT"><h1>Advantages</h1></a>
-<ol>
-    <li>Various levels of detail aid in communication with different interest groups.
-    <li>The top/down approach often secures management endorsement.
-</ol>
-<a href="#TOP">Back to top</a>
-<hr>
-
-<a name="DISADV"><h1>Disadvantages</h1></a>
-<ol>
-    <li>Capabilities are lost between diagrams
-    <li>Systemic myth and rhetoric are easily captured and stored
-</ol>
-<a href="#TOP">Back to top</a>
-<hr>
-
-<a name="RULES"><h1>Rules</h1></a>
-<ol>
-    <li>Processes <u>must</u> have input <u>and</u> output.
-    <li>All symbols must have unique labels.
-    <li>Data must flow in only one direction.
-    <li>No recursion.
-    <li>Processes and External Entities must be numbered.
-    <li>There <u>must</u> be a process between:
-    <ul>
-        <li>files
-        <li>external entities
-        <li>file and external entities
-    </ul>
-    <li>Data flows must remain the same to all destinations
-    <li>Joined data flows must be equal.
-</ol>
-<a href="#TOP">Back to top</a>
-<hr>
-
-<a name="EXAMPLE"><h1>Example:</h1></a>
-Consider the case register system of a fast food restaraunt:
-<p>
-<a name="DIAG1"><h3>Diagram 1: The Context Diagram</h3></a>
-<table class='table' width=555><tr align="center"><td>
-  <img src="images/diag1.gif" width="521" height="311">
-</td></tr></table>
-<p>
-<a name="DIAG2"><h3>Diagram 2</h3></a>
-<table class='table' width=555><tr align="center"><td>
-  <img src="images/diag2.gif" width="538" height="702">
-</td></tr></table>
-</p>
-<a href="#TOP">Back to top</a>
-
-<!-- PAGE CONTENT ENDS HERE -->
-      
-    </td>
-    <td background="images/right.gif" width=30></td>  
-  </tr>
-  <tr>
-    <td colspan=4 valign="top"><div id="printhide"><img src="images/bottom.gif" width=620 hieght=50></div></td>
-  </tr>
-</table>
-</body>
-</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="generator" content=
+  "HTML Tidy for HTML5 for Linux version 5.2.0">
+  <title>CS 372 &gt;&gt; Data Flow Diagrams</title>
+  <meta http-equiv="Content-Type" content="text/html;">
+  <link rel="stylesheet" type="text/css" href="css/styles.css"
+  title="style1">
+  <link rel="stylesheet" type="text/css" href="css/print.css"
+  media="print">
+  <script language="javascript" src="javascript/script.js">
+  </script>
+</head>
+<body bgcolor="#DDE3DD">
+  <a name="top" id="top"></a>
+  <table border="0" cellpadding="0" cellspacing="0" align="center">
+    <tr>
+      <td colspan="4" valign="top">
+        <div id="printhide"><img src="images/top.gif" width="620"
+        height="50"></div>
+      </td>
+    </tr>
+    <tr>
+      <td background="images/left.gif" width="30"></td>
+      <td bgcolor="#FFFFFF" valign="top" width="560" class="main">
+        <!-- PAGE CONTENT BEGINS HERE -->
+        <p><a href="index.html">Home</a> &gt;&gt; <b>Data Flow
+        Diagrams</b></p>
+        <h1>Contents</h1>
+        <ul>
+          <li>
+            <a href="#PURPOSE">Purpose</a>
+          </li>
+          <li>
+            <a href="#SYMBOLS">Symbols</a>
+          </li>
+          <li>
+            <a href="#ADVANT">Advantages</a>
+          </li>
+          <li>
+            <a href="#DISADV">Disadvantages</a>
+          </li>
+          <li>
+            <a href="#RULES">Rules</a>
+          </li>
+          <li>
+            <a href="#EXAMPLE">Example</a>
+            <ul>
+              <li>
+                <a href="#DIAG1"><i>Diagram 1</i></a>
+              </li>
+              <li>
+                <a href="#DIAG2"><i>Diagram 2</i></a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <hr>
+        <a name="PURPOSE" id="PURPOSE"></a>
+        <h1>Purpose:</h1>
+        <div style="margin-left: 2em">
+          To capture the processes of a system in a top/down
+          manner.
+        </div><a href="#TOP">Back to top</a>
+        <hr>
+        <a name="SYMBOLS" id="SYMBOLS">
+        <h1>Symbols</h1></a>
+        <div style="margin-left: 2em">
+          <table class='table' border="1" cellpadding="5"
+          cellspacing="0">
+            <tr>
+              <th class='th' width="110">Symbol</th>
+              <th class='th' width="110">Description</th>
+            </tr>
+            <tr align="center">
+              <td class='td' height="85"><img src=
+              "images/dataflow_process.gif" width="90" height="70"
+              border="1"></td>
+              <td class='td'><b>Process</b></td>
+            </tr>
+            <tr align="center">
+              <td class='td' height="85"><img src=
+              "images/external.gif" width="80" height="80" border=
+              "1"></td>
+              <td class='td'><b>External</b></td>
+            </tr>
+            <tr align="center">
+              <td class='td' height="85"><img src=
+              "images/datafile.gif" width="110" height="40" border=
+              "1"></td>
+              <td class='td'><b>Data File</b></td>
+            </tr>
+            <tr align="center">
+              <td class='td' height="85"><img src="images/flow.gif"
+              width="110" height="40" border="1"></td>
+              <td class='td'><b>Flow of Data</b></td>
+            </tr>
+          </table>
+        </div><a href="#TOP">Back to top</a>
+        <hr>
+        <a name="ADVANT" id="ADVANT">
+        <h1>Advantages</h1></a>
+        <ol>
+          <li>Various levels of detail aid in communication with
+          different interest groups.</li>
+          <li>The top/down approach often secures management
+          endorsement.</li>
+        </ol><a href="#TOP">Back to top</a>
+        <hr>
+        <a name="DISADV" id="DISADV">
+        <h1>Disadvantages</h1></a>
+        <ol>
+          <li>Capabilities are lost between diagrams</li>
+          <li>Systemic myth and rhetoric are easily captured and
+          stored</li>
+        </ol><a href="#TOP">Back to top</a>
+        <hr>
+        <a name="RULES" id="RULES">
+        <h1>Rules</h1></a>
+        <ol>
+          <li>Processes <u>must</u> have input <u>and</u>
+          output.</li>
+          <li>All symbols must have unique labels.</li>
+          <li>Data must flow in only one direction.</li>
+          <li>No recursion.</li>
+          <li>Processes and External Entities must be
+          numbered.</li>
+          <li>There <u>must</u> be a process between:
+            <ul>
+              <li>files</li>
+              <li>external entities</li>
+              <li>file and external entities</li>
+            </ul>
+          </li>
+          <li>Data flows must remain the same to all
+          destinations</li>
+          <li>Joined data flows must be equal.</li>
+        </ol><a href="#TOP">Back to top</a>
+        <hr>
+        <a name="EXAMPLE" id="EXAMPLE">
+        <h1>Example:</h1></a> Consider the case register system of
+        a fast food restaraunt:
+        <p><a name="DIAG1" id="DIAG1">
+        <h3>Diagram 1: The Context Diagram</h3></a></p>
+        <table class='table' width="555">
+          <tr align="center">
+            <td><img src="images/diag1.gif" width="521" height=
+            "311"></td>
+          </tr>
+        </table>
+        <p><a name="DIAG2" id="DIAG2">
+        <h3>Diagram 2</h3></a></p>
+        <table class='table' width="555">
+          <tr align="center">
+            <td><img src="images/diag2.gif" width="538" height=
+            "702"></td>
+          </tr>
+        </table><a href="#TOP">Back to top</a> 
+        <!-- PAGE CONTENT ENDS HERE -->
+      </td>
+      <td background="images/right.gif" width="30"></td>
+    </tr>
+    <tr>
+      <td colspan="4" valign="top">
+        <div id="printhide"><img src="images/bottom.gif" width=
+        "620" hieght="50"></div>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
