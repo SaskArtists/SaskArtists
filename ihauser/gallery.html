@@ -1,36 +1,46 @@
-<DOCTYPE html>
 <html>
-	<head>
-		<script src="photoCycle.js"></script>
-		<link href="galleryStyle.css" rel="stylesheet" type="text/css" />
-		<script>
-		photoList=["wired.jpg","battleCry.jpg","evolveOfImage.jpg","Cafe.jpg","ageOfAnxiety.jpg"]
-		photoDescriptions=["Wired","Battle Cry","The Evolution of the Imagination: The Saw Set","Cafe","The Age Of Anxiety"]
-		</script>
-		<title>Iris Hauser</title>
-	</head>
-	<body>
-		<h1>Iris Hauser</h1>
-		<h3> (b. 1956)</h3>
-		<table class="CyclerTable">
-			<tr style="height:502px;">
-				<td>
-					<button onClick="lastPhoto(0)" style="float:right;"> Previous</button>
-				</td>
-				<td style="width:500px;">
-					<img src="wired.jpg" class="CycleImage"></img>
-				</td>
-				<td>
-					<button onClick="nextPhoto(0)">Next</button>
-				</td>
-			</tr>
-			<tr>
-				<td colspan="3">
-					<p class="CycleText"> Wired </p>
-				</td>
-			</tr>
-		</table>
-		<a href="index.html">Main Page</a>
-		<h6> &copy Copyright 2015. All images are the property of the artist. Gallery coded 2015 by Bennett Eidsness.</h6>
-	</body>
+    <head>
+
+        <script src="photoCycle.js">
+        </script>
+        <link href="galleryStyle.css" rel="stylesheet" type="text/css">
+        <script>
+        photoList=["wired.jpg","battleCry.jpg","evolveOfImage.jpg","Cafe.jpg","ageOfAnxiety.jpg"]
+        photoDescriptions=["Wired","Battle Cry","The Evolution of the Imagination: The Saw Set","Cafe","The Age Of Anxiety"]
+        </script>
+        <title>
+            Iris Hauser
+        </title>
+    </head>
+    <body>
+        <h1>
+            Iris Hauser
+        </h1>
+        <h3>
+            (b. 1956)
+        </h3>
+        <table class="CyclerTable">
+            <tr style="height:502px;">
+                <td>
+                    <button onclick="lastPhoto(0)" style="float:right;">Previous</button>
+                </td>
+                <td style="width:500px;">
+                    <img src="wired.jpg" class="CycleImage">
+                </td>
+                <td>
+                    <button onclick="nextPhoto(0)">Next</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <p class="CycleText">
+                        Wired
+                    </p>
+                </td>
+            </tr>
+        </table><a href="index.html">Main Page</a>
+        <h6>
+            &copy; Copyright 2015. All images are the property of the artist. Gallery coded 2015 by Bennett Eidsness.
+        </h6>
+    </body>
 </html>

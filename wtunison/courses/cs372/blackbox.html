@@ -1,100 +1,119 @@
-<!DOCTYPE html>
 <html>
-<head>
-  <meta name="generator" content=
-  "HTML Tidy for HTML5 for Linux version 5.2.0">
-  <title>CS 372 &gt;&gt; Black Box Testing</title>
-  <meta http-equiv="Content-Type" content="text/html;">
-  <link rel="stylesheet" type="text/css" href="css/styles.css"
-  title="style1">
-  <link rel="stylesheet" type="text/css" href="css/print.css"
-  media="print">
-  <script language="javascript" src="javascript/script.js">
-  </script>
-</head>
-<body bgcolor="#DDE3DD">
-  <a name="top" id="top"></a>
-  <table border="0" cellpadding="0" cellspacing="0" align="center">
-    <tr>
-      <td colspan="4" valign="top">
-        <div id="printhide"><img src="images/top.gif" width="620"
-        height="50"></div>
-      </td>
-    </tr>
-    <tr>
-      <td background="images/left.gif" width="30"></td>
-      <td bgcolor="#FFFFFF" valign="top" width="560" class="main">
-        <!-- PAGE CONTENT BEGINS HERE -->
-        <p><a href="index.html">Home</a> &gt;&gt; <b>Black Box
-        Testing</b></p>
-        <h2>Black Box Paradigm</h2>
-        <div style="margin-left: 2em">
-          <p>A Black Box is a function such that f(I) = 0 is
-          defined. The actual definition of f() is not necessarily
-          known.</p>
-          <p><img src="images/blackbox.gif" width="270" height=
-          "61"></p>
-        </div><a href="#top">Back to top</a>
-        <hr>
-        <h2>Sampling Method</h2>
-        <ol>
-          <li>Determine the extremes of the inputs.
-            <p>eg)</p>
-            <table class="main" border="0" cellpadding="5"
-            cellspacing="0" width="450">
-              <tr>
-                <td><b>Input</b></td>
-                <td>Temp</td>
-                <td>-45� C</td>
-                <td>+45� C</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Time of Day</td>
-                <td>00:00</td>
-                <td>24:00</td>
-              </tr>
-            </table>
-            <table class="table" cellpadding="10" cellspacing="0"
-            border="1" width="300">
-              <tr>
-                <td align="center"><img src="images/sampling.gif"
-                width="271" height="166"></td>
-              </tr>
-            </table>
-            <p>Consider a function of traffic light duration
-            defined for business hours such that the hotter the
-            weather the shorter the duration.</p>
-            <table class="table" cellpadding="10" cellspacing="0"
-            border="1" width="300">
-              <tr>
-                <td align="center"><img src="images/traffic1.gif"
-                width="210" height="135"></td>
-              </tr>
-            </table>
-            <p>If business hours are from 08:00 to 17:00 then most
-            of our samples in the total operating space take place
-            when the temperature parameter is not relevant.
-            Therefore, we would consider a more focused sample.</p>
-            <table class="table" cellpadding="10" cellspacing="0"
-            border="1" width="300">
-              <tr>
-                <td align="center"><img src="images/traffic2.gif"
-                width="210" height="135"></td>
-              </tr>
-            </table>
-          </li>
-        </ol><a href="#top">Back to top</a> 
-        <!-- PAGE CONTENT ENDS HERE -->
-      </td>
-      <td background="images/right.gif" width="30"></td>
-    </tr>
-    <tr>
-      <td colspan="4" valign="top">
-        <div id="printhide"><img src="images/bottom.gif" width=
-        "620" hieght="50"></div>
-      </td>
-    </tr>
-  </table>
-</body>
+    <head>
+        <meta name="generator" content="HTML Tidy for HTML5 for Linux version 5.2.0">
+        <title>
+            CS 372 &gt;&gt; Black Box Testing
+        </title>
+        <meta http-equiv="Content-Type" content="text/html;">
+        <link rel="stylesheet" type="text/css" href="css/styles.css" title="style1">
+        <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+        <script language="javascript" src="javascript/script.js">
+        </script>
+    </head>
+    <body bgcolor="#DDE3DD">
+        <a id="top"></a>
+        <table border="0" cellpadding="0" cellspacing="0" align="center">
+            <tr>
+                <td colspan="4" valign="top">
+                    <div id="printhide">
+                        <img src="images/top.gif" width="620" height="50">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td background="images/left.gif" width="30"></td>
+                <td bgcolor="#FFFFFF" valign="top" width="560" class="main">
+                    <!-- PAGE CONTENT BEGINS HERE -->
+                    <p>
+                        <a href="index.html">Home</a> &gt;&gt; <b>Black Box Testing</b>
+                    </p>
+                    <h2>
+                        Black Box Paradigm
+                    </h2>
+                    <div style="margin-left: 2em">
+                        <p>
+                            A Black Box is a function such that f(I) = 0 is defined. The actual definition of f() is not necessarily known.
+                        </p>
+                        <p>
+                            <img src="images/blackbox.gif" width="270" height="61">
+                        </p>
+                    </div><a href="#top">Back to top</a>
+                    <hr>
+                    <h2>
+                        Sampling Method
+                    </h2>
+                    <ol>
+                        <li>Determine the extremes of the inputs.
+                            <p>
+                                eg)
+                            </p>
+                            <table class="main" border="0" cellpadding="5" cellspacing="0" width="450">
+                                <tr>
+                                    <td>
+                                        <b>Input</b>
+                                    </td>
+                                    <td>
+                                        Temp
+                                    </td>
+                                    <td>
+                                        -45� C
+                                    </td>
+                                    <td>
+                                        +45� C
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        Time of Day
+                                    </td>
+                                    <td>
+                                        00:00
+                                    </td>
+                                    <td>
+                                        24:00
+                                    </td>
+                                </tr>
+                            </table>
+                            <table class="table" cellpadding="10" cellspacing="0" border="1" width="300">
+                                <tr>
+                                    <td align="center">
+                                        <img src="images/sampling.gif" width="271" height="166">
+                                    </td>
+                                </tr>
+                            </table>
+                            <p>
+                                Consider a function of traffic light duration defined for business hours such that the hotter the weather the shorter the duration.
+                            </p>
+                            <table class="table" cellpadding="10" cellspacing="0" border="1" width="300">
+                                <tr>
+                                    <td align="center">
+                                        <img src="images/traffic1.gif" width="210" height="135">
+                                    </td>
+                                </tr>
+                            </table>
+                            <p>
+                                If business hours are from 08:00 to 17:00 then most of our samples in the total operating space take place when the temperature parameter is not relevant. Therefore, we would consider a more focused sample.
+                            </p>
+                            <table class="table" cellpadding="10" cellspacing="0" border="1" width="300">
+                                <tr>
+                                    <td align="center">
+                                        <img src="images/traffic2.gif" width="210" height="135">
+                                    </td>
+                                </tr>
+                            </table>
+                        </li>
+                    </ol><a href="#top">Back to top</a> <!-- PAGE CONTENT ENDS HERE -->
+                </td>
+                <td background="images/right.gif" width="30"></td>
+            </tr>
+            <tr>
+                <td colspan="4" valign="top">
+                    <div id="printhide">
+                        <img src="images/bottom.gif" width="620" hieght="50">
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </body>
 </html>
