@@ -343,7 +343,7 @@ if(e.which == 74 && isCtrl == true) {
 	<hr>
 	<p>Visit us on <a href='https://github.com/SaskArtists/SaskArtists/'>GitHub</a></p>
 	<p> <a href="http://www.metric-hosting.ca/">Sponsor</a> <br></p>
-	<p><a href="disclaimer.html">Disclaimer:</p>
+	<p><a href="disclaimer.html">Disclaimer</p>
 	<p>Revised: 2016</p>
 </footer>
 </div>
