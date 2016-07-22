@@ -315,7 +315,7 @@ if(e.which == 74 && isCtrl == true) {
 						echo "<h3>$letter Section</h3>";
 					echo "<ul>";
 					while ($row = $q->fetch_assoc()){
-								echo "<li><a href=".$row['short'].">".$row['name']."</a></li>";
+								echo "<li><a href=".$row['short'].">".$row['name']."</a> ".$row['description']."</li>";
 					}
 					echo  "</ul>";
 				echo  "</div>";
