@@ -1,7 +1,6 @@
 .nav{
   padding-top: 1%;
   padding-bottom: 1%;
-  background-color: 06FFFF;
   margin: 10px;
 }
 
@@ -10,9 +9,29 @@
   padding: 1px;
   margin:0;
   text-align: center;
+  background-color: #06FFFF;
 }
 
 .nav-link {
   display: inline;
   padding: 1px;
+}
+
+li {
+  list-style: none;
+  display:inline-block;
+}
+
+.footer{
+
+	height: 70px;
+
+	background: #06FFFF;
+
+	padding: 10px 0px 20px 30px;
+
+	width: 900px;
+
+	margin-left: auto;
+  margin-right:  auto;
 }
