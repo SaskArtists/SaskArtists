@@ -22,7 +22,16 @@ text-align: center;
 
 #gallery  {
 background-color: #886432;
-height: 600px;
+height: 1050px;
+width: 700px;
+margin-left: 115px;
+padding-top: 10px;
+text-align: center;
+}
+
+#r5gallery  {
+background-color: #886432;
+height: 1280px;
 width: 700px;
 margin-left: 115px;
 padding-top: 10px;
