@@ -1,189 +1,80 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="generator" content="HTML Tidy for HTML5 for Linux version 5.2.0">
         <script language="JavaScript">
-
         <!--
-
         <!-- Original:  Randy Bennett (rbennett@thezone.net) -->
-
         <!-- Web Site:  http://home.thezone.net/~rbennett/sitemap.html -->
-
         <!-- Modified by:  Ronnie T. Moore, Editor -->
-
-
-
         <!-- This script and many more are available free online at -->
-
         <!-- The JavaScript Source!! http://javascript.internet.com -->
-
-
-
         <!-- Begin
-
         var repeatshow = 1; // 1 = yes, 0 = no
-
         var timedelay = 8000; // time in milliseconds, 15000 = `15 secs
-
         // be sure to allow enough time for each page to load !!!
-
-
-
         var page = new Array(
-
         "web-slideshow-demo1.html",
-
         "web-slideshow-demo2.html",
-
         "web-slideshow-demo3.html",
-
         "web-slideshow-demo4.html",
-
         "web-slideshow-demo5.html",
-
         "web-slideshow-demo6.html",
-
         "web-slideshow-demo7.html",
-
         "web-slideshow-demo8.html",
-
         "web-slideshow-demo9.html",
-
         "web-slideshow-demo10.html",
-
         "web-slideshow-demo11.html",
-
         "web-slideshow-demo12.html"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         ); // note no comma after last page!
-
-
-
         // your "the end" page.  Necessary if repeatshow = 0; 
-
         var endpage = "the-end.html"; 
-
-
-
         var slidenum = 0;
-
         var slidecount = page.length;
-
         var timerID = 0;
-
         var win2;
-
         function showSlideShow() {
-
         slidenum++;
-
         if (slidenum < slidecount+1) {
-
         parent.main.location.href = page[slidenum-1];
-
         }
-
         if (slidenum == slidecount+1) { // if finished
-
         if (repeatshow) {
-
         slidenum = 0;
-
         timerID = setTimeout('showSlideShow()', timedelay)
-
         }
-
         else pa finished
-
         if (repeatshow) {
-
         slidenum =delay)
-
         }
-
         else pa finished
-
-
         if (repeatshow) {
-
-
         slidenum = 0;
-
         timerID = setTimeout('showSlideShow()', timedelay)
-
         }
-
         else parent.main.location.href = endpage;
-
         }
-
         else timerID = setTimeout('showSlideShow()', timedelay);
-
         }
-
         //  End -->
-
-
-
         function MM_swapImgRestore() { //v3.0
-
         var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-
         }
-
-
-
         function MM_preloadImages() { //v3.0
-
         var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-
         var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-
         if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-
         }
-
-
-
         function MM_findObj(n, d) { //v3.0
-
         var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-
         d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-
         if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-
         for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
-
         }
-
-
-
         function MM_swapImage() { //v3.0
-
         var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-
         if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-
         }
-
         //-->
-
         </script>
         <title></title>
         <style type="text/css">
