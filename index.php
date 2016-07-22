@@ -314,6 +314,9 @@ if(e.which == 74 && isCtrl == true) {
 					echo "<div id=\"$letter\" class=\"tab-pane fade\">";
 						echo "<h3>$letter Section</h3>";
 					echo "<ul>";
+					if($q->num_rows === 0){
+						echo 'No Artists to Display';
+					}
 					while ($row = $q->fetch_assoc()){
 								echo "<li><a href=".$row['short'].">".$row['name']."</a> ".$row['description']."</li>";
 					}
