@@ -7,7 +7,7 @@ if ($db->connect_errno) {
 
 $q = $_GET["q"];
 
-$res = $db->query("SELECT * FROM artists WHERE name LIKE '%$q%' ORDER BY last");
+$res = $db->query("SELECT * FROM artists WHERE name LIKE '%$q%'");
 
 header("Content-Type: application/json");
 
