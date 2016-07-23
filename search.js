@@ -13,8 +13,9 @@ $(function() {
             success: function(response) {
                 $("#search-result-count").text("We found: " + response.count);
                 $("#search-results").empty();
-                console.log(result);
+                
                 response.results.forEach(function(result) {
+                    console.log(result);
                     $("#search-results").append("<li><a href='http://saskartists.ca/" + result.short + "'>" + result.name + "</a></li>");
                 });
             },
