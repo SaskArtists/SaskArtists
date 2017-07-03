@@ -7,7 +7,7 @@ if ($db->connect_errno) {
 
 $q = $_GET["q"];
 
-$res = $db->query("SELECT * FROM artists WHERE name LIKE '%$q%'");
+$res = $db->query("SELECT * FROM artists WHERE name LIKE '%".$db->escape_string($q)."%'");
 
 header("Content-Type: application/json");
 
