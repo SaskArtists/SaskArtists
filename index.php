@@ -236,16 +236,6 @@ if ($db->connect_errno) {
 			});
 
 		});
-		var isCtrl = false;
-
-$(document).keyup(function (e) {
-if(e.which == 17) isCtrl=false;
-}).keydown(function (e) {
-if(e.which == 17) isCtrl=true;
-if(e.which == 74 && isCtrl == true) {
-	$('#newInfo').show('slow');
-	return false;
-}
 });
 	</script>
 
@@ -337,7 +327,6 @@ if(e.which == 74 && isCtrl == true) {
             <ul id="search-results">
             </ul>
     		<h3>Map of Artist Locations</h3>
-				<div id='newInfo' style='display:none'><input type='button' id='scanMeta' value='Scan Metadata'/></div>
 				<div id="googleMap"></div>
 				<div id="artists"></div>
   		</div>
