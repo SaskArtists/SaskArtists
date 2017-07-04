@@ -27,4 +27,4 @@ height:auto !important; /* real browsers */
 	background-image: url('notused.png');
 	background-repeat: repeat-y;
 padding: 0px 0px 0px 46px;
-}.text{  text-align: center;  font-size: 14;}.new{  margin: 0 auto;  display: block;  color: black;}.photo{padding-left: 40%;}.photo2{  padding-left: 25%;}.photo3{  padding-left: 30%;}.navbox{color: black;text-align: left;font-size: 15px;list-style: none;}.navbox a:visited{  color: black;  text-align: left;  font-size: 15px;  list-style: none;}
+}.text{  text-align: center;  font-size: 14;}.new{  margin: 0 auto;  display: block;  color: black;}.photo{padding-left: 40%;}.photo2{  padding-left: 25%;}.photo3{  padding-left: 30%;	width: 300px;	height: 400px;}.navbox{color: black;text-align: left;font-size: 15px;list-style: none;}.navbox a:visited{  color: black;  text-align: left;  font-size: 15px;  list-style: none;}
