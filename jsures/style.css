@@ -1,16 +1,16 @@
 body {
 	margin 0px;
 	background-image:url('background.jpg');
-	
-	
+
+
 }
 
 #wrapper {
 	background-color: white;											/*backgroundcolor*/
-	width: 1000px;										/*sets div to 800px*/														
+	width: 1000px;										/*sets div to 800px*/
 	height: 100%;										/*fills the height*/
 	margin: auto;										/*centers the div*/
-	
+
 }
 #header {
 	background-color: white;
@@ -22,10 +22,10 @@ body {
 	width: 1000px;
 	text-align: center;
 	padding-top: 30px;
-	
+
 }
 
-p {
+p, footer {
 	color: white;
 	text-align: center;
 	font: outline 16px Verdana;
@@ -37,15 +37,15 @@ h1 {
 	color: white;										/*sets text color*/
 	text-align: center;									/*aligns text to center*/
 	font: normal 64px Arial;
-	
+
 }
 
 a {
 	text-decoration: underline;
-	color: white; 
+	color: white;
 	font: bold 20 comic sans ms;
 	font-size: 24px;
-	padding: 20px;	
+	padding: 20px;
 }
 
 #navigation {
