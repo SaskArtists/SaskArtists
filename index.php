@@ -61,8 +61,8 @@ if ($db->connect_errno) {
 		}
 		#googleMap{
 			border: 1px dashed #C0C0C0;
-			width: 700px;
-			height: 100%;
+			width: 100%;
+			height: 700px;
 			margin-bottom: 50px;
 			margin-left:auto;
 			margin-right:auto;
