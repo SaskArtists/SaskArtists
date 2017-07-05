@@ -2,13 +2,12 @@ body {
 	background-color: black;
 }
 
-#header {
+header {
 	text-align: center;
 	color: white;
-
 }
 
-#nav {
+nav {
 	text-align: center;
 }
 
@@ -24,19 +23,17 @@ body {
 	width: 800px;
 	height: 800px;
 	color: white;
-	
 }
-
-#footer {
+footer {
 	text-align: center;
 	color: white;
 }
-
+.border {	border: 1px;}
 .big {
 font-size: 44px;
- float: left; 
+ float: left;
 color: orange;
  line-height: 35px;
- padding-top: 3px; 
+ padding-top: 3px;
  padding-right: 3px;
 }
