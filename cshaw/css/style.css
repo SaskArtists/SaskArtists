@@ -8,10 +8,9 @@ body {
   text-align: center;
   font-size: 40px;
   font-family: 'Slabo 27px', serif;
-  position: absolute;
   top: 0;
-  margin-left: 20%;
-  margin-right: 10%;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 10%;
 }
 
@@ -40,7 +39,6 @@ body {
   background-color: #BFBFBF;
   font-size: 30px;
   font-family: 'Slabo 27px', serif;
-  margin-top: 300px;
   margin-left: 50px;
   margin-right: 50px;
   border-radius: 10%;

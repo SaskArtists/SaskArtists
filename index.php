@@ -61,7 +61,7 @@ if ($db->connect_errno) {
 		}
 		#googleMap{
 			border: 1px dashed #C0C0C0;
-			width: 75%;
+			width: 100%;
 			height: 700px;
 			margin-bottom: 50px;
 			margin-left:auto;
@@ -236,7 +236,6 @@ if ($db->connect_errno) {
 			});
 
 		});
-});
 	</script>
 
 	<meta charset="utf-8">
