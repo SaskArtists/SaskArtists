@@ -6,13 +6,14 @@
 }
 
 .navbar {
-  list-style: none;
+  list-style-type: none;
   padding: 1px;
   margin:0;
   text-align: center;
 }
 
 .nav-link {
-  display: inline;
+  list-style-type:none;
+  display: block inline;
   padding: 1px;
 }

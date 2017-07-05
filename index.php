@@ -249,7 +249,6 @@ if ($db->connect_errno) {
 			});
 
 		});
-});
 	</script>
 
 	<meta charset="utf-8">
@@ -351,7 +350,7 @@ if ($db->connect_errno) {
 	<p>Visit us on <a href='https://github.com/SaskArtists/SaskArtists/'>GitHub</a></p>
 	<p> <a href="http://www.metric-hosting.ca/">Sponsor</a> <br></p>
 	<p><a href="disclaimer.html">Disclaimer</p>
-	<p>Revised: 2016</p>
+	<p>Revised: <?php echo shell_exec("git log -1 --format=%cd"); ?> - <?php echo shell_exec("git log --pretty=format:'%h' -n 1"); ?></p>
 </footer>
 </div>
 
