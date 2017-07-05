@@ -1,0 +1,42 @@
+body {
+	background-color: black;
+}
+
+#header {
+	text-align: center;
+	color: white;
+
+}
+
+#nav {
+	text-align: center;
+}
+
+#content {
+	text-align: center;
+	width: 800px;
+	height: 800px;
+	color: white;
+	margin: 0 auto;
+}
+#pics {
+	text-align: center;
+	width: 800px;
+	height: 800px;
+	color: white;
+	
+}
+
+#footer {
+	text-align: center;
+	color: white;
+}
+
+.big {
+font-size: 44px;
+ float: left; 
+color: orange;
+ line-height: 35px;
+ padding-top: 3px; 
+ padding-right: 3px;
+}
