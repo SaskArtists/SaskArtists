@@ -236,7 +236,6 @@ if ($db->connect_errno) {
 			});
 
 		});
-});
 	</script>
 
 	<meta charset="utf-8">
