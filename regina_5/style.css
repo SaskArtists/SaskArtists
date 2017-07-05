@@ -1,79 +1,79 @@
-body {
-	font-family: Helvetica, Arial, sans-serif;
-	width: 960px;
-	background: #FFFC00;
-}
-
-footer {
-	margin: 10px;
-	padding: 10px 20px 20px;
-	border-radius: .6em;
-	-webkit-border-radius: .6em;
-	-moz-border-radius: .6em;
-	background: #5A0DAC;
-	color: #99ff00;
-}
-
-article {
-	margin: 10px;
-	padding: 20px 20px 20px;
-	border-radius: .6em;
-	-webkit-border-radius: .6em;
-	-moz-border-radius: .6em;
-	background: #1144AA;
-}
-
-section {
-	margin: 10px;
-	padding: 10px 20px 20px;
-	border-radius: .6em;
-	-webkit-border-radius: .6em;
-	-moz-border-radius: .6em;
-	background: #FF4500;
-}
-header {
-	width: 960px;
-	text-align: center;
-}
-
-article {
-	float: right;
-	width: 658px;
-	text-align: center;
-}
-
-section {
-	float: left;
-	width: 170px;
-}
-
-footer {
-	display: block;
-	clear:both !important;
-	width: 960px;
-	text-align: center;
-}
-
-article p {
-	color: #ffffff;
-}
-
-menu ul, menu li {
-	list-style-type: none;
-	padding: 0px;
-	margin: 0px;
-}
-
-a:link, a:visited {
-	text-decoration: none;
-	color: #000000;
-}
-
-a:hover {
-	color: #A2F300;
-}
-
-img {
-	border: 0px;
-	}
-	
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	width: 960px;
+	background: #FFFC00;
+}
+
+footer {
+	margin: 10px;
+	padding: 10px 20px 20px;
+	border-radius: .6em;
+	-webkit-border-radius: .6em;
+	-moz-border-radius: .6em;
+	background: #5A0DAC;
+	color: #99ff00;
+}
+
+article {
+	margin: 10px;
+	padding: 20px 20px 20px;
+	border-radius: .6em;
+	-webkit-border-radius: .6em;
+	-moz-border-radius: .6em;
+	background: #1144AA;
+}
+
+section {
+	margin: 10px;
+	padding: 10px 20px 20px;
+	border-radius: .6em;
+	-webkit-border-radius: .6em;
+	-moz-border-radius: .6em;
+	background: #FF4500;
+}
+header {
+	width: 960px;
+	text-align: center;
+}
+
+article {
+	float: right;
+	width: 658px;
+	text-align: center;
+}
+
+section {
+	float: left;
+	width: 170px;
+}
+
+footer {
+	display: block;
+	clear:both !important;
+	width: 960px;
+	text-align: center;
+}
+
+article p {
+	color: #ffffff;
+}
+
+menu ul, menu li {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	color: #A2F300;
+}
+
+img {
+	border: 0px;
+	}
+	

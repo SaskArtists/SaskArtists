@@ -1,31 +1,31 @@
-on pages set container width, add auto margin
-
-html, body {
-  background-image: url('finalbackground.jpg');
-	background-attachment:fixed;
-	background-position:center top;
-	background-repeat:no-repeat;
-  background-color: #000000;
-  font-family:arial,sans-serif;
-	font-size:small;
-	color:#000000;
-	height: 100%;
-	padding: 0px; 
-	margin: 0px; 
-  }
-
-
-div.container {
-	width: 945px;
-height:auto !important; /* real browsers */
-	height:100%; /* IE6: treaded as min-height*/
-
-	min-height:100%; /* real browsers */
-	margin-left: auto;
-	margin-right: auto;
-	text-align: left;
-	background-image: url('notused.png');
-	background-repeat: repeat-y;
-padding: 0px 0px 0px 46px;
-}
-
+on pages set container width, add auto margin
+
+html, body {
+  background-image: url('finalbackground.jpg');
+	background-attachment:fixed;
+	background-position:center top;
+	background-repeat:no-repeat;
+  background-color: #000000;
+  font-family:arial,sans-serif;
+	font-size:small;
+	color:#000000;
+	height: 100%;
+	padding: 0px; 
+	margin: 0px; 
+  }
+
+
+div.container {
+	width: 945px;
+height:auto !important; /* real browsers */
+	height:100%; /* IE6: treaded as min-height*/
+
+	min-height:100%; /* real browsers */
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	background-image: url('notused.png');
+	background-repeat: repeat-y;
+padding: 0px 0px 0px 46px;
+}
+

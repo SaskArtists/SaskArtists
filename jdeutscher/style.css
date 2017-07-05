@@ -1,54 +1,54 @@
-#wrapper
-{
- height: 630px;
- width: 730px;
- margin: 20px auto 0px auto;
-}
-
-#text
-{
- background-color: #E6B0BD;
- height: 400px;
- width: 600px;
- clear: left;
- float: right;
- overflow: auto;
- margin-top: 25px;
-}
-
-#nav
-{
- background-color: #E6C7B0;
- height: 300px;
- width: 100px;
- clear: right;
- float: left;
- overflow: auto;
- margin-top: 25px;
- position: absolute;
-}
-
-#header
-{
- overflow: auto;
-}
-
-#footer
-{
- margin-top: 30px;
- overflow: auto;
- font-size: 10;
- float: right;
-}
-
-#art
-{
- background-color: #E6C7B0;
- padding-left: 50px;
- padding-top: 20px;
- padding-bottom: 20px;
- padding-right: 50px;
- margin-bottom: 20px;
+#wrapper
+{
+ height: 630px;
+ width: 730px;
+ margin: 20px auto 0px auto;
+}
+
+#text
+{
+ background-color: #E6B0BD;
+ height: 400px;
+ width: 600px;
+ clear: left;
+ float: right;
+ overflow: auto;
+ margin-top: 25px;
+}
+
+#nav
+{
+ background-color: #E6C7B0;
+ height: 300px;
+ width: 100px;
+ clear: right;
+ float: left;
+ overflow: auto;
+ margin-top: 25px;
+ position: absolute;
+}
+
+#header
+{
+ overflow: auto;
+}
+
+#footer
+{
+ margin-top: 30px;
+ overflow: auto;
+ font-size: 10;
+ float: right;
+}
+
+#art
+{
+ background-color: #E6C7B0;
+ padding-left: 50px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ padding-right: 50px;
+ margin-bottom: 20px;
 }
 
 .b1 {
