@@ -267,3 +267,9 @@ footer {
   bottom: 5px;
   right: 5px;
 }
+
+.image{
+  display: block;
+  margin: auto;
+  width: 40%;
+}
