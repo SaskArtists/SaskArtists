@@ -1,7 +1,7 @@
 body {
 
 	}
-
+.all {	margin: auto;	display: block;	width: 870px;}
 #header {
 	background-color: #24913c;
 	border-top-right-radius: 5px;
