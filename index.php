@@ -61,7 +61,7 @@ if ($db->connect_errno) {
 		}
 		#googleMap{
 			border: 1px dashed #C0C0C0;
-			width: 75%;
+			width: 100%;
 			height: 700px;
 			margin-bottom: 50px;
 			margin-left:auto;
@@ -148,6 +148,19 @@ if ($db->connect_errno) {
 			border-style: solid;
 		}
 
+		#myCarouselBox{
+			background-color:#F0F0F0
+			width:100%;
+			padding-top:100%;
+			position:relative;
+		}
+		#myCarousel{
+			position:absolute;
+			top:0px;
+			left:0px;
+			right:0px;
+			bottom:0px;
+		}
 	</style>
 
 	<script type="text/javascript">
@@ -236,7 +249,6 @@ if ($db->connect_errno) {
 			});
 
 		});
-});
 	</script>
 
 	<meta charset="utf-8">
@@ -252,41 +264,43 @@ if ($db->connect_errno) {
 	<font color="#800080"><h2><a href="index.php">Saskatchewan Artists</a></h2> </font>
 	<p>Artists presented here were born, raised, or live in Saskatchewan, Canada. </p>
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <?php
-            $res = $db->query("SELECT * FROM `new_artists` INNER JOIN `artists` on new_artists.artist = artists.id");
+		<div id="myCarouselBox">
+	    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+	        <?php
+	            $res = $db->query("SELECT * FROM `new_artists` INNER JOIN `artists` on new_artists.artist = artists.id");
 
-            generate_carousel_indicators($res->num_rows);
+	            generate_carousel_indicators($res->num_rows);
 
-            echo "<div class='carousel-inner'  role='listbox'>";
-            $first = true;
-            while ($row = $res->fetch_assoc()) {
-                if ($first) {
-                    echo "<div class='item active'>";
-                }
-                else {
-                    echo "<div class='item'>";
-                }
-                echo "<img src='".$row["work_url"]."'>";
-                echo "<div class='carousel-caption'>";
-                echo "<h3><a style='color:white;' href='".$row["short"]."'>".$row["name"]."</a></h3>";
-                echo "<p>".$row["title"]."</p>";
-                echo "</div>";
-                echo "</div>";
-                $first = false;
-            }
-            echo "</div>";
-            /* var_dump($new_artists); */
-        ?>
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
+	            echo "<div class='carousel-inner'  role='listbox'>";
+	            $first = true;
+	            while ($row = $res->fetch_assoc()) {
+	                if ($first) {
+	                    echo "<div class='item active'>";
+	                }
+	                else {
+	                    echo "<div class='item'>";
+	                }
+	                echo "<img src='".$row["work_url"]."'>";
+	                echo "<div class='carousel-caption'>";
+	                echo "<h3><a style='color:white;' href='".$row["short"]."'>".$row["name"]."</a></h3>";
+	                echo "<p>".$row["title"]."</p>";
+	                echo "</div>";
+	                echo "</div>";
+	                $first = false;
+	            }
+	            echo "</div>";
+	            /* var_dump($new_artists); */
+	        ?>
+	        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+	            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	            <span class="sr-only">Previous</span>
+	        </a>
+	        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+	            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	            <span class="sr-only">Next</span>
+	        </a>
+	    </div>
+		</div>
 
     <!-- TAB SECTION -->
     <?php generate_tabs(); ?>
@@ -336,7 +350,7 @@ if ($db->connect_errno) {
 	<p>Visit us on <a href='https://github.com/SaskArtists/SaskArtists/'>GitHub</a></p>
 	<p> <a href="http://www.metric-hosting.ca/">Sponsor</a> <br></p>
 	<p><a href="disclaimer.html">Disclaimer</p>
-	<p>Revised: 2016</p>
+	<p>Revised: <?php echo shell_exec("git log -1 --format=%cd"); ?> - <?php echo shell_exec("git log --pretty=format:'%h' -n 1"); ?></p>
 </footer>
 </div>
 
