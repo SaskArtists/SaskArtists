@@ -20,6 +20,12 @@ body {
 	background: #65A5D1
 }
 
+ul li {
+	display: inline-block;
+	list-style-type: none;
+
+}
+
 #article {
 	background: #3E94D1;
 	text-align: center;
@@ -58,5 +64,5 @@ a:hover {
 }
 .spacing{
 padding-right: 5px;
-
+display: inline-block;
 }
