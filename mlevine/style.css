@@ -1,11 +1,11 @@
 
-body{ 
+body{
 background-image:url('leather_back.jpg');
 background-repeat:no-repeat;
 background-attachment:fixed;
 background-position:left;
 background-size:1500px 800px;
-} 
+}
 
 #header{
 background-color: 55311C;
@@ -25,7 +25,7 @@ margin-top: 0px;
 margin-bottom: 0px;
 text-align: center;
 
-} 
+}
 
 h2 {
 font-size: 20px;
@@ -35,7 +35,7 @@ margin-top: 0px;
 margin-bottom: 3px;
 font-size: 24px;
 
-} 
+}
 
 #navigation{
 	text-align: center;
@@ -56,6 +56,7 @@ p{
 background-color: 55311C;
 text-align:center;
 padding: 20px;
+color: white;
 }
 
 #footer{
