@@ -1,0 +1,9 @@
+machine:
+  java:
+    version: oraclejdk8
+dependencies:
+  pre:
+    - sudo pip install html5validator
+test:
+  override:
+    - html5validator --root . --ignore "Use CSS instead." "Element \"map\" is missing required attribute \"name\"." "The hash-name reference in attribute \"usemap\" referred to \"backforth\", but there is no \"map\" element with a \"name\" attribute with that value."
