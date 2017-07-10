@@ -17,8 +17,9 @@ for root, dirs, files in os.walk(scandir):
             ret = 1
             print "Space in filename: ",os.path.join(root,file)
         for i in invalid_names:
-            ret = 1
             if len(file.replace(i,"")) < 8 and "." in file:
                 print "Undescriptive name:",os.path.join(root,file)
+                ret = 1
+                break
 
 sys.exit(ret)
