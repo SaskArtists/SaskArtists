@@ -349,8 +349,8 @@ if ($db->connect_errno) {
 	<hr>
 	<p>Visit us on <a href='https://github.com/SaskArtists/SaskArtists/'>GitHub</a></p>
 	<p> <a href="http://www.metric-hosting.ca/">Sponsor</a> <br></p>
-	<p><a href="disclaimer.html">Disclaimer</p>
-	<p>Revised: <?php echo shell_exec("git log -1 --format=%cd"); ?> - <?php echo shell_exec("git log --pretty=format:'%h' -n 1"); ?></p>
+	<p><a href="disclaimer.html">Disclaimer</a></p>
+	<p><a href="https://github.com/SaskArtists/SaskArtists/commit/<?php echo shell_exec("git log --pretty=format:'%H' -n 1"); ?>">Revised: <?php echo shell_exec("git log -1 --format=%cd"); ?> - <?php echo shell_exec("git log --pretty=format:'%h' -n 1"); ?></a></p>
 </footer>
 </div>
 
