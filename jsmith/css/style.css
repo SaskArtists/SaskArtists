@@ -138,8 +138,9 @@ p {
 }
 
 .bottom {
-  color: #5E5E5E;
+  color: #FFFFFF;
   text-align: center;
+  padding: 10px;
 }
 
 .portrait {
