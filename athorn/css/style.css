@@ -1,0 +1,114 @@
+html, body{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #FFEBD5 !important;
+
+}
+
+.container{
+  text-align: center;
+  font-family: 'Reem Kufi', sans-serif;
+  color: #04102A !important;
+  padding-top: 25px;
+}
+
+.imageleft{
+  width: 400px;
+  margin-top: 100;
+  border: 15px solid #04102A;
+  margin-right: 50px;
+
+}
+
+.imageright{
+  width: 400px;
+  margin-top: 100;
+  border: 15px solid #04102A;
+  margin-left: 50px;
+
+}
+
+.imageright2{
+  width: 400px;
+  margin-top: 100;
+  border: 15px solid #04102A;
+  margin-left: 50px;
+
+}
+
+.image{
+  width: 400px;
+  margin-top: 100;
+  border: 15px solid #04102A;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: white !important;
+  text-decoration: none !important;
+  font-size: 25px;
+}
+
+a:hover{
+  text-decoration: none;
+  color: grey !important;
+}
+
+.nav{
+  margin: 0;
+  padding: 0;
+  background-color: #7D7D7D;
+}
+
+.nav-link{
+  display: inline-block;
+  padding: 25px;
+  font-family: 'Reem Kufi', sans-serif;
+}
+
+.info{
+  padding-bottom: 55px;
+  background-color: #04102A;
+}
+
+.titleinfo{
+  color: #FFEBD5;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 50px;
+  font-family: 'Lemonada', cursive;
+}
+
+.bio{
+  color: #FFEBD5;
+  text-align: center;
+  font-family: 'Reem Kufi', sans-serif;
+
+}
+
+.galTitle{
+  color: #04102A;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+  font-family: 'Lemonada', cursive;
+}
+
+.heading{
+  color: #04102A;
+  font-family: 'Lemonada', cursive;
+  padding-top: 50px;
+}
+
+.footer{
+  background-color: #7D7D7D;
+  text-align: center;
+  color: #04102A;
+  font-size: 10px;
+
+}
