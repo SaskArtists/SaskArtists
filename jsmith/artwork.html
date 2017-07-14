@@ -3,6 +3,7 @@
 
 <head>
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/slideshow.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
   <title> Artwork </title>
 </head>
@@ -17,7 +18,49 @@
   </div>
 
   <div class="iframe-container">
-    <iframe src="https://docs.google.com/presentation/d/1s19STZd_oo30oqsBFke_GGOBmtMC4DfRK0mp-st69oI/embed?start=false&loop=false&delayms=10000" frameborder="0" width="960" height="569"></iframe>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 5</div>
+        <img src="images/castle.jpg" style="width:100%">
+        <div class="text">Castle</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 5</div>
+        <img src="images/cowpainting.jpg" style="width:100%">
+        <div class="text">Mad Cow</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 5</div>
+        <img src="images/eagleking.jpg" style="width:100%">
+        <div class="text">Eagle King</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 5</div>
+        <img src="images/eyes.png" style="width:100%">
+        <div class="text">Reptilian Eyes</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 5</div>
+        <img src="images/garden.jpg" style="width:100%">
+        <div class="text">Garden</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
     <h1>Artwork</h1>
 
   </div>
@@ -26,6 +69,7 @@
     <p> Copyright © John Shhit Smith </p>
     <p> Edited by Austin Kearns 2017</p>
   </footer>
+  <script type="text/javascript" src="scripts/slideshow.js"></script>
 </body>
 
 </html>
