@@ -1,11 +1,11 @@
-html, body{
+html, body {
   width: 100%;
   margin: 0;
   padding: 0;
   background-color: #2F343B;
 }
 
-.container{
+.container {
   text-align: center;
   font-size: 35px;
   color: #FFFFFF;
@@ -14,37 +14,36 @@ html, body{
   margin-top: -20px;
 }
 
-.picture{
+.picture {
   margin-top: 50px;
   width: 300px;
-  border:25px solid #5E5E5E;
+  border: 25px solid #5E5E5E;
 }
 
-.nav{
-background-color: #5E5E5E;
-margin: 0;
-padding: 0;
-
+.nav {
+  background-color: #5E5E5E;
+  margin: 0;
+  padding: 0;
 }
 
-.nav-link{
-display: inline-block;
-padding: 25px;
-font-family: 'Bungee Inline', cursive;
-height: 50px;
-vertical-align: middle;
-margin-left: 14px;
+.nav-link {
+  display: inline-block;
+  padding: 25px;
+  font-family: 'Bungee Inline', cursive;
+  height: 50px;
+  vertical-align: middle;
+  margin-left: 14px;
 }
 
-a{
-color: #2F343B;
-text-decoration: none;
-font-size: 25px;
--webkit-transition: all 0.5s;
-display: inline-block;
+a {
+  color: #2F343B;
+  text-decoration: none;
+  font-size: 25px;
+  -webkit-transition: all 0.5s;
+  display: inline-block;
 }
 
-.nav-icon{
+.nav-icon {
   font-family: none;
   padding: 25px;
   display: inline-block;
@@ -53,7 +52,7 @@ display: inline-block;
   margin-top: 12px;
 }
 
-a:hover{
+a:hover {
   -webkit-transition: all 0.5s;
   text-decoration: none;
   color: #FFFFFF;
@@ -62,26 +61,24 @@ a:hover{
   border-radius: 50px;
 }
 
-img:hover{
-
+img:hover {
   text-decoration: none;
   color: #FFFFFF;
   background-color: #2F343B;
   padding: 5px;
-
 }
 
-.wallpaper{
+.wallpaper {
   width: 500px;
   border-radius: 25px;
-  border:25px solid #2F343B;
+  border: 25px solid #2F343B;
   text-align: center;
   display: block;
   margin: 0 auto;
   margin-top: 50px;
 }
 
-ul{
+ul {
   margin: 0;
   padding: 0;
 }
@@ -90,14 +87,14 @@ ul{
   float: right;
 }
 
-.nav-icon{
-display: inline-block;
-padding: 25px;
-height: 50px;
-vertical-align: middle;
+.nav-icon {
+  display: inline-block;
+  padding: 25px;
+  height: 50px;
+  vertical-align: middle;
 }
 
-.lower{
+.lower {
   text-align: center;
   font-size: 25px;
   color: #2F343B;
@@ -108,11 +105,11 @@ vertical-align: middle;
 }
 
 p {
-    display: block;
-    -webkit-margin-before: 0em;
-    -webkit-margin-after: 0em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
+  display: block;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
 }
 
 @keyframes downAnim {
@@ -136,22 +133,22 @@ p {
   animation: downAnim 2s infinite;
 }
 
-.underline{
+.underline {
   text-decoration: underline;
 }
 
-.bottom{
+.bottom {
   color: #5E5E5E;
   text-align: center;
 }
 
-.portrait{
+.portrait {
   font-size: 25px;
   padding-top: 20px;
   text-decoration: underline;
 }
 
-.iframe-container{
+.iframe-container {
   text-align: center;
   margin: 0 auto;
   padding-top: 50px;
