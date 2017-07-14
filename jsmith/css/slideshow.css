@@ -1,12 +1,12 @@
 * {
-  box-sizing: border-box
+  box-sizing: border-box padding-top: 400px;
 }
 
 
 /* Slideshow container */
 
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 500px;
   position: relative;
   margin: auto;
 }
@@ -115,4 +115,8 @@
   to {
     opacity: 1
   }
+}
+
+.imgrotation {
+  transform: rotate(90deg);
 }
