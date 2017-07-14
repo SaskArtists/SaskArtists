@@ -43,32 +43,31 @@ html, body{
   border: 15px solid #04102A;
 }
 
-ul{
-  margin: 0;
+.nav ul{
+  margin: 0 !important;
   padding: 0;
-}
-
-a{
-  color: white !important;
-  text-decoration: none !important;
-  font-size: 25px;
-}
-
-a:hover{
-  text-decoration: none;
-  color: grey !important;
 }
 
 .nav{
   margin: 0;
   padding: 0;
   background-color: #7D7D7D;
+  color: white !important;
+  text-decoration: none !important;
+  font-size: 25px;
 }
 
 .nav-link{
   display: inline-block;
   padding: 25px;
   font-family: 'Reem Kufi', sans-serif;
+  color: white !important;
+
+}
+
+.nav-link a {
+  font-family: 'Reem Kufi', sans-serif;
+  color: white !important;
 }
 
 .info{
