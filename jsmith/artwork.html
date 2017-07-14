@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/slideshow.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+  <title> Artwork </title>
+</head>
+
+<body>
+  <div class="nav">
+    <ul>
+      <li class="nav-link"><a href="index.html">Home</a></li>
+      <li class="nav-link"><a href="artwork.html">Artwork</a></li>
+      <li class="nav-link"><a href="http://saskartists.ca/">Sask Artists</a></li>
+    </ul>
+  </div>
+
+  <div class="iframe-container">
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 5</div>
+        <img src="images/castle.jpg" style="width:100%" alt="painting of castle" />
+        <div class="text">Castle</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 5</div>
+        <img src="images/cowpainting.jpg" style="width:100%" alt="painting of cow" class="imgrotation" />
+        <div class="text">Mad Cow</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 5</div>
+        <img src="images/eagleking.jpg" style="width:100%" alt="painting of eagle" />
+        <div class="text">Eagle King</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 5</div>
+        <img src="images/eyes.png" style="width:100%" alt="painting of reptile eyes" />
+        <div class="text">Reptilian Eyes</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 5</div>
+        <img src="images/garden.jpg" style="width:100%" alt="painting of garden" />
+        <div class="text">Garden</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+    <h1>Artwork</h1>
+
+  </div>
+
+  <footer class="bottom">
+    <p> Copyright © John Shhit Smith </p>
+    <p> Edited by Austin Kearns 2017</p>
+  </footer>
+  <script type="text/javascript" src="scripts/slideshow.js"></script>
+</body>
+
+</html>
