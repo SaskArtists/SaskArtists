@@ -4,7 +4,6 @@
         <title>
             Alex Crease
         </title>
-        <meta name="city" content="Regina">
     </head>
     <body>
         <?php include("title.html"); ?>

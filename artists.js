@@ -6,7 +6,7 @@
 	
 */
 
-var macDoList = [
+var macDoList = [
   //{lat:49.633567,lng:-105.991792,data:{name:"Assiniboia"}},
 
   {lat:50.946830,lng:-104.211685,data:{name:"Cupar"}},
