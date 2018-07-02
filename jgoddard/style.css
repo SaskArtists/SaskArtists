@@ -1,73 +1,73 @@
-body {
-	font-family: Helvetica, arial, sans-serif;
-	width: 960px;
-	background: #903797;
-	background-image: url("images/bg.gif");
-	margin: 20px auto 0px auto;
-	color: #c1a045;
-}
-
-#header {
-	margin: 30px 0px 30px 10px;
-	width: 900px;
-	float: left;
-}
-
-#article {
-	margin: 20px 0px 30px 10px;
-	width: 930px;
-	float: left;
-	text-align: justify;
-}
-
-#footer{
-	height: 70px;
-	background: #160e03;
-	margin: 20px 0px 30px 10px;
-	padding: 10px 0px 20px 30px;
-	width: 870px;
-	float: left;
-}
-
-#nav {
-	float: right;
-	text-align: right;
-}
-
-a:link, a:visited {
-	text-decoration: none;
-	color: #6e8453;
-}
-
-#returnimg {
-	background-repeat: no-repeat;
-	background-image: url("images/return.png");
-	background-position: left bottom;
-	height: 15px;
-	padding-left: 13px;
-	float: left;
-}
-
-#returnimg:hover {
-	background-repeat: no-repeat;
-	background-image: url("images/returnhover.png");
-	background-position: left bottom;
-	height: 15px;
-	padding-left: 13px;
-	float: left;
-}
-
-a:hover {
-	color: #ac4209;
-}
-
-h1 {
-	margin: 0px 0px 20px 20px;
-	float: left;
-	font-size: 42px;
-}
-
-img {
-	margin: 0px;
-	padding: 0px;
+body {
+	font-family: Helvetica, arial, sans-serif;
+	width: 960px;
+	background: #903797;
+	background-image: url("images/bg.gif");
+	margin: 20px auto 0px auto;
+	color: #c1a045;
+}
+
+#header {
+	margin: 30px 0px 30px 10px;
+	width: 900px;
+	float: left;
+}
+
+#article {
+	margin: 20px 0px 30px 10px;
+	width: 930px;
+	float: left;
+	text-align: justify;
+}
+
+#footer{
+	height: 70px;
+	background: #160e03;
+	margin: 20px 0px 30px 10px;
+	padding: 10px 0px 20px 30px;
+	width: 870px;
+	float: left;
+}
+
+#nav {
+	float: right;
+	text-align: right;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #6e8453;
+}
+
+#returnimg {
+	background-repeat: no-repeat;
+	background-image: url("images/return.png");
+	background-position: left bottom;
+	height: 15px;
+	padding-left: 13px;
+	float: left;
+}
+
+#returnimg:hover {
+	background-repeat: no-repeat;
+	background-image: url("images/returnhover.png");
+	background-position: left bottom;
+	height: 15px;
+	padding-left: 13px;
+	float: left;
+}
+
+a:hover {
+	color: #ac4209;
+}
+
+h1 {
+	margin: 0px 0px 20px 20px;
+	float: left;
+	font-size: 42px;
+}
+
+img {
+	margin: 0px;
+	padding: 0px;
 }
