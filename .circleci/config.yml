@@ -5,7 +5,7 @@ jobs:
       - image: circleci/php:latest-node-browsers
     working_directory: ~/repo
     steps:
-      - checkout
+      - test
       - run: sudo apt update
       - restore_cache:
           key: v1-dependencies-
