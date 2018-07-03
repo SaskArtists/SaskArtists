@@ -57,7 +57,7 @@ workflows:
       - build
       - html-test:
           requires:
-            - pre
+            - build
       - python-test:
           requires:
-            - pre
+            - build
