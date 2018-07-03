@@ -29,7 +29,7 @@ jobs:
       - run: sh ./build/checks/run-checks.sh
   python-test:
     docker:
-      - image: circlerci/python:3.7-rc-node-browsers
+      - image: circleci/python:3.7-rc-node-browsers
     steps:
       - restore_cache:
           key: v1-repo-{{ .Environment.CIRCLE_SHA1}}
