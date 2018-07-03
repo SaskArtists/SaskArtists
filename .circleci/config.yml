@@ -21,6 +21,7 @@ jobs:
         key: v1-repo-{{ .Environment.CIRCLE_SHA1}}
         paths:
           - ~/build-output
+
   html-test:
     docker:
       - image: circleci/php:latest-node-browsers
@@ -48,7 +49,6 @@ jobs:
     steps:
 
       - run: python ./build/checks/filenames.py .
-  python-test:
 
 workflows:
   version: 2
