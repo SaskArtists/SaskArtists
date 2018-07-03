@@ -46,7 +46,7 @@ jobs:
       - restore_cache:
           key: v1-repo-{{ .Environment.CIRCLE_SHA1}}
           paths:
-            - ~/build-output
+              - ~/build-output
       - run: python ./build/checks/filenames.py .
 
 workflows:
