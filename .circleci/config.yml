@@ -17,6 +17,10 @@ workflows:
   version: 2
   jobs:
     build:
+      filters:
+        branches:
+          only:
+            circletest
       - pre
       - test:
         requires:
