@@ -1,23 +1,63 @@
 version: 2
 jobs:
-  pre:
+  build:
     docker:
-      - image: circleci/java:oraclejdk8
-    steps:
-      - run: sudo pip install html5validator
-  test:
-    docker:
-      - image: circleci/java:oraclejdk8
+      - image: circleci/php:latest-node-browsers
+
+    working_directory: ~/repo
+
     steps:
       - checkout
+
+      - run: sudo apt update
+
+      -restore_cache:
+        keys:
+          - v1-dependencies-
+
+      -run: cp ~/repo ~/build-output -r
+
+      save_cache:
+        key: v1-repo-{{ .Environment.CIRCLE_SHA1}}
+        paths:
+          - ~/build-output
+  html-test:
+    docker:
+      - image: circleci/php:latest-node-browsers
+    steps:
+      - restore_cache:
+        key: v1-repo-{{ .Environment.CIRCLE_SHA1}}
+        paths:
+          - ~/build-output
+      - run: sudo pip install html5validator
       - run: html5validator --root . --ignore "Use CSS instead." "Element \"map\" is missing required attribute \"name\"." "The hash-name reference in attribute \"usemap\" referred to \"backforth\", but there is no \"map\" element with a \"name\" attribute with that value."
+
+  sh-test:
+    docker:
+      - image: circleci/php:latest-node-browsers
+    steps:
       - run: sh ./build/checks/run-checks.sh
+
+  python-test:
+    docker:
+      - restore_cache:
+        key: v1-repo-{{ .Environment.CIRCLE_SHA1}}
+        paths:
+          - ~/build-output
+      - image: circlerci/python:3.7-rc-node-browsers
+    steps:
+
       - run: python ./build/checks/filenames.py .
+  python-test:
+
 workflows:
   version: 2
-  build:
+  build-and-test:
     jobs:
-      - pre
-      - test:
+      - build
+      - html-test:
+          requires:
+            - pre
+      - python-test:
           requires:
             - pre
