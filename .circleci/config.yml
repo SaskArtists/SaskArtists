@@ -41,13 +41,12 @@ jobs:
 
   python-test:
     docker:
+      - image: circlerci/python:3.7-rc-node-browsers
+    steps:
       - restore_cache:
         key: v1-repo-{{ .Environment.CIRCLE_SHA1}}
         paths:
           - ~/build-output
-      - image: circlerci/python:3.7-rc-node-browsers
-    steps:
-
       - run: python ./build/checks/filenames.py .
 
 workflows:
