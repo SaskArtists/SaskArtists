@@ -1,0 +1,23 @@
+version: 2
+jobs:
+  pre:
+    docker:
+      - image: circleci/java:oraclejdk8
+    steps:
+      - run: sudo pip install html5validator
+  test:
+    docker:
+      - image: circleci/java:oraclejdk8
+    steps:
+      - checkout
+      - run: html5validator --root . --ignore "Use CSS instead." "Element \"map\" is missing required attribute \"name\"." "The hash-name reference in attribute \"usemap\" referred to \"backforth\", but there is no \"map\" element with a \"name\" attribute with that value."
+      - run: sh ./build/checks/run-checks.sh
+      - run: python ./build/checks/filenames.py .
+workflows:
+  version: 2
+  jobs:
+    build:
+      - pre
+      - test:
+        requires:
+          - pre
