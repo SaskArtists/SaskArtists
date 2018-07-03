@@ -12,7 +12,7 @@ jobs:
       - run: sudo apt update
 
       - restore_cache:
-          keys: - v1-dependencies-
+          key: - v1-dependencies-
 
       - run: cp ~/repo ~/build-output -r
 
