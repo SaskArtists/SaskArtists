@@ -5,15 +5,15 @@ jobs:
       - image: circleci/php:latest-node-browsers
     working_directory: ~/repo
     steps:
-      - test
+      - checkout
       - run: sudo apt update
       - restore_cache:
           key: v1-dependencies-
       - run: cp ~/repo ~/build-output -r
       - save_cache:
-        key: v1-repo-{{ .Environment.CIRCLE_SHA1}}
         paths:
           - ~/build-output
+        key: v1-repo-{{ .Environment.CIRCLE_SHA1}}
   html-test:
     docker:
       - image: circleci/php:latest-node-browsers
