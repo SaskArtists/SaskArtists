@@ -11,9 +11,9 @@ jobs:
           key: v1-dependencies-
       - run: cp ~/repo ~/build-output -r
       - save_cache:
-        paths:
-          - ~/build-output
-        key: v1-repo-{{ .Environment.CIRCLE_SHA1}}
+          key: v1-repo-{{ .Environment.CIRCLE_SHA1 }}
+          paths:
+            - ~/build-output
   html-test:
     docker:
       - image: circleci/php:latest-node-browsers
