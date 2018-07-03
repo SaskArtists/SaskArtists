@@ -21,7 +21,3 @@ workflows:
       - test:
         requires:
           - pre
-    filters:
-      branches:
-        only:
-          circletest
