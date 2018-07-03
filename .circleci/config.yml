@@ -15,8 +15,8 @@ jobs:
       - run: python ./build/checks/filenames.py .
 workflows:
   version: 2
-  jobs:
-    build:
+  build:
+    jobs:
       - pre
       - test:
         requires:
