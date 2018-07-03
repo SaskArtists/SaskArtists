@@ -11,13 +11,13 @@ jobs:
 
       - run: sudo apt update
 
-      -restore_cache:
+      - restore_cache:
         keys:
           - v1-dependencies-
 
-      -run: cp ~/repo ~/build-output -r
+      - run: cp ~/repo ~/build-output -r
 
-      save_cache:
+      - save_cache:
         key: v1-repo-{{ .Environment.CIRCLE_SHA1}}
         paths:
           - ~/build-output
