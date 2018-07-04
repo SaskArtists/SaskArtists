@@ -27,6 +27,8 @@ jobs:
     machine: true
     working_directory: ~/build-output
     steps:
+      - restore_cache:
+          key: v1-repo-{{ .Environment.CIRCLE_SHA1}}
       - run: sh ./build/checks/run-checks.sh
   python-test:
     docker:
