@@ -48,3 +48,6 @@ workflows:
       - python-test:
           requires:
             - build
+      - sh-test:
+        requires:
+          - build
