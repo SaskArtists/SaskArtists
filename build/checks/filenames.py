@@ -18,7 +18,7 @@ for root, dirs, files in os.walk(scandir):
         if " " in file:
             ret += 1
             print("Space in filename: ",os.path.join(root,file))
-        if file.lower != file:
+        if file.lower() != file:
             ret += 1
             print("Capital letter in filename: ", os.path.join(root,file))
         for i in invalid_characters:
