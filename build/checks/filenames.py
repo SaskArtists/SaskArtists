@@ -37,4 +37,4 @@ for root, dirs, files in os.walk(scandir):
 
 print("Error count: " + str(ret))
 
-sys.exit(ret)
+sys.exit(ret > 0)
