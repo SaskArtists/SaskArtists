@@ -16,7 +16,7 @@ jobs:
             - ~/build-output
   html-test:
     docker:
-      - image: circleci/php:latest-node-browsers
+      - image: circleci/python:3.7-rc-node-browsers
     working_directory: ~/build-output
     steps:
       - restore_cache:
