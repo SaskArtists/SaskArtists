@@ -15,6 +15,9 @@ ret = 0
 for root, dirs, files in os.walk(scandir):
     path = root.split(os.sep)
     for file in files:
+        #Reginabellringers.ca exception
+        if "reginabellringers.ca" in file:
+            break;
         if " " in file:
             ret += 1
             print("Space in filename: ",os.path.join(root,file))
