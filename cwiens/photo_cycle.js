@@ -1,6 +1,6 @@
 var photoNumber = 0;
 var numOfPhotos;
-var photoList=["OutdoorChapel.jpg","CBCBroadcastCenter.jpg","TeePee.jpg","UofRHeatPlant.jpg","StJRCChurch.jpg","CASandS.JPG"];
+var photoList=["outdoor_chapel.jpg","cbc_broadcast_center.jpg","teepee.jpg","u_of_r_heat_plant.jpg","st_jrc_church.jpg","cas_and_s.JPG"];
 var photoDescriptions=["A chapel in Silton, Saskatchewan. Designed by Clifford Wiens in 1969.","The CBC Broadcast Center in Regina. Designed in 1983.", "One of many spiral teepee's designed by Clifford Wiens. The teepees are found in various Saskatchewan parks.","The University of Regina Heating and Cooling Plant. Designed in 1967.","St. Joseph's Roman Catholic Church. Designed by Clifford Wiens in 1959","The Cathedral Art School and Studio, found in Regina, on Albert Street."]
 
 function updatePhoto(cycleNum){
