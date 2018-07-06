@@ -2,7 +2,7 @@ body {
 	font-family: Helvetica, arial, sans-serif;
 	width: 960px;
 	background: #ffffff;
-	background-image: url("images/bg.png");
+	background-image: url("images/background.png");
 	background-repeat: repeat-x;
 	margin: 20px auto 0px auto;
 	color: #481d43;
