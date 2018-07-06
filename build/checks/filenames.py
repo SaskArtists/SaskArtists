@@ -16,7 +16,7 @@ for root, dirs, files in os.walk(scandir):
     path = root.split(os.sep)
     for file in files:
         #Reginabellringers.ca exception
-        if "reginabellringers.ca" in os.path.join(root,file) or ".git" in os.path.join(root, file):
+        if "reginabellringers.ca" in os.path.join(root,file) or ".git" in os.path.join(root, file) or os.path.join(root, file) == "./README.md":
             break;
         if " " in file:
             ret += 1
