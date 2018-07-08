@@ -40,6 +40,4 @@ for root, dirs, files in os.walk(scandir):
                 ret += 1
                 break
 
-print("Error count: " + str(ret))
-
-sys.exit(ret > 0)
+sys.exit(ret)

@@ -38,6 +38,8 @@ jobs:
           key: v1-repo-{{ .Environment.CIRCLE_SHA1 }}
       - run: python ./build/checks/filenames.py
       - run: python ./build/checks/existence.py
+      - run: python ./build/checks/similarity.py
+      - run: python ./build/checks/spelling.py
 
 workflows:
   version: 2

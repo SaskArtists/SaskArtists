@@ -44,6 +44,4 @@ for root, dirs, files in os.walk(scandir):
                 check(root, f.read(), rSCRIPT)
                 check(root, f.read(), rA)
 
-print("Missing Files:", ret)
-
 sys.exit(ret)
