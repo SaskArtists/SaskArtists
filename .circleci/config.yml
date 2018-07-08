@@ -36,10 +36,18 @@ jobs:
     steps:
       - restore_cache:
           key: v1-repo-{{ .Environment.CIRCLE_SHA1 }}
-      - run: python ./build/checks/filenames.py
-      - run: python ./build/checks/existence.py
-      - run: python ./build/checks/similarity.py
-      - run: python ./build/checks/spelling.py
+      - run:
+          command: python ./build/checks/filenames.py
+          when: always
+      - run:
+          command: python ./build/checks/existence.py
+          when: always
+      - run:
+          command: python ./build/checks/similarity.py
+          when: always
+      - run:
+          command: python ./build/checks/spelling.py
+          when: always
 
 workflows:
   version: 2
