@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - run: sudo apt update
-      - run: python ./build/scripts/genArtists.py
+      - run: python ./build/scripts/gen_artists.py
       - run: cp ~/repo ~/build-output -r
       - save_cache:
           key: v1-repo-{{ .Environment.CIRCLE_SHA1 }}
