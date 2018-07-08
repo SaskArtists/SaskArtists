@@ -36,7 +36,8 @@ jobs:
     steps:
       - restore_cache:
           key: v1-repo-{{ .Environment.CIRCLE_SHA1 }}
-      - run: python ./build/checks/filenames.py .
+      - run: python ./build/checks/filenames.py
+      - run: python ./build/checks/existence.py
 
 workflows:
   version: 2
