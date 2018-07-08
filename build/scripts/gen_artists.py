@@ -54,6 +54,7 @@ output = []
 
 for artist in artists:
     with open(os.path.join(ROOT, artist, "artist.json")) as info:
+        print(artist)
         data = DEFAULT_ARTIST.copy()
         data.update(json.load(info))
         output.append(data)
