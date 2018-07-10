@@ -30,6 +30,7 @@ Brezinsky
 Bromley
 Café
 café
+Calgarians
 centre
 Centre
 centres
@@ -45,6 +46,7 @@ colourfully
 colours
 Connor
 conte
+Costain
 Cowin
 Crouse
 Cupar
@@ -77,6 +79,7 @@ Frimkess
 FrogWorld
 Fudgsicle
 Fyfe
+garde
 gardists
 Garneau
 Garneau's
@@ -91,11 +94,13 @@ GodFrog
 Godwin
 Gogh
 Gothenburg
+grande
 Greenberg
 Guillaume
 Gump
 Hackewich
 Harron
+Hartenberger 
 Haverstock
 Hauser
 heimlich
@@ -111,6 +116,7 @@ Hustak
 hyperdeborialforestation
 Hyperdborealforestation
 HYPERDEBOREALFORESTATION
+impresaria
 Ing
 Inglis
 Intermedia
@@ -127,6 +133,7 @@ Kenderdine
 Khalil
 Klieger
 Klingsor
+knu
 Kommt
 Kratzman
 Kreutzer
@@ -169,17 +176,21 @@ MSI
 Mulcaster
 Mykola
 Mysteria
+Narcisse
 Nichol
+Nicky
 Novak
 Nugent
 O'Brian
 Oleskiw
 Onita
 Oohing
+oooooohhhhh
 Ooops
 Oser
 Ozenfant
 Peeples
+Pere
 Perehudoff
 Perreault
 Petrychyn
@@ -238,6 +249,7 @@ Ubu
 UBU
 Ubu's
 ubu
+uck
 Velder
 Vickers
 Von
@@ -252,6 +264,8 @@ Woodruff
 workshopped
 Wynona
 Xu
+Yah
+yah
 Yanran
 Yobb
 Yolande
