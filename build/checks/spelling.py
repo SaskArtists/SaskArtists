@@ -4,10 +4,10 @@ import sys
 
 ROOT = "./www/artists"
 
-ret = 1
+ret = 0
 
-with open("./build/spelling_allowed.txt") as fobj:
-    allowed = fobj.read().split("\n")
+#with open("./build/spelling_allowed.txt") as fobj:
+#    allowed = fobj.read().split("\n")
 
 most = {}
 
