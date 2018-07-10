@@ -3,6 +3,7 @@ ambience
 Amédée
 Anant
 Arendt
+Arneson
 Ary
 Arnott
 Arnott's
@@ -64,16 +65,19 @@ Farrero
 Folmer
 Fortier
 Frimkess
+FrogWorld
+Fudgsicle
 Fyfe
 gardists
 Garneau
 Gatineau
 Gelech
 Gerri
-Gladwell
-Gladwell's
 gif
 Gilhooly
+Gladwell
+Gladwell's
+GodFrog
 Godwin
 Guillaume
 Gump
@@ -88,6 +92,7 @@ hoch
 Hou
 Hubble
 Humbolt
+humour
 Hustak
 hyperdeborialforestation
 Hyperdborealforestation
@@ -100,6 +105,7 @@ Jazzsuite
 Jarry
 Jarry's
 Junek
+Kady
 Kalra
 Kenderdine
 Khalil
@@ -223,4 +229,5 @@ Yorkton
 Yuristy
 Zain
 Zastrow
+Zeldin
 Zhong
