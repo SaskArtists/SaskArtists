@@ -90,6 +90,7 @@ Haverstock
 Hauser
 heimlich
 Hejira
+Herbarium
 Himmel
 hoch
 Hou
@@ -128,6 +129,7 @@ Lindner
 Lochhead
 Loran
 Lorne
+Lorne's
 Lumsden
 MacKenzie
 Macleod
@@ -165,6 +167,8 @@ Perehudoff
 Perreault
 Petrychyn
 Ph
+Pharmikon
+Pharmitopia
 Photoshop
 Piwowar
 Poitras
@@ -186,6 +190,7 @@ Roughriders
 Sainte
 Sapp
 SaskArtists
+Scenographia
 Schumacher
 Sereda
 Sessional
