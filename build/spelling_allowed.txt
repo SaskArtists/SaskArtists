@@ -46,11 +46,13 @@ Connor
 conte
 Cowin
 Crouse
+Cupar
 Dada
 d'art
 Deutscher
 Diltz
 Doukhobor
+dualities
 Dueck
 Dulmage
 Dunlop
@@ -107,9 +109,10 @@ Ing
 Inglis
 Intermedia
 Ionesco
-Jazzsuite
+Jacklin
 Jarry
 Jarry's
+Jazzsuite
 Junek
 Kady
 Kalra
@@ -120,9 +123,11 @@ Klieger
 Klingsor
 Kommt
 Kratzman
+Kreutzer
 Krueger
 Kuffner
 Kurelek
+Kutarna
 Kyba
 LaBelle
 Langgard
@@ -140,6 +145,7 @@ Mah
 Maija
 Makarow
 Makarow's
+materiality
 masonite
 Marlo
 Marnie
@@ -156,6 +162,7 @@ MOV
 MSI
 Mulcaster
 Mykola
+Mysteria
 Nichol
 Novak
 Nugent
