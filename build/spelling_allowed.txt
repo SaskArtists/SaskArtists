@@ -74,6 +74,7 @@ Fafard
 Fafard's
 Fari
 Farrero
+Froese
 Folmer
 Fortier
 Frimkess
@@ -133,6 +134,7 @@ Kady
 Kalra
 Kearns
 Kenderdine
+Kenderdine's
 Khalil
 Klause
 Klieger
@@ -147,6 +149,7 @@ Kurelek
 Kutarna
 Kyba
 LaBelle
+labours
 Langgard
 Langham
 Letraset
@@ -255,6 +258,7 @@ travelling
 Tubello
 Tunison
 Twayne
+Tylor
 Ubu
 UBU
 Ubu's
@@ -265,6 +269,7 @@ Vickers
 Von
 Wacom
 Wascana
+Waskesiu
 Weidenfeld
 Weyburn
 Whalley
