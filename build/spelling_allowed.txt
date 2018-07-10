@@ -1,5 +1,6 @@
 Aidan
 Arnott
+Arnott's
 Atter
 Banff
 Benning
@@ -16,6 +17,7 @@ Deutscher
 Eggertson
 Eidsness
 Epp
+Eavestrough
 Fafard
 Farrero
 Folmer
@@ -24,6 +26,7 @@ Gerri
 Gilhooly
 Godwin
 Hackewich
+Haverstock
 Hauser
 Humbolt
 Hustak
@@ -36,10 +39,12 @@ Khalil
 Kuffner
 Kurelek
 Kyba
+Letraset
 Lindner
 Lochhead
 Loran
 Lumsden
+MacKenzie
 Marlo
 McGregor
 Mepham
@@ -55,7 +60,9 @@ Petrychyn
 Photoshop
 Piwowar
 Poitras
+Preparator
 Reddekopp
+Reminiscents
 Riddell
 Rocamora
 Rohatensky
@@ -64,14 +71,18 @@ Roughrider
 Roughriders
 Sainte
 SaskArtists
+Sessional
 Shambhavi
 Siwek
+Swarovski
 Tagseth
 Thauberger
 Tubello
 Tunison
+Velder
 Vickers
 Wacom
+Wascana
 Weyburn
 Whalley
 Wiens
