@@ -13,6 +13,7 @@ Bachelu
 Balkwill
 Bandicoots
 Banff
+Bateman
 Battleford
 Benesh
 Benning
@@ -32,6 +33,7 @@ centre
 Centre
 centres
 Chiu
+Chromerosion
 Cicansky
 Clausen
 colour
@@ -123,6 +125,7 @@ Kuffner
 Kurelek
 Kyba
 LaBelle
+Langgard
 Langham
 Letraset
 Lindner
@@ -160,6 +163,7 @@ O'Brian
 Oleskiw
 Onita
 Oohing
+Ooops
 Oser
 Ozenfant
 Peeples
