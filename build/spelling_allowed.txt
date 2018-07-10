@@ -19,6 +19,7 @@ Benning
 Beug
 Bilhah
 Bloore
+Bloore's
 Blachford
 Bolen
 Boreal
@@ -44,6 +45,7 @@ conte
 Cowin
 Crouse
 Dada
+d'art
 Deutscher
 Diltz
 Doukhobor
@@ -79,6 +81,7 @@ Gladwell
 Gladwell's
 GodFrog
 Godwin
+Greenberg
 Guillaume
 Gump
 Hackewich
@@ -143,6 +146,7 @@ Methot
 Métis
 merdre
 Miliokas
+Montreal
 MOV
 MSI
 Mulcaster
@@ -150,6 +154,7 @@ Mykola
 Nichol
 Novak
 Nugent
+O'Brian
 Oleskiw
 Onita
 Oohing
@@ -203,6 +208,7 @@ theatre
 Theatre
 Timescapes
 Tincher
+travelling
 Tubello
 Tunison
 Twayne
