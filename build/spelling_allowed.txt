@@ -1,10 +1,11 @@
 Aidan
-Ambience
+ambience
 Anant
 Arendt
 Arnott
 Arnott's
 Atter
+avant
 Bachelu
 Banff
 Benesh
@@ -16,8 +17,8 @@ Bolen
 Brezinsky
 Bromley
 Café
-Centre
-Centres
+centre
+centres
 Chiu
 Cicansky
 Clausen
@@ -40,10 +41,11 @@ Farrero
 Folmer
 Fortier
 Fyfe
-Gardists
+gardists
 Gelech
 Gerri
 Gladwell
+gif
 Gilhooly
 Godwin
 Guillaume
@@ -52,7 +54,7 @@ Harron
 Haverstock
 Hauser
 Himmel
-Hoch
+hoch
 Hou
 Humbolt
 Hustak
@@ -61,6 +63,7 @@ Inglis
 Ionesco
 Jazzsuite
 Jarry
+Jarry's
 Junek
 Kalra
 Kenderdine
@@ -68,6 +71,7 @@ Khalil
 Klieger
 Klingsor
 Kommt
+Krueger
 Kuffner
 Kurelek
 Kyba
@@ -83,7 +87,7 @@ Marlo
 Marnie
 McGregor
 Mepham
-Merdre
+merdre
 Miliokas
 MOV
 MSI
@@ -118,6 +122,7 @@ Roughrider
 Roughriders
 Sainte
 SaskArtists
+Schumacher
 Sereda
 Sessional
 Shambhavi
@@ -132,12 +137,15 @@ Swetlow
 Tagseth
 Technica
 Thauberger
-Theatre
+theatre
 Tincher
 Tubello
 Tunison
 Twayne
 Ubu
+UBU
+Ubu's
+ubu
 Velder
 Vickers
 Von
@@ -148,7 +156,7 @@ Weyburn
 Whalley
 Wiens
 Wilf
-Workshopped
+workshopped
 Wynona
 Xu
 Yanran
