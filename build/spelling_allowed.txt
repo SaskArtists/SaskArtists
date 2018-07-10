@@ -11,6 +11,7 @@ Bachelu
 Balkwill
 Bandicoots
 Banff
+Battlefort
 Benesh
 Benning
 Bilhah
@@ -42,6 +43,7 @@ Dada
 Deutscher
 Dueck
 Dulmage
+Dunlop
 Eavestrough
 Eggertson
 Eidsness
@@ -64,6 +66,7 @@ Gatineau
 Gelech
 Gerri
 Gladwell
+Gladwell's
 gif
 Gilhooly
 Godwin
@@ -139,6 +142,7 @@ Piwowar
 Poitras
 Preparator
 Projekt
+Qu'Appelle
 QuickTime
 Redant
 Reddekopp
