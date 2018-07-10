@@ -1,4 +1,5 @@
 Aidan
+Albertville
 ambience
 Amédée
 Anant
@@ -53,7 +54,7 @@ Cupar
 curation
 Dada
 d'art
-De
+de
 Deutscher
 Diltz
 Doukhobor
@@ -77,6 +78,7 @@ Farrero
 Froese
 Folmer
 Fortier
+Francophonie
 Frimkess
 FrogWorld
 Fudgsicle
@@ -129,6 +131,7 @@ Jacklin
 Jarry
 Jarry's
 Jazzsuite
+Jeux
 Junek
 Kady
 Kalra
@@ -203,6 +206,7 @@ Penland
 Pere
 Perehudoff
 Perreault
+Perreault's
 Petrychyn
 Ph
 Pharmikon
