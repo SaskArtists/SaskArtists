@@ -15,6 +15,7 @@ Banff
 Battlefort
 Benesh
 Benning
+Beug
 Bilhah
 Bloore
 Blachford
@@ -24,6 +25,7 @@ Boutin
 Brezinsky
 Bromley
 Café
+café
 centre
 Centre
 centres
@@ -112,17 +114,22 @@ Letraset
 Lindner
 Lochhead
 Loran
+Lorne
 Lumsden
 MacKenzie
 Mah
 Maija
+Makarow
+Makarow's
 masonite
 Marlo
 Marnie
 McGregor
+Meacham
 Melchert
 Mepham
 Methot
+Métis
 merdre
 Miliokas
 MOV
@@ -137,6 +144,7 @@ Onita
 Oohing
 Oser
 Ozenfant
+Peeples
 Perehudoff
 Perreault
 Petrychyn
@@ -160,6 +168,7 @@ Romanow
 Roughrider
 Roughriders
 Sainte
+Sapp
 SaskArtists
 Schumacher
 Sereda
@@ -199,6 +208,7 @@ Weyburn
 Whalley
 Wiens
 Wilf
+Woodruff
 workshopped
 Wynona
 Xu
