@@ -33,4 +33,4 @@ for spelling in sorted(most.items(), key=lambda x: x[1]):
 
 #In the future we will enable failing
 print("Errors:", ret)
-sys.exit(0)
+sys.exit(ret>0)
