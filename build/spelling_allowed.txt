@@ -13,6 +13,7 @@ Bachelu
 Balkwill
 Bandicoots
 Banff
+Barnett
 Bateman
 Battleford
 Benesh
@@ -47,6 +48,7 @@ conte
 Cowin
 Crouse
 Cupar
+curation
 Dada
 d'art
 Deutscher
@@ -76,6 +78,7 @@ Fudgsicle
 Fyfe
 gardists
 Garneau
+Garneau's
 Gatineau
 Gelech
 Gerri
