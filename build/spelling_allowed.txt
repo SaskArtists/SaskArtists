@@ -27,6 +27,7 @@ Cicansky
 Clausen
 colour
 coloured
+Coloured
 colourful
 colourfully
 colours
@@ -41,6 +42,7 @@ Dulmage
 Eavestrough
 Eggertson
 Eidsness
+emily
 Engel
 Epp
 Ermanson
@@ -154,6 +156,7 @@ Shih
 Shockwave
 Siwek
 Stillman
+Stylisation
 Stylization
 Swarovski
 Swetlow
@@ -161,6 +164,7 @@ Tagseth
 Technica
 Thauberger
 theatre
+Theatre
 Timescapes
 Tincher
 Tubello
