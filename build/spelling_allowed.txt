@@ -57,6 +57,7 @@ Doukhobor
 dualities
 Dueck
 Dulmage
+Dumont
 Dunlop
 Eavestrough
 Eggertson
@@ -88,6 +89,7 @@ Gladwell
 Gladwell's
 GodFrog
 Godwin
+Gogh
 Greenberg
 Guillaume
 Gump
