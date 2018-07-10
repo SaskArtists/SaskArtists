@@ -8,6 +8,8 @@ Arnott's
 Atter
 avant
 Bachelu
+Balkwill
+Bandicoots
 Banff
 Benesh
 Benning
@@ -21,6 +23,7 @@ Brezinsky
 Bromley
 Café
 centre
+Centre
 centres
 Chiu
 Cicansky
@@ -53,9 +56,11 @@ Fari
 Farrero
 Folmer
 Fortier
+Frimkess
 Fyfe
 gardists
 Garneau
+Gatineau
 Gelech
 Gerri
 Gladwell
@@ -109,6 +114,7 @@ masonite
 Marlo
 Marnie
 McGregor
+Melchert
 Mepham
 Methot
 merdre
@@ -158,6 +164,7 @@ Siwek
 Stillman
 Stylisation
 Stylization
+Sures
 Swarovski
 Swetlow
 Tagseth
