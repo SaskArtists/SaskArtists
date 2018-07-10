@@ -4,7 +4,7 @@ import sys
 
 ROOT = "./www/artists"
 
-ret = 0
+ret = 1
 
 with open("./build/spelling_allowed.txt") as fobj:
     allowed = fobj.read().split("\n")
