@@ -44,11 +44,13 @@ Chromerosion
 Cicansky
 Clausen
 colour
+Colour
 coloured
 Coloured
 colourful
 colourfully
 colours
+Conklin
 Connor
 conte
 Costain
@@ -59,11 +61,13 @@ curation
 Dada
 d'art
 de
+Derksen
 Deutscher
 Diltz
 Doukhobor
 dualities
 Dueck
+Duggleby
 Dulmage
 Dumont
 Dunlop
@@ -74,6 +78,7 @@ emily
 Engel
 Epp
 Ermanson
+Estevan
 Evel
 Everyman
 Fafard
@@ -94,12 +99,14 @@ Garneau
 Garneau's
 Garstang
 Gatineau
+Gayland
 Gelech
 Gerri
 gif
 Gilhooly
 Gladwell
 Gladwell's
+Glenbow
 Gnagy
 GodFrog
 Godwin
@@ -186,6 +193,7 @@ Marlo
 Marnie
 McCargar
 McGregor
+McLelland
 Meacham
 Melchert
 Mepham
@@ -208,6 +216,7 @@ Novak
 Nugent
 Nutt
 O'Brian
+Odyson
 Oleskiw
 Onita
 Oohing
@@ -246,6 +255,7 @@ Roi
 Romanow
 Roughrider
 Roughriders
+Rouleau
 Sainte
 Sapp
 SaskArtists
@@ -260,6 +270,7 @@ Shhit
 Shih
 Shockwave
 Siwek
+Spafford
 Stillman
 Stanville
 Stylisation
