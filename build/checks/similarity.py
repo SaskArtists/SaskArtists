@@ -23,8 +23,8 @@ for artist in filter(lambda x: os.path.isdir(os.path.join(ROOT, x)), os.listdir(
                 with open(checkpath, encoding="utf-8") as fobj:
                     checkdata = fobj.read()
                 sim = similar(data, checkdata)
-                ret += 1
                 if sim > 0.99:
+                    ret += 1
                     print("{0:.3f}% similar {1} {2}".format(sim * 100.0, path, checkpath))
 
 print("Errors:", ret)
