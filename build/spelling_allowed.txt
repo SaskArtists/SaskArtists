@@ -98,9 +98,10 @@ grande
 Greenberg
 Guillaume
 Gump
+Habatat
 Hackewich
 Harron
-Hartenberger 
+Hartenberger
 Haverstock
 Hauser
 heimlich
@@ -131,6 +132,7 @@ Kalra
 Kearns
 Kenderdine
 Khalil
+Klause
 Klieger
 Klingsor
 knu
@@ -170,6 +172,7 @@ Methot
 Métis
 merdre
 Miliokas
+Moje
 Montreal
 MOV
 MSI
@@ -190,6 +193,7 @@ Ooops
 Oser
 Ozenfant
 Peeples
+Penland
 Pere
 Perehudoff
 Perreault
@@ -198,6 +202,7 @@ Ph
 Pharmikon
 Pharmitopia
 Photoshop
+Pilchuck
 Piwowar
 Poitras
 Preparator
@@ -218,6 +223,7 @@ Roughriders
 Sainte
 Sapp
 SaskArtists
+SCC
 Scenographia
 Schumacher
 Sereda
@@ -229,6 +235,7 @@ Shih
 Shockwave
 Siwek
 Stillman
+Stanville
 Stylisation
 Stylization
 Sures
