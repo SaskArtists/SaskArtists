@@ -1,5 +1,6 @@
 Aidan
 ambience
+Amédée
 Anant
 Arendt
 Ary
@@ -41,6 +42,7 @@ Cowin
 Crouse
 Dada
 Deutscher
+Doukhobor
 Dueck
 Dulmage
 Dunlop
@@ -105,6 +107,7 @@ Kuffner
 Kurelek
 Kyba
 LaBelle
+Langham
 Letraset
 Lindner
 Lochhead
@@ -133,7 +136,8 @@ Oleskiw
 Onita
 Oohing
 Oser
-Pereduhoff
+Ozenfant
+Perehudoff
 Perreault
 Petrychyn
 Ph
