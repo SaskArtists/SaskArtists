@@ -28,6 +28,7 @@ Bolen
 Boreal
 Boutin
 Brezinsky
+Brittania
 Bromley
 Café
 café
@@ -268,6 +269,7 @@ UBU
 Ubu's
 ubu
 uck
+utopian
 Velder
 Vickers
 Von
