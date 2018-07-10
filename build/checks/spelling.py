@@ -12,12 +12,16 @@ ret = 0
 most = {}
 
 for artist in filter(lambda x: os.path.isdir(os.path.join(ROOT, x)), os.listdir(ROOT)):
+    print("Testing 1 2 3")
     for dir in os.walk(os.path.join(ROOT, artist)):
+        print("Testing 4 5 6")
         for file in dir[2]:
+            print("Testing 7 8 9")
             if not file.endswith(".html"): continue
             path = os.path.join(dir[0], file)
             errors = subprocess.getoutput("cat {} | aspell -a -H".format(path)).split("\n")[1:]
             for line in errors:
+                print("Testing 10 11 12")
                 if line.strip() in ["*", ""]: continue
                 word = line.strip().split(" ")[1]
                 if word in allowed: continue
