@@ -16,9 +16,9 @@ for artist in filter(lambda x: os.path.isdir(os.path.join(ROOT, x)), os.listdir(
     for dir in os.walk(os.path.join(ROOT, artist)):
         print(dir)
         for file in dir[2]:
-            print(file)
             if not file.endswith(".html"): continue
             path = os.path.join(dir[0], file)
+            print(path)
             errors = subprocess.getoutput("cat {} | aspell -a -H".format(path)).split("\n")[1:]
             for line in errors:
                 print(line)
