@@ -17,6 +17,7 @@ Banff
 Barnett
 Bateman
 Battleford
+Beaconsfield
 Benesh
 Benning
 Beug
@@ -33,6 +34,8 @@ Bromley
 Café
 café
 Calgarians
+Catalogue
+Caulfield
 centre
 Centre
 centres
@@ -71,6 +74,7 @@ emily
 Engel
 Epp
 Ermanson
+Evel
 Everyman
 Fafard
 Fafard's
@@ -96,6 +100,7 @@ gif
 Gilhooly
 Gladwell
 Gladwell's
+Gnagy
 GodFrog
 Godwin
 Gogh
@@ -106,6 +111,7 @@ Guillaume
 Gump
 Habatat
 Hackewich
+Harbuz
 Harron
 Hartenberger
 Haverstock
@@ -115,6 +121,7 @@ Hejira
 Herbarium
 Himmel
 hoch
+Holdfast
 Hou
 Hubble
 Humbolt
@@ -123,6 +130,7 @@ Hustak
 hyperdeborialforestation
 Hyperdborealforestation
 HYPERDEBOREALFORESTATION
+Imagists
 impresaria
 Ing
 Inglis
@@ -143,6 +151,7 @@ Khalil
 Klause
 Klieger
 Klingsor
+Knievel
 knu
 Kommt
 Kratzman
@@ -156,8 +165,10 @@ LaBelle
 labours
 Langgard
 Langham
+Lenhardt
 Letraset
 Lindner
+Loch
 Lochhead
 Loran
 Lorne
@@ -173,6 +184,7 @@ materiality
 masonite
 Marlo
 Marnie
+McCargar
 McGregor
 Meacham
 Melchert
@@ -181,6 +193,7 @@ Methot
 Métis
 merdre
 Miliokas
+Missoula
 Moje
 Montreal
 MOV
@@ -193,6 +206,7 @@ Nichol
 Nicky
 Novak
 Nugent
+Nutt
 O'Brian
 Oleskiw
 Onita
@@ -202,6 +216,7 @@ Ooops
 Ormerod
 Oser
 Ozenfant
+Paschke
 Peeples
 Penland
 Pere
@@ -255,6 +270,7 @@ Swetlow
 Tagseth
 Technica
 Thauberger
+Thauberger's
 theatre
 Theatre
 Timescapes
