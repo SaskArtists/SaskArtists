@@ -52,6 +52,7 @@ café
 Calgarians
 Canio
 Caragana
+Carlee's
 Catalogue
 Caulfield
 Causa
@@ -125,6 +126,7 @@ Folmer
 Fortescue
 Fortier
 Foss
+Fraise
 Froese
 Francophonie
 Frimkess
@@ -178,6 +180,7 @@ Henge
 Hermina
 Himmel
 hoch
+Hodgeville
 Holdfast
 Honoris
 Hou
@@ -352,6 +355,7 @@ Rosevally
 Roughrider
 Roughriders
 Rouleau
+Royale
 Sacramento
 Sainte
 Saltcoats
@@ -423,6 +427,7 @@ Von
 Wacom
 Wascana
 Waskesiu
+wearables
 Weidenfeld
 Wellesley
 Weyburn
