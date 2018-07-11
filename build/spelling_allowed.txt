@@ -2,6 +2,7 @@ Aidan
 Akademie
 Albertville
 Alloway
+alma
 Alstine
 ambience
 Amédée
@@ -109,6 +110,7 @@ Dafoe
 Darq
 d'art
 de
+Delusia
 Der
 des
 Deichmann
@@ -136,7 +138,7 @@ Eggertson
 Eidsness
 Elphinstone
 emily
-encaustic 
+encaustic
 Engel
 EnviroKids
 Epp
@@ -153,6 +155,7 @@ Fanshawe
 Fari
 Farrero
 Ferren
+Filmpool
 Foldform
 Folmer
 Fortescue
@@ -180,6 +183,7 @@ Gayoons
 Gegeris
 Gelech
 Georgia
+GerFilm 
 Gerri
 gif
 Gilmour
@@ -359,6 +363,7 @@ Nichol
 Nicky
 Niels
 Nipawin
+Nocturnalist
 Noland
 Nootokao
 Norbraten
@@ -457,6 +462,7 @@ sigilatta
 Silton
 Siwek
 sociocultural
+Sockvile
 Sokoly
 Soonias
 Souris
