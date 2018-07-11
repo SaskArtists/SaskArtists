@@ -9,6 +9,7 @@ Androxia
 Anita's
 Antigonish
 Arendt
+Armonia
 Arneson
 Ary
 Arnott
@@ -49,12 +50,14 @@ Burrard
 Café
 café
 Calgarians
+Canio
 Caragana
 Catalogue
 Caulfield
 Causa
 CenArts
 Centerra
+Chenier
 Chiu
 Chromerosion
 Cicansky
@@ -67,6 +70,7 @@ Connor
 conte
 Costain
 Coover
+Covent
 Cowin
 Cowin's
 Cradleboard
@@ -196,7 +200,8 @@ Jalisco
 Jarry
 Jarry's
 Jazzsuite
-JeuxJunek
+Jeux
+Junek
 Kady
 Kalra
 Kearns
@@ -303,7 +308,10 @@ oooooohhhhh
 Ooops
 Ormerod
 Oser
+Othello
+Outerbridge
 Ozenfant
+Pagliacci
 Paschke
 Peeples
 Penland
@@ -328,6 +336,8 @@ Printmakers
 Projekt
 Qu'Appelle
 QuickTime
+Radames
+Recondita
 Redant
 Reddekopp
 Reminiscents
@@ -362,6 +372,7 @@ Shigaraki
 Shih
 Shockwave
 Shoulda
+Siegmund
 sigilatta
 Silton
 Siwek
@@ -432,6 +443,7 @@ Yeungnam
 Yobb
 Yolande
 Yorkton
+YouTube
 Yuristy
 Zabutnyy
 Zack
