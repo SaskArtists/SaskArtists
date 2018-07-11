@@ -3,6 +3,7 @@ Albertville
 ambience
 Amédée
 Anant
+Androxia
 Arendt
 Arneson
 Ary
@@ -40,6 +41,7 @@ centre
 Centre
 centres
 Chiu
+Chouchoute
 Chromerosion
 Cicansky
 Clausen
@@ -61,6 +63,7 @@ curation
 Dada
 d'art
 de
+des
 Derksen
 Deutscher
 Diltz
@@ -81,6 +84,7 @@ Ermanson
 Estevan
 Evel
 Everyman
+Faculte
 Fafard
 Fafard's
 Fari
@@ -100,9 +104,12 @@ Garneau's
 Garstang
 Gatineau
 Gayland
+Gayoon
+Gayoons
 Gelech
 Gerri
 gif
+Gilmour
 Gilhooly
 Gladwell
 Gladwell's
@@ -145,6 +152,7 @@ Intermedia
 intersubjective
 Ionesco
 Jacklin
+Jalisco
 Jarry
 Jarry's
 Jazzsuite
@@ -170,6 +178,7 @@ Kutarna
 Kyba
 LaBelle
 labours
+Lancha
 Langgard
 Langham
 Lenhardt
@@ -186,6 +195,7 @@ MacKenzie
 Macleod
 Mah
 Maija
+Maja
 Makarow
 Makarow's
 materiality
@@ -203,6 +213,7 @@ Métis
 merdre
 Miliokas
 Missoula
+Moderna
 Moje
 Montreal
 MOV
@@ -284,11 +295,9 @@ Tagseth
 Technica
 Thauberger
 Thauberger's
-theatre
-Theatre
 Timescapes
 Tincher
-travelling
+Tineola
 Tubello
 Tunison
 Twayne
@@ -311,6 +320,7 @@ Whalley
 Wiens
 Wilf
 Woodruff
+Worb
 workshopped
 Wynona
 Xu
