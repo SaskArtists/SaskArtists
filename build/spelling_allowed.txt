@@ -5,10 +5,12 @@ ambience
 Amédée
 Anagama
 Anant
+Andere
 Androxia
 Anita's
 Antigonish
 Arendt
+Armes
 Armonia
 Arneson
 Ary
@@ -22,6 +24,7 @@ Balkwill
 Bandicoots
 Banff
 Barnett
+Bas
 Bateman
 Battleford
 Beaconsfield
@@ -31,6 +34,7 @@ Benning
 Beug
 Bilhah
 Blachford
+Blick
 Bloomington
 Bloore
 Bloore's
@@ -88,6 +92,7 @@ Dada
 Dafoe
 d'art
 de
+Ders
 des
 Deischmann
 Derksen
@@ -133,10 +138,12 @@ Frimkess
 FrogWorld
 Fudgsicle
 Fyfe
+Garconne
 garde
 gardists
 Garneau
 Garneau's
+Garson
 Garstang
 Gatineau
 Gayland
@@ -171,10 +178,12 @@ Harron
 Hartenberger
 Haverstock
 Hauser
+Haut
 heimlich
 Hejira
 Hell's
 Herbarium
+Herrin
 Hemerocallis
 Henge
 Hermina
@@ -207,6 +216,8 @@ Jeux
 Junek
 Kady
 Kalra
+Kameradschaft
+Kanin
 Kearns
 Keeler
 Kenderdine
@@ -235,6 +246,7 @@ Lancha
 Langgard
 Langham
 Lanza
+L'Atlantide
 lEEEve
 Lenhardt
 Letraset
@@ -281,6 +293,7 @@ Miliokas
 Missoula
 Moderna
 Moje
+Monde
 Montreal
 MOV
 MSI
@@ -385,8 +398,9 @@ Soonias
 Souris
 Spafford
 Squeek
-Stillman
 Stanville
+Stillman
+Strasbourg
 Stylisation
 Stylization
 Sures
@@ -401,6 +415,7 @@ Templeton
 terra
 Thauberger
 Thauberger's
+Threepenny
 Timescapes
 Tincher
 Tineola
@@ -424,6 +439,7 @@ Velder
 Vickers
 Villina
 Von
+Vormittagsspuk
 Wacom
 Wascana
 Waskesiu
