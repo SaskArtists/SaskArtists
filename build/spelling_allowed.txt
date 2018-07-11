@@ -113,12 +113,12 @@ Fafard's
 Fanshawe
 Fari
 Farrero
-Froese
 Foldform
 Folmer
 Fortescue
 Fortier
 Foss
+Froese
 Francophonie
 Frimkess
 FrogWorld
@@ -351,6 +351,7 @@ Scenographia
 Schumacher
 Sereda
 Sessional
+Shadbolt
 Shambhavi
 Shattuck
 Shhit
