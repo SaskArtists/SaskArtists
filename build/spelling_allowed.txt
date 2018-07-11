@@ -88,6 +88,7 @@ Fafard's
 Fari
 Farrero
 Froese
+Foldform
 Folmer
 Fortescue
 Fortier
@@ -180,6 +181,7 @@ Langgard
 Langham
 Lenhardt
 Letraset
+Lewton
 Lindner
 Loch
 Lochhead
@@ -194,6 +196,7 @@ Mah
 Maija
 Makarow
 Makarow's
+MATA
 materiality
 masonite
 Marlo
