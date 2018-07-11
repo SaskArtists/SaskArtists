@@ -98,6 +98,7 @@ Cymbidium
 Dacre's
 Dada
 Dafoe
+Darq
 d'art
 de
 Der
@@ -110,6 +111,7 @@ Diltz
 Disley
 Doukhobor
 Draconi
+dragonet
 Dru
 dualities
 Dueck
@@ -124,6 +126,7 @@ Eidsness
 Elphinstone
 emily
 Engel
+EnviroKids
 Epp
 Ermanson
 Estevan
@@ -242,6 +245,7 @@ Kenderdine
 Kenderdine's
 Keone
 Khalil
+Kidsafe
 Kiskayetum
 Klause
 Klieger
@@ -262,6 +266,7 @@ labours
 Lajord
 Lampart
 Lancha
+Langenburg
 Langgard
 Langham
 Lanza
@@ -375,6 +380,7 @@ Printmaker
 Printmakers
 Projekt
 Qu'Appelle
+Questomatic
 QuickTime
 Radames
 Rainer
@@ -467,6 +473,7 @@ unglazed
 utopian
 Valadon
 Vancouver
+Vayfe
 Velder
 Vickers
 Villina
@@ -503,6 +510,7 @@ yah
 Yanran
 Yeungnam
 Yobb
+Yobb's
 Yolande
 Yorkton
 YouTube
