@@ -28,9 +28,10 @@ Benesh
 Benning
 Beug
 Bilhah
+Blachford
+Bloomington
 Bloore
 Bloore's
-Blachford
 Bolen
 bonafide
 Boreal
@@ -64,6 +65,7 @@ conte
 Costain
 Coover
 Cowin
+Cowin's
 Cradleboard
 Crawley
 Crista
@@ -211,6 +213,7 @@ Kratzman
 Kreutzer
 Krueger
 Kuffner
+Kullman
 Kurelek
 Kutarna
 Kyba
@@ -256,6 +259,7 @@ McKinnon
 McLelland
 Meacham
 Melchert
+Melita
 Mepham
 Methot
 Métis
@@ -280,6 +284,7 @@ Nicky
 Niels
 Nipawin
 Nootokao
+Norbraten
 Novak
 Nugent
 Nugent's
@@ -315,6 +320,8 @@ Poitras
 portrayer
 Poundmaker
 Preparator
+Printmaker
+Printmakers
 Projekt
 Qu'Appelle
 QuickTime
@@ -414,6 +421,7 @@ Xu
 Yah
 yah
 Yanran
+Yeungnam
 Yobb
 Yolande
 Yorkton
