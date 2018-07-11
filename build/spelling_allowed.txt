@@ -44,6 +44,7 @@ centre
 Centre
 centres
 Chiu
+Choson
 Chromerosion
 Cicansky
 Clausen
@@ -281,6 +282,7 @@ Sessional
 Shambhavi
 Shattuck
 Shhit
+Shigaraki
 Shih
 Shockwave
 sigilatta
@@ -295,6 +297,7 @@ Sures
 Swarovski
 Swetlow
 Tagseth
+Tagseth's
 Technica
 teepees
 terra
@@ -305,6 +308,7 @@ Theatre
 Timescapes
 Tincher
 travelling
+Tsubo
 Tubello
 Tunison
 Twayne
