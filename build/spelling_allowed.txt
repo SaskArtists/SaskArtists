@@ -47,6 +47,7 @@ Blick
 Bloomington
 Bloore
 Bloore's
+Bodil
 Bolen
 bonafide
 Boreal
@@ -206,6 +207,7 @@ Gilhooly
 Gladwell
 Gladwell's
 Glenbow
+Glyde
 Gnagy's
 GodFrog
 GodFrog's
@@ -327,6 +329,7 @@ Lethbridge
 Letraset
 Lewton
 Lindner
+Lismer
 Loch
 Lochhead
 lockability
@@ -397,6 +400,7 @@ Niels
 Nipawin
 Nocturnalist
 Noland
+Nonie
 Nootokao
 Norbraten
 Novak
@@ -407,6 +411,7 @@ Nutt
 O'Brian
 Oceanids
 Odyson
+Okema
 Olah
 Oleskiw
 Olitski
@@ -514,6 +519,7 @@ Stillman
 Strasbourg
 Stryjek
 Stylisation
+stylisation
 styrofoam
 Stylization
 Sures
