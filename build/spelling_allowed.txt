@@ -1,4 +1,5 @@
 Aidan
+Akademie
 Albertville
 Alloway
 Alstine
@@ -8,6 +9,7 @@ Anagama
 Anant
 Andere
 Androxia
+Angewandten
 Anita's
 Antigonish
 Arendt
@@ -271,6 +273,7 @@ Kreutzer
 Krueger
 Kuffner
 Kullman
+Kunst
 Kurelek
 Kutarna
 Kyba
