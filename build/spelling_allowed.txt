@@ -65,6 +65,7 @@ Centerra
 Chenier
 Chiu
 Chromerosion
+Chouchoute
 Cicansky
 Cicansky's
 Clausen
@@ -94,7 +95,7 @@ d'art
 de
 Ders
 des
-Deischmann
+Deichmann
 Derksen
 Deutscher
 Diltz
@@ -452,6 +453,14 @@ Wiens
 Wilf
 Wimea
 Woodruff
+Woofaparte
+Wooferly
+Woofgang
+Woofia
+Woofington
+Woofio
+Woofyard
+Woofzart
 Worb
 workshopped
 Wynona
