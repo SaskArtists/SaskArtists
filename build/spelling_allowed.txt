@@ -142,13 +142,13 @@ impresaria
 Ing
 Inglis
 Intermedia
+intersubjective
 Ionesco
 Jacklin
 Jarry
 Jarry's
 Jazzsuite
-Jeux
-Junek
+JeuxJunek
 Kady
 Kalra
 Kearns
@@ -270,6 +270,7 @@ Shhit
 Shih
 Shockwave
 Siwek
+sociocultural
 Spafford
 Stillman
 Stanville
