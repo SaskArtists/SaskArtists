@@ -47,13 +47,6 @@ Chiu
 Chromerosion
 Cicansky
 Clausen
-colour
-Colour
-coloured
-Coloured
-colourful
-colourfully
-colours
 Conklin
 Connor
 conte
@@ -141,7 +134,6 @@ Honoris
 Hou
 Hubble
 Humbolt
-humour
 Hustak
 hyperdeborialforestation
 Hyperdborealforestation
@@ -179,7 +171,6 @@ Kurelek
 Kutarna
 Kyba
 LaBelle
-labours
 Langgard
 Langham
 Lenhardt
