@@ -152,6 +152,7 @@ heimlich
 Hejira
 Herbarium
 Hemerocallis
+Henge
 Hermina
 Himmel
 hoch
@@ -198,6 +199,7 @@ Kurelek
 Kutarna
 Kyba
 LaBelle
+Lajord
 Langgard
 Langham
 Lanza
@@ -300,12 +302,14 @@ Rohatensky
 Roi
 Romanow
 Rosemont
+Rosevally
 Roughrider
 Roughriders
 Rouleau
 Sacramento
 Sainte
 Saltcoats
+Salvadore
 Saposkum
 Sapp
 SaskArtists
