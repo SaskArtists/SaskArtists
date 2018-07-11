@@ -1,5 +1,6 @@
 Aidan
 Albertville
+Alloway
 Alstine
 ambience
 Amédée
@@ -24,6 +25,7 @@ Bachelu
 Balkwill
 Bandicoots
 Banff
+Barnet
 Barnett
 Bartlet
 Bas
@@ -61,6 +63,7 @@ Calgarians
 Canio
 Caragana
 Carlee's
+Caro
 Catalogue
 Caulfield
 Causa
@@ -112,6 +115,7 @@ Diltz
 Disley
 Dmytro
 Dmytro's
+Dorland
 Doukhobor
 Draconi
 dragonet
@@ -143,6 +147,7 @@ Fafard's
 Fanshawe
 Fari
 Farrero
+Ferren
 Foldform
 Folmer
 Fortescue
@@ -197,6 +202,7 @@ Hafford
 Halkirk
 Hambly
 Harbuz
+Hardingham
 Harron
 Hartenberger
 Haverstock
@@ -211,6 +217,7 @@ Hemerocallis
 Henge
 Hermina
 Himmel
+Historica
 hoch
 Hodgeville
 Holdfast
@@ -343,6 +350,7 @@ Nichol
 Nicky
 Niels
 Nipawin
+Noland
 Nootokao
 Norbraten
 Novak
@@ -355,6 +363,7 @@ Oceanids
 Odyson
 Olah
 Oleskiw
+Olitski
 Onita
 Oohing
 oooooohhhhh
@@ -380,6 +389,7 @@ Pharmitopia
 Photoshop
 Pilchuck
 Piwowar
+Plaskett
 Poitras
 portrayer
 Poundmaker
@@ -456,6 +466,7 @@ Swetlow
 Sztenera
 Tagseth
 Tagseth's
+Tapp
 Technica
 teepees
 Teevo
@@ -511,6 +522,7 @@ Woofington
 Woofio
 Woofyard
 Woofzart
+Wolpe
 Worb
 workshopped
 Wynona
