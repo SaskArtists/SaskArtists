@@ -55,6 +55,7 @@ Connor
 conte
 Costain
 Cowin
+Crista
 Crouse
 Cupar
 curation
@@ -87,6 +88,7 @@ Fari
 Farrero
 Froese
 Folmer
+Fortescue
 Fortier
 Francophonie
 Frimkess
@@ -210,8 +212,10 @@ Mulcaster
 Mykola
 Mysteria
 Narcisse
+Newnham
 Nichol
 Nicky
+Nipawin
 Novak
 Nugent
 Nutt
