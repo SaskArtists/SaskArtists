@@ -232,6 +232,7 @@ Hafford
 Halen
 Halkirk
 Hambly
+Hampstead
 Harbuz
 Hardingham
 Harron
@@ -507,6 +508,7 @@ sigilatta
 Silton
 Siwek
 Slade
+smithing
 sociocultural
 Sockvile
 Sokoly
