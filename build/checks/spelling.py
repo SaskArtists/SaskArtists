@@ -16,7 +16,7 @@ for artist in filter(lambda x: os.path.isdir(os.path.join(ROOT, x)), os.listdir(
         for file in dir[2]:
             if not file.endswith(".html"): continue
             path = os.path.join(dir[0], file)
-            errors = subprocess.getoutput("cat {} | aspell -a -H".format(path)).split("\n")[1:]
+            errors = subprocess.getoutput("cat {} | aspell -a -H --master=en_US --extra-dicts=en_GB".format(path)).split("\n")[1:]
             for line in errors:
                 if line.strip() in ["*", ""]: continue
                 word = line.strip().split(" ")[1]
