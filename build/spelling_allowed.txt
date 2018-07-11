@@ -1,5 +1,6 @@
 Aidan
 Albertville
+Alstine
 ambience
 Amédée
 Anagama
@@ -91,6 +92,7 @@ Evel
 Everyman
 Fafard
 Fafard's
+Fanshawe
 Fari
 Farrero
 Froese
@@ -122,6 +124,7 @@ Gladwell's
 Glenbow
 Gnagy
 GodFrog
+Godrey
 Godwin
 Gogh
 Gonor
@@ -201,6 +204,7 @@ Lorne
 Lorne's
 Lukas
 Lumsden
+Macgregor
 MacKenzie
 Macleod
 Mah
@@ -286,6 +290,7 @@ Rocamora
 Rohatensky
 Roi
 Romanow
+Rosemont
 Roughrider
 Roughriders
 Rouleau
@@ -320,6 +325,7 @@ Tagseth
 Tagseth's
 Technica
 teepees
+Templeton
 terra
 Thauberger
 Thauberger's
