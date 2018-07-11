@@ -74,8 +74,9 @@ Coldwell
 Conklin
 Connor
 conte
-Costain
+contemporain
 Coover
+Costain
 Covent
 Cowin
 Cowin's
@@ -300,6 +301,7 @@ Montreal
 MOV
 MSI
 Mulcaster
+Musee
 Mykola
 Mysteria
 Nanaimo
