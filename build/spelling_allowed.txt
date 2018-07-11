@@ -92,6 +92,7 @@ Clarington
 Clausen
 cocker
 Coldwell
+Coltrane
 Conklin
 Connor
 Connaught
@@ -117,6 +118,7 @@ Dada
 Dafoe
 Darq
 d'art
+Davis
 de
 Delusia
 Der
@@ -209,6 +211,7 @@ GodFrog
 GodFrog's
 Godrey
 Godwin
+Godwin's
 Goeritz
 Gogh
 Gonor
@@ -474,6 +477,7 @@ Sapp
 Sarian
 SaskArtists
 SaskEnergy
+scapes
 SCC
 Scenographia
 Schumacher
