@@ -39,10 +39,12 @@ Broadway
 Bromley
 Bromley's
 buh
+Bulyea
 Burrard
 Café
 café
 Calgarians
+Caragana
 Catalogue
 Caulfield
 Causa
@@ -65,13 +67,16 @@ Crocker
 Crouse
 Cupar
 curation
+Cymbidium
 Dacre's
 Dada
+Dafoe
 d'art
 de
 Derksen
 Deutscher
 Diltz
+Disley
 Doukhobor
 dualities
 Dueck
@@ -79,6 +84,7 @@ Duggleby
 Dulmage
 Dumont
 Dunlop
+Duval
 Eavestrough
 Eggertson
 Eidsness
@@ -144,6 +150,8 @@ Hauser
 heimlich
 Hejira
 Herbarium
+Hemerocallis
+Hermina
 Himmel
 hoch
 Holdfast
@@ -296,6 +304,7 @@ Roughriders
 Rouleau
 Sacramento
 Sainte
+Saltcoats
 Saposkum
 Sapp
 SaskArtists
@@ -313,6 +322,7 @@ Shockwave
 sigilatta
 Siwek
 Soonias
+Souris
 Spafford
 Stillman
 Stanville
