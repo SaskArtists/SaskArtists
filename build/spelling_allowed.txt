@@ -48,6 +48,7 @@ Brittania
 Broadway
 Bromley
 Bromley's
+Brouwers
 buh
 Bulyea
 Burrard
@@ -167,6 +168,7 @@ Godrey
 Godwin
 Gogh
 Gonor
+Goodeve
 Gothenburg
 grande
 Greenberg
@@ -439,6 +441,7 @@ underglazes
 unglazed
 utopian
 Valadon
+Vancouver
 Velder
 Vickers
 Villina
