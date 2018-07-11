@@ -226,6 +226,7 @@ Gyeongsan
 Habatat
 Hackewich
 Hafford
+Halen
 Halkirk
 Hambly
 Harbuz
@@ -262,6 +263,7 @@ impresaria
 Ing
 Ing's
 Inglis
+Instituto
 Intermedia
 intersubjective
 Ionesco
@@ -544,6 +546,7 @@ UBU
 Ubu's
 ubu
 uck
+Ukrainian
 underglazes
 unglazed
 utopian
