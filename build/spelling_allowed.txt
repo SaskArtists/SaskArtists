@@ -45,9 +45,7 @@ Calgarians
 Catalogue
 Caulfield
 Causa
-centre
-Centre
-centres
+CenArts
 Chiu
 Choson
 Chromerosion
@@ -210,6 +208,7 @@ Maija
 Maija's
 Makarow
 Makarow's
+Maksym
 MATA
 materiality
 masonite
@@ -373,6 +372,7 @@ Yobb
 Yolande
 Yorkton
 Yuristy
+Zabutnyy
 Zack
 Zain
 Zastrow
