@@ -53,6 +53,7 @@ Boreal
 Borealis
 Boulanger
 Boutin
+Bowmanville
 Brezinsky
 Brittania
 Broadway
@@ -71,6 +72,7 @@ Caragana
 Carlee's
 Caro
 Catalogue
+Catharines
 Caulfield
 Causa
 CenArts
@@ -85,6 +87,8 @@ Cicansky
 Cicansky's
 Cisneros
 Cixi
+Claybank
+Clarington
 Clausen
 cocker
 Coldwell
@@ -125,6 +129,7 @@ Diltz
 Disley
 Dmytro
 Dmytro's
+Dofasco
 Dorland
 Doukhobor
 Draconi
@@ -135,6 +140,7 @@ Dueck
 Duggleby
 Dulmage
 Dumont
+Dundas
 Dunlop
 Duval
 Eavestrough
@@ -160,6 +166,8 @@ Fari
 Farrero
 Ferren
 Filmpool
+Flatlanders
+Florae
 Foldform
 Folmer
 Fortescue
@@ -262,6 +270,7 @@ Jarry's
 Jazzsuite
 Jeux
 Junek
+Juried
 Kady
 Kalra
 Kameradschaft
@@ -283,6 +292,7 @@ Klause
 Klieger
 Klingsor
 Knievel
+Knowhere
 knu
 Kommt
 Kratzman
@@ -325,6 +335,7 @@ Macgregor
 MacKenzie
 Macleod
 Mah
+Mahone's
 Maija
 Maija's
 Maja
@@ -332,12 +343,14 @@ Makarow
 Makarow's
 Maksym
 Manitou
-Marthe
-MATA
-materiality
-masonite
 Marlo
 Marnie
+Marthe
+Marzolf
+MATA
+materiality
+Matic
+masonite
 McCargar
 McGregor
 McKinnon
@@ -368,6 +381,7 @@ Mykola
 Mysteria
 Nanaimo
 Narcisse
+naturistic
 Newnham
 Nichol
 Nicky
@@ -416,6 +430,7 @@ Pipestone
 Piwowar
 Plaskett
 Poitras
+Ponteix
 portrayer
 Poundmaker
 Powderhall
@@ -427,6 +442,7 @@ Qu'Appelle
 Questomatic
 QuickTime
 Radames
+Rafales
 Rainer
 Recondita
 Redant
@@ -464,6 +480,7 @@ Severson
 Shadbolt
 Shambhavi
 Shattuck
+Shaunna
 Shhit
 Shigaraki
 Shih
@@ -542,6 +559,7 @@ Wiens
 Wihak
 Wilf
 Wimea
+Winblown
 Woodruff
 Woofaparte
 Wooferly
