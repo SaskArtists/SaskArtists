@@ -29,6 +29,7 @@ Bloore's
 Blachford
 Bolen
 Boreal
+Boulanger
 Boutin
 Brezinsky
 Brittania
@@ -38,6 +39,7 @@ café
 Calgarians
 Catalogue
 Caulfield
+Causa
 centre
 Centre
 centres
@@ -56,6 +58,7 @@ Conklin
 Connor
 conte
 Costain
+Coover
 Cowin
 Crista
 Crouse
@@ -92,6 +95,7 @@ Froese
 Folmer
 Fortescue
 Fortier
+Foss
 Francophonie
 Frimkess
 FrogWorld
@@ -133,6 +137,7 @@ Herbarium
 Himmel
 hoch
 Holdfast
+Honoris
 Hou
 Hubble
 Humbolt
@@ -159,6 +164,7 @@ Kearns
 Kenderdine
 Kenderdine's
 Khalil
+Kiskayetum
 Klause
 Klieger
 Klingsor
@@ -184,6 +190,7 @@ Lochhead
 Loran
 Lorne
 Lorne's
+Lukas
 Lumsden
 MacKenzie
 Macleod
@@ -197,6 +204,7 @@ Marlo
 Marnie
 McCargar
 McGregor
+McKinnon
 McLelland
 Meacham
 Melchert
@@ -218,6 +226,7 @@ Newnham
 Nichol
 Nicky
 Nipawin
+Nootokao
 Novak
 Nugent
 Nutt
@@ -246,6 +255,8 @@ Photoshop
 Pilchuck
 Piwowar
 Poitras
+portrayer
+Poundmaker
 Preparator
 Projekt
 Qu'Appelle
@@ -263,6 +274,7 @@ Roughrider
 Roughriders
 Rouleau
 Sainte
+Saposkum
 Sapp
 SaskArtists
 SCC
@@ -277,6 +289,7 @@ Shih
 Shockwave
 sigilatta
 Siwek
+Soonias
 Spafford
 Stillman
 Stanville
@@ -313,6 +326,7 @@ Wacom
 Wascana
 Waskesiu
 Weidenfeld
+Wellesley
 Weyburn
 Whalley
 Wiens
