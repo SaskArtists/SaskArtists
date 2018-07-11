@@ -16,6 +16,7 @@ Arneson
 Ary
 Arnott
 Arnott's
+Asakv
 Atter
 Auguste
 avant
@@ -24,6 +25,7 @@ Balkwill
 Bandicoots
 Banff
 Barnett
+Bartlet
 Bas
 Bateman
 Battleford
@@ -101,6 +103,7 @@ des
 Deichmann
 Derksen
 Deutscher
+Dewdney
 Diltz
 Disley
 Doukhobor
@@ -167,6 +170,7 @@ Gnagy
 GodFrog
 Godrey
 Godwin
+Goeritz
 Gogh
 Gonor
 Goodeve
@@ -206,9 +210,11 @@ Hustak
 hyperdeborialforestation
 Hyperdborealforestation
 HYPERDEBOREALFORESTATION
+Ileen
 Imagists
 impresaria
 Ing
+Ing's
 Inglis
 Intermedia
 intersubjective
@@ -225,8 +231,10 @@ Kady
 Kalra
 Kameradschaft
 Kanin
+Kapay
 Kearns
 Keeler
+Kempa
 Kenderdine
 Kenderdine's
 Keone
@@ -249,6 +257,7 @@ Kyba
 LaBelle
 labours
 Lajord
+Lampart
 Lancha
 Langgard
 Langham
@@ -265,6 +274,7 @@ lockability
 Loran
 Lorne
 Lorne's
+Luciuk
 Lukas
 Lumsden
 Macgregor
@@ -287,6 +297,8 @@ McCargar
 McGregor
 McKinnon
 McLelland
+McNab
+McNally
 Meacham
 Melchert
 Melita
@@ -325,6 +337,7 @@ Nutt
 O'Brian
 Oceanids
 Odyson
+Olah
 Oleskiw
 Onita
 Oohing
@@ -361,6 +374,7 @@ Projekt
 Qu'Appelle
 QuickTime
 Radames
+Rainer
 Recondita
 Redant
 Reddekopp
@@ -387,8 +401,10 @@ SaskArtists
 SCC
 Scenographia
 Schumacher
+Seguin
 Sereda
 Sessional
+Severson
 Shadbolt
 Shambhavi
 Shattuck
@@ -407,6 +423,7 @@ Souris
 Spafford
 Squeek
 Stanville
+Stickland
 Stillman
 Strasbourg
 Stylisation
@@ -415,6 +432,7 @@ Stylization
 Sures
 Swarovski
 Swetlow
+Sztenera
 Tagseth
 Tagseth's
 Technica
@@ -459,6 +477,7 @@ Wellesley
 Weyburn
 Whalley
 Wiens
+Wihak
 Wilf
 Wimea
 Woodruff
