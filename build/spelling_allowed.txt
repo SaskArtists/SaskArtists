@@ -38,6 +38,7 @@ Beasties
 Benesh
 Benning
 Beug
+Biennale
 Bilhah
 Blachford
 Blick
@@ -79,6 +80,7 @@ Chromerosion
 Chouchoute
 Cicansky
 Cicansky's
+Cisneros
 Clausen
 cocker
 Coldwell
@@ -280,6 +282,7 @@ Kyba
 LaBelle
 labours
 Lajord
+LaMacaza
 Lampart
 Lancha
 Langenburg
@@ -313,6 +316,7 @@ Maja
 Makarow
 Makarow's
 Maksym
+Manitou
 Marthe
 MATA
 materiality
@@ -428,6 +432,7 @@ Saltcoats
 Salvadore
 Saposkum
 Sapp
+Sarian
 SaskArtists
 SaskEnergy
 SCC
