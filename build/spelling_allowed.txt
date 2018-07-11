@@ -66,6 +66,7 @@ Caulfield
 Causa
 CenArts
 Centerra
+Chabun
 Chenier
 Chiu
 Chromerosion
@@ -77,6 +78,7 @@ cocker
 Coldwell
 Conklin
 Connor
+Connaught
 conte
 contemporain
 Coover
@@ -119,6 +121,7 @@ Duval
 Eavestrough
 Eggertson
 Eidsness
+Elphinstone
 emily
 Engel
 Epp
@@ -398,6 +401,7 @@ Salvadore
 Saposkum
 Sapp
 SaskArtists
+SaskEnergy
 SCC
 Scenographia
 Schumacher
