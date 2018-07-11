@@ -47,6 +47,7 @@ Blick
 Bloomington
 Bloore
 Bloore's
+Bodil
 Bolen
 bonafide
 Boreal
@@ -92,6 +93,7 @@ Clarington
 Clausen
 cocker
 Coldwell
+Coltrane
 Conklin
 Connor
 Connaught
@@ -117,6 +119,7 @@ Dada
 Dafoe
 Darq
 d'art
+Davis
 de
 Delusia
 Der
@@ -204,11 +207,14 @@ Gilhooly
 Gladwell
 Gladwell's
 Glenbow
+Glenavon
+Glyde
 Gnagy's
 GodFrog
 GodFrog's
 Godrey
 Godwin
+Godwin's
 Goeritz
 Gogh
 Gonor
@@ -223,6 +229,7 @@ Gyeongsan
 Habatat
 Hackewich
 Hafford
+Halen
 Halkirk
 Hambly
 Hampstead
@@ -260,6 +267,7 @@ impresaria
 Ing
 Ing's
 Inglis
+Instituto
 Intermedia
 intersubjective
 Ionesco
@@ -268,6 +276,7 @@ Jacklin
 Jalisco
 Jarry
 Jarry's
+Javin
 Jazzsuite
 Jeux
 Junek
@@ -323,6 +332,7 @@ Lethbridge
 Letraset
 Lewton
 Lindner
+Lismer
 Loch
 Lochhead
 lockability
@@ -346,6 +356,8 @@ Maksym
 Manitou
 Marlo
 Marnie
+Marner
+Marner's
 Marthe
 Marzolf
 MATA
@@ -363,6 +375,7 @@ Melchert
 Melita
 Mendal
 Mepham
+MetaCreations
 Methot
 Métis
 merdre
@@ -390,6 +403,7 @@ Niels
 Nipawin
 Nocturnalist
 Noland
+Nonie
 Nootokao
 Norbraten
 Novak
@@ -400,6 +414,7 @@ Nutt
 O'Brian
 Oceanids
 Odyson
+Okema
 Olah
 Oleskiw
 Olitski
@@ -414,6 +429,7 @@ Outerbridge
 Ozenfant
 Pagliacci
 Paschke
+Pasmore
 Peeples
 Penland
 Pense
@@ -471,6 +487,7 @@ Sapp
 Sarian
 SaskArtists
 SaskEnergy
+scapes
 SCC
 Scenographia
 Schumacher
@@ -506,6 +523,7 @@ Stillman
 Strasbourg
 Stryjek
 Stylisation
+stylisation
 styrofoam
 Stylization
 Sures
@@ -538,6 +556,7 @@ UBU
 Ubu's
 ubu
 uck
+Ukrainian
 underglazes
 unglazed
 utopian
@@ -589,8 +608,10 @@ YouTube
 Yuristy
 Zabutnyy
 Zack
+Zach
 Zain
 Zastrow
+Zatwarnisi
 Zeldin
 Zhao
 Zhong
