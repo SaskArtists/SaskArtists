@@ -177,6 +177,7 @@ Letraset
 Lindner
 Loch
 Lochhead
+lockability
 Loran
 Lorne
 Lorne's
