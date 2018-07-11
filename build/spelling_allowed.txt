@@ -172,6 +172,7 @@ Fyfe
 Garconne
 garde
 gardists
+Garion
 Garneau
 Garneau's
 Garson
@@ -183,7 +184,7 @@ Gayoons
 Gegeris
 Gelech
 Georgia
-GerFilm 
+GerFilm
 Gerri
 gif
 Gilmour
@@ -266,6 +267,7 @@ Keeler
 Kempa
 Kenderdine
 Kenderdine's
+Kenosee
 Keone
 Khalil
 Kidsafe
@@ -402,6 +404,7 @@ Pharmikon
 Pharmitopia
 Photoshop
 Pilchuck
+Pipestone
 Piwowar
 Plaskett
 Poitras
