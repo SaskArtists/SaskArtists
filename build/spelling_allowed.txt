@@ -38,6 +38,7 @@ Beaconsfield
 Beasties
 Benesh
 Benning
+Benning's
 Beug
 Biennale
 Bilhah
@@ -410,6 +411,7 @@ Plaskett
 Poitras
 portrayer
 Poundmaker
+Powderhall
 Preparator
 Printmaker
 Printmakers
