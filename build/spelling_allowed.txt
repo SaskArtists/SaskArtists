@@ -93,7 +93,7 @@ Dada
 Dafoe
 d'art
 de
-Ders
+Der
 des
 Deichmann
 Derksen
@@ -171,6 +171,7 @@ grande
 Greenberg
 Guillaume
 Gump
+Gyeongsan
 Habatat
 Hackewich
 Halkirk
