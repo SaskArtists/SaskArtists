@@ -52,6 +52,7 @@ Catalogue
 Caulfield
 Causa
 CenArts
+Centerra
 Chiu
 Chromerosion
 Cicansky
@@ -66,6 +67,7 @@ Cowin
 Cradleboard
 Crawley
 Crista
+Critual
 Crocker
 Crouse
 Cupar
@@ -83,6 +85,7 @@ Deutscher
 Diltz
 Disley
 Doukhobor
+Draconi
 Dru
 dualities
 Dueck
@@ -281,6 +284,7 @@ Nugent
 Nutana
 Nutt
 O'Brian
+Oceanids
 Odyson
 Oleskiw
 Onita
@@ -403,6 +407,7 @@ Woodruff
 Worb
 workshopped
 Wynona
+Wyrm
 Xu
 Yah
 yah
