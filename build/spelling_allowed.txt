@@ -32,6 +32,7 @@ Barnet
 Barnett
 Bartlet
 Bas
+Bastian
 Bateman
 Battleford
 Beaconsfield
@@ -39,9 +40,11 @@ Beasties
 Benesh
 Benning
 Benning's
+Bettina
 Beug
 Biennale
 Bilhah
+Bilhah's
 Blachford
 Blick
 Bloomington
@@ -63,6 +66,7 @@ Bromley's
 Brouwers
 buh
 Bulyea
+burnings
 Burrard
 Café
 café
@@ -100,7 +104,9 @@ Connaught
 conte
 contemporain
 Coover
+Corridon
 Costain
+Costain's
 Covent
 Cowin
 Cowin's
@@ -117,6 +123,7 @@ Cymbidium
 Dacre's
 Dada
 Dafoe
+Darke
 Darq
 d'art
 Davis
@@ -147,6 +154,7 @@ Dundas
 Dunlop
 Duval
 Eavestrough
+Edie
 Eggertson
 Eidsness
 Elphinstone
@@ -158,17 +166,20 @@ Epp
 Ermanson
 Estevan
 Etchen
+Eutenier
 Evel
 Everyman
 Facebook
 Faculte
 Fafard
 Fafard's
+Fairbairn
 Fanshawe
 Fari
 Farrero
 Ferren
 Filmpool
+Fiske
 Flatlanders
 Florae
 Foldform
@@ -177,6 +188,7 @@ Fortescue
 Fortier
 Foss
 Fraise
+Franklyn
 Froese
 Francophonie
 Frimkess
@@ -241,6 +253,7 @@ Haverstock
 Hauser
 Haut
 heimlich
+Heisler
 Hejira
 Hell's
 Herbarium
@@ -253,6 +266,7 @@ Historica
 hoch
 Hodgeville
 Holdfast
+Holter
 Honoris
 Hou
 Hubble
@@ -267,6 +281,7 @@ impresaria
 Ing
 Ing's
 Inglis
+Insideo
 Instituto
 Intermedia
 intersubjective
@@ -278,7 +293,9 @@ Jarry
 Jarry's
 Javin
 Jazzsuite
+Jeae
 Jeux
+Jesperson
 Junek
 Juried
 Kady
@@ -317,6 +334,7 @@ Kyba
 LaBelle
 labours
 Lajord
+Lalle
 LaMacaza
 Lampart
 Lancha
@@ -332,6 +350,7 @@ Lethbridge
 Letraset
 Lewton
 Lindner
+Lisas
 Lismer
 Loch
 Lochhead
@@ -396,6 +415,7 @@ Mysteria
 Nanaimo
 Narcisse
 naturistic
+Neufeld
 Newnham
 Nichol
 Nicky
@@ -423,6 +443,7 @@ Oohing
 oooooohhhhh
 Ooops
 Ormerod
+Ortmann
 Oser
 Othello
 Outerbridge
@@ -461,6 +482,7 @@ QuickTime
 Radames
 Rafales
 Rainer
+Raliegh
 Recondita
 Redant
 Reddekopp
@@ -488,11 +510,14 @@ Sarian
 SaskArtists
 SaskEnergy
 scapes
+Scarth
 SCC
 Scenographia
 Schumacher
+scriptorium
 Seguin
 Sereda
+Sereda's
 Sessional
 Severson
 Shadbolt
@@ -504,15 +529,19 @@ Shigaraki
 Shih
 Shockwave
 Shoulda
+Sibelus
 Siegmund
 sigilatta
 Silton
 Siwek
 Slade
 smithing
+smorgasborg
 sociocultural
 Sockvile
 Sokoly
+Solheim
+Solway's
 Soonias
 Souris
 Spafford
@@ -536,6 +565,7 @@ Tapp
 Technica
 teepees
 Teevo
+TeleTex
 Templeton
 terra
 Thauberger
@@ -544,9 +574,11 @@ Threepenny
 Timescapes
 Tincher
 Tineola
+Torr
 Tsubo
 Tubello
 Tunison
+Tunison's
 Twayne
 Tylenol
 Tylor
@@ -557,6 +589,7 @@ ubu
 uck
 Ukrainian
 underglazes
+underworked
 unglazed
 utopian
 Valadon
@@ -573,8 +606,11 @@ Waskesiu
 wearables
 Weidenfeld
 Wellesley
+Werner
+Westbridge
 Weyburn
 Whalley
+Wieland
 Wiens
 Wihak
 Wilf
