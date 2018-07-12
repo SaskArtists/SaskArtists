@@ -46,6 +46,7 @@ Berrien
 Bettina
 Beug
 Biennale
+bifocality
 Bilhah
 Bilhah's
 Blachford
@@ -105,6 +106,7 @@ Clausen
 cocker
 Coldwell
 Coltrane
+commodified
 Conklin
 Connor
 Connaught
@@ -196,6 +198,7 @@ Foldform
 Folmer
 Fortescue
 Fortier
+Fortuna
 Foss
 Fraise
 Franklyn
@@ -300,6 +303,7 @@ Insideo
 Instituto
 intentioned
 Intermedia
+intertextuality
 intersubjective
 Ionesco
 intercut
@@ -369,8 +373,10 @@ Letraset
 Lewton
 Liebes
 Lindner
+Lipsitz
 Lisas
 Lismer
+Lobos
 Loch
 Lochhead
 lockability
@@ -406,6 +412,7 @@ masonite
 McCargar
 McGregor
 McKinnon
+McLachlan
 McLelland
 McNab
 McNally
@@ -445,6 +452,7 @@ Neufeld
 Newnham
 Nichol
 Nicky
+Nida
 Niels
 Nipawin
 Nocturnalist
@@ -476,9 +484,11 @@ Oser
 Othello
 Outerbridge
 Ozenfant
+Pachuco
 Pagliacci
 Paschke
 Pasmore
+Paz
 Peeples
 Penland
 Pense
@@ -506,6 +516,7 @@ Preparator
 Printmaker
 Printmakers
 Projekt
+Purtroppo
 Qu'Appelle
 Questomatic
 QuickTime
@@ -517,6 +528,7 @@ Rebecca
 Recondita
 Redant
 Reddekopp
+referentiality
 Reminiscents
 Riddell
 Rimmer
@@ -613,6 +625,7 @@ Timescapes
 Tincher
 Tineola
 Torr
+Tosti
 Trekkies
 Tripp
 Tsubo
@@ -623,6 +636,7 @@ Tunison's
 Twayne
 Tylenol
 Tylor
+Uarcus 
 Ubu
 UBU
 Ubu's
