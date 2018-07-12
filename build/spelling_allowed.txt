@@ -128,6 +128,7 @@ Crocker
 Crouse
 Cupar
 curation
+Curran
 Cymbidium
 Dacre's
 Dada
@@ -246,6 +247,7 @@ Gogh
 Gonor
 Goodeve
 Gothenburg
+Gramsci's
 grande
 Greenberg
 Guangzhov
@@ -408,6 +410,7 @@ Marzolf
 MATA
 materiality
 Matic
+Matumbi
 masonite
 McCargar
 McGregor
@@ -460,6 +463,7 @@ Noland
 Nonie
 Nootokao
 Norbraten
+Notting
 Novak
 Nugent
 Nugent's
@@ -516,6 +520,7 @@ Preparator
 Printmaker
 Printmakers
 Projekt
+Proto
 Purtroppo
 Qu'Appelle
 Questomatic
@@ -524,6 +529,7 @@ Radames
 Rafales
 Rainer
 Raliegh
+Ramones
 Rebecca
 Recondita
 Redant
@@ -636,7 +642,7 @@ Tunison's
 Twayne
 Tylenol
 Tylor
-Uarcus 
+Uarcus
 Ubu
 UBU
 Ubu's
