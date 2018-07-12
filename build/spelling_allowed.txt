@@ -40,6 +40,7 @@ Beasties
 Benesh
 Benning
 Benning's
+Berrien
 Bettina
 Beug
 Biennale
@@ -62,6 +63,7 @@ Bragage
 Brezinsky
 Brittania
 Broadway
+Brockville
 Bromley
 Bromley's
 Brouwers
@@ -289,6 +291,7 @@ Ing's
 Inglis
 Insideo
 Instituto
+intentioned
 Intermedia
 intersubjective
 Ionesco
@@ -509,6 +512,7 @@ Riddell
 Rimmer
 Ritcher
 Ritchey
+Robineau
 Rocamora
 Rohatensky
 Roi
@@ -531,6 +535,7 @@ SaskArtists
 SaskComp
 SaskEnergy
 Satie's
+Sault
 scapes
 Scarth
 SCC
