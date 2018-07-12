@@ -12,6 +12,7 @@ with open("./build/spelling_allowed.txt") as fobj:
 most = {}
 
 for artist in filter(lambda x: os.path.isdir(os.path.join(ROOT, x)), os.listdir(ROOT)):
+    if artist = "reginabellringers.ca": continue
     for dir in os.walk(os.path.join(ROOT, artist)):
         for file in dir[2]:
             if not file.endswith(".html") and not file.endswith(".htm"): continue
