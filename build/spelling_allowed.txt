@@ -259,7 +259,7 @@ Hubble
 Humbolt
 Hustak
 hyperdeborialforestation
-Hyperdborealforestation
+Hyperdeborealforestation
 HYPERDEBOREALFORESTATION
 Ileen
 Imagists
@@ -342,9 +342,9 @@ Lorne's
 Luciuk
 Lukas
 Lumsden
-Macgregor
+MacGregor
 MacKenzie
-Macleod
+MacLeod
 Mah
 Mahone's
 Maija
@@ -544,7 +544,6 @@ Threepenny
 Timescapes
 Tincher
 Tineola
-travelling
 Tsubo
 Tubello
 Tunison
