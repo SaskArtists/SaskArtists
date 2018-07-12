@@ -23,6 +23,7 @@ Arnott's
 Asakv
 Atter
 Auguste
+Autumn
 avant
 Bachelu
 Balkwill
@@ -295,7 +296,7 @@ intentioned
 Intermedia
 intersubjective
 Ionesco
-Intercut
+intercut
 Iverson
 Jacklin
 Jalisco
