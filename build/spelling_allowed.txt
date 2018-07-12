@@ -58,6 +58,7 @@ Borealis
 Boulanger
 Boutin
 Bowmanville
+Bragage
 Brezinsky
 Brittania
 Broadway
@@ -83,6 +84,7 @@ Causa
 CenArts
 Centerra
 Chabun
+Chamberlin
 Chenier
 Chiu
 Choson
@@ -139,6 +141,7 @@ Diltz
 Disley
 Dmytro
 Dmytro's
+documenter
 Dofasco
 Dorland
 Doukhobor
@@ -204,6 +207,7 @@ Garneau
 Garneau's
 Garson
 Garstang
+Gatin
 Gatineau
 Gayland
 Gayoon
@@ -238,6 +242,7 @@ Guangzhov
 Guillaume
 Gump
 Gyeongsan
+Gymnopedia
 Habatat
 Hackewich
 Hafford
@@ -258,6 +263,7 @@ Hejira
 Hell's
 Herbarium
 Herrin
+Herseberger
 Hemerocallis
 Henge
 Hermina
@@ -286,6 +292,7 @@ Instituto
 Intermedia
 intersubjective
 Ionesco
+Intercut
 Iverson
 Jacklin
 Jalisco
@@ -378,6 +385,7 @@ Marnie
 Marner
 Marner's
 Marthe
+Marys
 Marzolf
 MATA
 materiality
@@ -389,8 +397,11 @@ McKinnon
 McLelland
 McNab
 McNally
+McPhadden
+McTaggert
 Meacham
 Melchert
+Melies
 Melita
 Mendal
 Mepham
@@ -400,6 +411,7 @@ Métis
 merdre
 Michaëlle
 Michaud
+midwestern
 Miliokas
 Missoula
 Moderna
@@ -415,6 +427,7 @@ Mysteria
 Nanaimo
 Narcisse
 naturistic
+NEMCO
 Neufeld
 Newnham
 Nichol
@@ -433,6 +446,8 @@ Nutana
 Nutt
 O'Brian
 Oceanids
+Oddie
+Odie
 Odyson
 Okema
 Olah
@@ -458,12 +473,14 @@ Pere
 Perehudoff
 Perreault
 Perreault's
+personalization
 Petrychyn
 Ph
 Pharmikon
 Pharmitopia
 Photoshop
 Pilchuck
+Pinter
 Pipestone
 Piwowar
 Plaskett
@@ -483,11 +500,14 @@ Radames
 Rafales
 Rainer
 Raliegh
+Rebecca
 Recondita
 Redant
 Reddekopp
 Reminiscents
 Riddell
+Rimmer
+Ritcher
 Ritchey
 Rocamora
 Rohatensky
@@ -508,7 +528,9 @@ Saposkum
 Sapp
 Sarian
 SaskArtists
+SaskComp
 SaskEnergy
+Satie's
 scapes
 Scarth
 SCC
@@ -518,6 +540,7 @@ scriptorium
 Seguin
 Sereda
 Sereda's
+serialistic
 Sessional
 Severson
 Shadbolt
@@ -594,8 +617,10 @@ unglazed
 utopian
 Valadon
 Vancouver
+Vail
 Vayfe
 Velder
+Vertov
 Vickers
 Villina
 Von
@@ -611,6 +636,8 @@ Westbridge
 Weyburn
 Whalley
 Wieland
+Wieland's
+Wiele
 Wiens
 Wihak
 Wilf
