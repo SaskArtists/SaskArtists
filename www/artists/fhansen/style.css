@@ -1,0 +1,33 @@
+body{
+	font-family: Union,Trebuchet MS,Arial;
+	background-color: #DFDFDF;
+}
+#wrapper {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#content{
+
+	width: 600px;
+	left: 30em;
+	min-height: 500px;
+	height: auto;
+	text-align: left;
+	background-color: #ffffff;
+	
+}
+
+#content img{	margin-left: 10px;	display: inline;
+	text-align: center;	max-width: 225px;	max-height: 225px;
+	
+}#content td {	text-align: center;}a img, a img:link, a img:active, a img:visited, a img:hover{	border-style:none; } 
+
+orange{
+	color: #C43917;
+}
+.header{
+	margin-left: 10px;
+	font-size: 170%;
+	text-align: left;
+	}#ref{	text-align: left;	margin-left: 10px;	font-size: 75%;}

@@ -1,0 +1,55 @@
+body{
+	background-color: #F0F8FF;
+	text-align: center;
+	font-family: Calibri, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+#wrapper{
+	width: 885px;
+	background-color: #59C2C8;
+	PADDING-TOP: 20PX;	
+	padding: 10px 10px 10px 10px;
+	color: #2kjfhg;	
+	text-align: center;
+	margin: 0px auto 0px auto;
+}
+
+#header{
+	margin-left: 40px;
+	margin-top: 30px;
+	font-size: 50px;
+	PADDING-TOP: 20PX;	
+	color: #ffffff;
+	text-align: center;
+}
+
+#navbar{
+	color: #2fffhg;
+	text-align: center;
+	padding: 0px 0px 20px 300px;
+}
+
+.nav {
+	float: left;
+	padding: 0px 5px 0px 5px;
+}
+
+#content{
+	color: white;
+	text-align: center;
+} 
+
+#footer{
+	color: #ffffff;
+	text-align: center;
+	margin-top: 20px;
+}
+
+a:link {
+	color: #A86D5F;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #A86D5F;
+}

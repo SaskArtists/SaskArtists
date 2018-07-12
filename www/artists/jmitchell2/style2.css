@@ -1,0 +1,26 @@
+body{
+	background: #0C4346;
+}
+
+content {
+	background-color: #FFFFFF;
+	width: 80%;
+	margin: 0 auto 0 auto;
+	border-style: solid;
+	border-color: #85DEAD;
+	text-align: center;
+	color: #ffffff;
+	
+}
+h1{
+	text-align: center;
+	color: yellow;
+}
+
+a:link{
+	color: yellow;
+}
+
+a:hover{
+	color: pink; 
+}
