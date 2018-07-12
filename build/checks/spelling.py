@@ -14,7 +14,7 @@ most = {}
 for artist in filter(lambda x: os.path.isdir(os.path.join(ROOT, x)), os.listdir(ROOT)):
     for dir in os.walk(os.path.join(ROOT, artist)):
         for file in dir[2]:
-            if not file.endswith(".html"): continue
+            if not file.endswith(".html") and not file.endswith(".htm"): continue
             path = os.path.join(dir[0], file)
             errors = subprocess.getoutput("cat {} | aspell -a -H --master=en_US --extra-dicts=en_GB".format(path)).split("\n")[1:]
             for line in errors:
