@@ -10,6 +10,7 @@ Anagama
 Anant
 Andere
 Androxia
+Ang
 Angewandten
 Anita's
 Antigonish
@@ -152,6 +153,7 @@ Doukhobor
 Draconi
 dragonet
 Dru
+Drummond
 dualities
 Dueck
 Duggleby
@@ -187,6 +189,7 @@ Farrero
 Ferren
 Filmpool
 Fiske
+Fiske's
 Flatlanders
 Florae
 Foldform
@@ -261,6 +264,7 @@ Hartenberger
 Haverstock
 Hauser
 Haut
+Hebdige
 heimlich
 Heisler
 Hejira
@@ -282,6 +286,7 @@ Hou
 Hubble
 Humbolt
 Hustak
+Hyman
 hyperdeborialforestation
 Hyperdeborealforestation
 HYPERDEBOREALFORESTATION
@@ -316,6 +321,7 @@ Kameradschaft
 Kanin
 Kapay
 Kassel
+Kats
 Kearns
 Kellendonk
 Keeler
@@ -361,6 +367,7 @@ Lenhardt
 Lethbridge
 Letraset
 Lewton
+Liebes
 Lindner
 Lisas
 Lismer
@@ -412,6 +419,7 @@ Mendal
 Mepham
 MetaCreations
 Methot
+Methuen
 Métis
 merdre
 Michaëlle
@@ -605,8 +613,11 @@ Timescapes
 Tincher
 Tineola
 Torr
+Trekkies
+Tripp
 Tsubo
 Tubello
+Tubingen
 Tunison
 Tunison's
 Twayne
@@ -621,6 +632,7 @@ Ukrainian
 underglazes
 underworked
 unglazed
+Unwin
 utopian
 Valadon
 Vancouver
