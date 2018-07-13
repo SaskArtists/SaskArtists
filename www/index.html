@@ -39,16 +39,23 @@
           18. All pages are ran through code quality assesments, error detection, and spelling checks before becoming visible on this site. We periodically check the contents of pages to make sure the content stays up-to-date.</p>
       </div>
     </div>
-    <div class="container">
+    <div class="container" id="artists-app">
       <div class="row text-center">
         <div class="col-sm-12 col-md-12 col-lg-12">
           <!-- Search Box Here -->
-          <input />
+          <input v-model="search"/>
         </div>
       </div>
       <div class="row">
         <div class="portfolio-items">
           <!-- Aritsts go here -->
+          <div>
+            <section>
+              <div class = "artists-placement col-md-6" v-for = "artist in display">
+                <a class = "artists" href = "#">{{ artist.name }}: {{ artist.location }}</a>
+              </div>
+            </section>
+          </div>
         </div>
       </div>
     </div>
@@ -65,7 +72,9 @@
       </div>
     </div>
   </div>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
 
 </html>
