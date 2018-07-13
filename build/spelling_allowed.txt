@@ -198,7 +198,7 @@ Engel
 EnviroKids
 Epp
 Ermanson
-ERUPTIONSsssssssss 
+ERUPTIONSsssssssss
 Estevan
 Etchen
 Eutenier
@@ -501,6 +501,7 @@ Nanaimo
 Narcisse
 naturistic
 NEMCO
+NETIZENS
 Neufeld
 Newbury
 Newnham
