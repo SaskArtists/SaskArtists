@@ -94,6 +94,7 @@ Catalogue
 Catharines
 Caulfield
 Causa
+CDs
 CenArts
 Centerra
 Chabun
@@ -148,6 +149,8 @@ Darq
 d'art
 Davis
 de
+Delegitimization
+delegitimization
 Delusia
 Der
 des
