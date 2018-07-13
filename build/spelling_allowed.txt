@@ -219,6 +219,7 @@ Francophonie
 Frimkess
 FrogWorld
 Fudgsicle
+Fulford
 Funomena
 Fyfe
 Garconne
@@ -351,6 +352,7 @@ Kenderdine
 Kenderdine's
 Kenosee
 Keone
+Kerokhove
 Khalil
 Kidsafe
 Kimbu
@@ -396,6 +398,7 @@ Lindner
 Lipsitz
 Lisas
 Lismer
+Liss
 Lobos
 Loch
 Lochhead
@@ -579,6 +582,7 @@ Roi
 Romanow
 Rosemont
 Rosevally
+Rossetto
 Roughrider
 Roughriders
 Rouleau
@@ -640,6 +644,7 @@ Solheim
 Solway's
 Soonias
 Souris
+Southam
 Spafford
 Squeek
 Stanville
@@ -664,6 +669,7 @@ Teevo
 TeleTex
 Templeton
 terra
+Tetrads
 Thauberger
 Thauberger's
 Thiong'o
@@ -763,3 +769,4 @@ Zeldin
 Zhao
 Zhong
 Zi
+Zingrone
