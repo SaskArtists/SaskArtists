@@ -131,6 +131,7 @@ cocker
 Coldwell
 Coltrane
 commodified
+communaute
 Conklin
 Connor
 Connaught
@@ -177,6 +178,7 @@ Deutscher
 Dewdney
 Diltz
 Disley
+Disting
 Dmytro
 Dmytro's
 documenter
@@ -205,6 +207,7 @@ emily
 encaustic
 Engel
 EnviroKids
+Eostre
 Epp
 Ermanson
 ERUPTIONSsssssssss
@@ -239,6 +242,7 @@ Fraise
 Franklyn
 Froese
 Francophonie
+fransaskoise
 Frenchie
 Frimkess
 FrogWorld
@@ -520,6 +524,7 @@ Mysteria
 Nanaimo
 Narcisse
 naturistic
+ne
 NEMCO
 NETIZENS
 Neufeld
@@ -721,6 +726,7 @@ stylisation
 styrofoam
 Stylization
 Sures
+surviverait
 Swarovski
 Swetlow
 Syntagmatic
@@ -738,6 +744,7 @@ tellings
 Templeton
 terra
 Tetrads
+Teutonic
 Thauberger
 Thauberger's
 Thiong'o
@@ -771,8 +778,10 @@ Ukrainian
 Umberto
 underglazes
 underworked
+unexplainable
 unglazed
 universalism
+Unmanifest
 unromanticized
 unspotted
 Unwin
@@ -782,6 +791,7 @@ Vancouver
 Vail
 Vayfe
 Velder
+Vernal
 Vertov
 Vickers
 Villina
@@ -789,6 +799,7 @@ Vinci
 Von
 Vormittagsspuk
 Wacom
+Walburga
 Wascana
 Waskesiu
 wearables
