@@ -1,5 +1,8 @@
 Ablex
+acimowina
 Adonibezek
+Ahisaw
+Ahasiw's
 Ahlers
 Aidan
 Akademie
@@ -9,6 +12,7 @@ Albertville
 Alloway
 alma
 Alstine
+Alteen
 ambience
 Amédée
 Anagama
@@ -31,12 +35,14 @@ Ary
 Arnott
 Arnott's
 Asakv
+asowaha
 Astro
 Atter
 Auguste
 Aurele
 Auteur
 Auteurism
+autochthonous
 Autumn
 avant
 Avrum
@@ -59,6 +65,7 @@ Beasties
 Bedard
 BENEDICAMUS
 Benesh
+Beneteau
 Benning
 Benning's
 Berrien
@@ -77,6 +84,7 @@ Bloomington
 Bloore
 Bloore's
 Bodil
+Boisvert
 Bolen
 BOMPH
 bonafide
@@ -90,6 +98,7 @@ Bowmanville
 Bragage
 Brezinsky
 Bricolage
+Brightman
 Brittania
 Broadway
 Brockville
@@ -124,6 +133,7 @@ Chamberlin
 Chenier
 Chiu
 Choson
+Christakos
 Chromerosion
 Chouchoute
 Cicansky
@@ -135,6 +145,7 @@ Clarington
 Clausen
 Clipsham
 cocker
+Cocurator
 Coldwell
 collaged
 Coltrane
@@ -166,6 +177,8 @@ Crouse
 Cupar
 curation
 Curran
+Cuthand
+Cuthland
 cyberpolice
 Cymbidium
 Dacre's
@@ -217,6 +230,7 @@ Edouard
 Eggertson
 Eidsness
 Eisenman
+Electroacoustic
 Elphinstone
 emily
 encaustic
@@ -228,6 +242,7 @@ Ermanson
 ERUPTIONSsssssssss
 Estevan
 Etchen
+ethnocentricity
 Euridice
 Euridice's
 Eutenier
@@ -255,6 +270,7 @@ Fortescue
 Fortier
 Fortuna
 Foss
+foundational
 fragmentally
 Fraise
 Franklyn
@@ -288,6 +304,7 @@ Gelech
 Georgia
 GerFilm
 Gerri
+Ghostkeeper
 Gid
 gif
 GIFs
@@ -314,6 +331,7 @@ Goldeu
 Gonor
 Goodeve
 Gothenburg
+Gottlieb
 goy
 Gramsci's
 grande
@@ -392,6 +410,7 @@ Ionesco
 inkjet
 Inscapes
 intercut
+Iskwew
 Israelites
 Iverson
 Jacklin
@@ -432,6 +451,7 @@ Kimbu
 Kipnis
 Kiskayetum
 KITCHENER
+Kitotcigan
 Klause
 Klieger
 Klingsor
@@ -461,12 +481,14 @@ Langgard
 Langham
 Lanza
 Lapis
-Lazuli
+LaRocque
 L'Atlantide
 Lauderdale
 LAUS
+Lazuli
 Leboldus
 Lecter's
+Lefler
 lEEEve
 Leitch
 Lenhardt
@@ -502,6 +524,7 @@ MacGregor
 MacCrimmon
 MacKenzie
 MacLeod
+MacNeil
 Madelene
 Mah
 Mahone's
@@ -521,6 +544,7 @@ Marner's
 Marthe
 Marys
 Marzolf
+Maskegon
 MATA
 materiality
 Matic
@@ -548,6 +572,7 @@ MetaCreations
 Methot
 Methuen
 Métis
+metonymy
 Metz
 merdre
 Michaëlle
@@ -571,9 +596,12 @@ Musee
 Mykola
 Mysteria
 Nanaimo
+nanatawihitowin
 Narcisse
 naturistic
 ne
+Nehiyawak
+Nehiyawewin
 NEMCO
 Neo
 NETIZENS
@@ -614,6 +642,7 @@ Onita
 Oohing
 oooooohhhhh
 Ooops
+orature
 Orfeo
 Ormerod
 Ortmann
@@ -621,6 +650,7 @@ Oser
 Otaku
 Othello
 Outerbridge
+OutWrite
 Oxo
 Ozenfant
 Pachuco
@@ -644,6 +674,7 @@ Ph
 Pharmikon
 Pharmitopia
 Photoshop
+Piapot
 Pilchuck
 Pinter
 Pipestone
@@ -670,6 +701,7 @@ Qu'Appelle
 Queerville
 Questomatic
 QuickTime
+Quincentenary
 Racoo
 Radames
 RADVILLE
@@ -716,6 +748,7 @@ Saltcoats
 Salvadore
 Saposkum
 Sapp
+Sarcophage
 Sarian
 Sarris
 SaskArtists
@@ -767,6 +800,7 @@ Sluggo
 Smiler
 smithing
 smorgasborg
+Smukler
 Smythe
 Snelgrove
 sociocultural
@@ -824,6 +858,7 @@ Tineola
 Toffler
 Torr
 Tosti
+transformative
 Treherne
 Treichler
 Trekkies
@@ -838,6 +873,7 @@ Tunison's
 Twayne
 Tylenol
 Tylor
+Tyne
 Uarcus
 Ubu
 UBU
@@ -854,6 +890,7 @@ universalism
 Unmanifest
 unromanticized
 unspotted
+unstoppably
 Unwin
 utopian
 Valadon
@@ -885,10 +922,15 @@ Wieland's
 Wiele
 Wiens
 Wihak
+Wihtiko
+Wihtiko's
 Wilf
 Willibald
 Wimea
 Winblown
+windigo
+windigos
+wintiko
 Woodruff
 Woofaparte
 Wooferly
