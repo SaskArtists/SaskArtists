@@ -156,6 +156,7 @@ Cymbidium
 Dacre's
 Dada
 Dafoe
+Dahmer
 Darke
 Darq
 d'art
@@ -538,6 +539,7 @@ Nutana
 Nutt
 O'Brian
 Oceanids
+OCTOECHOES
 Oddie
 Odie
 Odyson
@@ -561,6 +563,7 @@ Pachuco
 Pagliacci
 Paschke
 Pasmore
+passant
 Paz
 Peeples
 Penland
@@ -772,6 +775,7 @@ Velder
 Vertov
 Vickers
 Villina
+Vinci
 Von
 Vormittagsspuk
 Wacom
