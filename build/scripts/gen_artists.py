@@ -56,6 +56,7 @@ for artist in artists:
     with open(os.path.join(ROOT, artist, "artist.json")) as info:
         data = DEFAULT_ARTIST.copy()
         data.update(json.load(info))
+        data["link"] = artist
         output.append(data)
         for att, props in ATTRIBUTES.items():
             if att not in data:
