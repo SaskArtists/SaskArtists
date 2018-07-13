@@ -184,6 +184,7 @@ Delusia
 Der
 des
 Deichmann
+Dejeuner
 Derksen
 Deutscher
 Dewdney
@@ -476,6 +477,7 @@ Levites
 Lewiston
 Lewton
 Lewvan
+l'herbe
 Libbey
 Liebes
 Lindner
@@ -788,6 +790,7 @@ Stylisation
 stylisation
 styrofoam
 Stylization
+sur
 Sures
 surviverait
 Swarovski
