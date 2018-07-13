@@ -80,6 +80,7 @@ Bodil
 Bolen
 BOMPH
 bonafide
+Bonspiel
 Boreal
 Borealis
 Boopular
@@ -106,6 +107,7 @@ Canio
 Cannington
 Caragana
 Carlee's
+Carlton
 Caro
 Carpe
 Castile
@@ -134,6 +136,7 @@ Clausen
 Clipsham
 cocker
 Coldwell
+collaged
 Coltrane
 commodified
 communaute
@@ -169,6 +172,7 @@ Dacre's
 Dada
 Dafoe
 Dahmer
+Dalhousie
 Darke
 Darq
 d'art
@@ -183,6 +187,7 @@ Deichmann
 Derksen
 Deutscher
 Dewdney
+diaristic
 Diltz
 Disley
 Disting
@@ -207,6 +212,7 @@ Dunlop
 Duval
 Eavestrough
 Edie
+Edouard
 Eggertson
 Eidsness
 Eisenman
@@ -280,6 +286,7 @@ Gelech
 Georgia
 GerFilm
 Gerri
+Gid
 gif
 GIFs
 Gilmour
@@ -301,6 +308,7 @@ Godwin
 Godwin's
 Goeritz
 Gogh
+Goldeu
 Gonor
 Goodeve
 Gothenburg
@@ -396,6 +404,7 @@ Jeae
 Jeux
 Jesperson
 jinrui
+Jahan
 Junek
 Juried
 Kady
@@ -420,6 +429,7 @@ Kimball
 Kimbu
 Kipnis
 Kiskayetum
+KITCHENER
 Klause
 Klieger
 Klingsor
@@ -460,6 +470,7 @@ Letraset
 Levinson
 Levites
 Lewton
+Lewvan
 Libbey
 Liebes
 Lindner
@@ -480,6 +491,7 @@ Lukas
 Lumsden
 Lyotard
 MacGregor
+MacCrimmon
 MacKenzie
 MacLeod
 Madelene
@@ -488,6 +500,7 @@ Mahone's
 Maija
 Maija's
 Maja
+Maka
 Makarow
 Makarow's
 Maksym
@@ -506,6 +519,7 @@ Matic
 Mattelart
 Matumbi
 masonite
+McAlear
 McCargar
 McGregor
 McKinnon
@@ -534,7 +548,9 @@ midwestern
 Miliokas
 Missoula
 Moderna
+Modernnes
 moharebeh
+Mohcikitawin
 Mohtashemi
 Moje
 Monde
@@ -551,6 +567,7 @@ Narcisse
 naturistic
 ne
 NEMCO
+Neo
 NETIZENS
 Neufeld
 Newbury
@@ -573,6 +590,7 @@ Nugent
 Nugent's
 Nutana
 Nutt
+obliterations
 O'Brian
 Oceanids
 OCTOECHOES
@@ -595,6 +613,7 @@ Oser
 Otaku
 Othello
 Outerbridge
+Oxo
 Ozenfant
 Pachuco
 Pagliacci
@@ -696,6 +715,7 @@ Satie's
 Sault
 Sawblades
 scapes
+Scape
 Scarth
 SCC
 Schaffer
@@ -713,6 +733,8 @@ Sereda's
 serialistic
 Sessional
 Severson
+SEVERSON
+Severson's
 Shadbolt
 Shambhavi
 Shattuck
@@ -731,14 +753,17 @@ sigilatta
 Silton
 Siwek
 Slade
+Sluggo
 Smiler
 smithing
 smorgasborg
 Smythe
+Snelgrove
 sociocultural
 Sockvile
 Sokoly
 Solheim
+Solomon
 Solway's
 Soonias
 Souris
@@ -767,6 +792,7 @@ Tagseth's
 Tapp
 Tae
 Technica
+Teepees
 teepees
 Teevo
 TeleTex
@@ -786,6 +812,7 @@ Tineola
 Toffler
 Torr
 Tosti
+Treherne
 Treichler
 Trekkies
 treyf
@@ -831,6 +858,7 @@ Von
 Vormittagsspuk
 Wacom
 Walburga
+Wanuskewin
 Wascana
 Waskesiu
 wearables
