@@ -267,6 +267,7 @@ Fudgsicle
 Fulford
 Funomena
 Fyfe
+GABRIEL
 Garconne
 garde
 gardists
@@ -458,7 +459,10 @@ Langenburg
 Langgard
 Langham
 Lanza
+Lapis
+Lazuli
 L'Atlantide
+Lauderdale
 LAUS
 Leboldus
 Lecter's
@@ -469,6 +473,7 @@ Lethbridge
 Letraset
 Levinson
 Levites
+Lewiston
 Lewton
 Lewvan
 Libbey
@@ -665,6 +670,7 @@ Questomatic
 QuickTime
 Racoo
 Radames
+RADVILLE
 Rafales
 Rainer
 Raliegh
