@@ -57,3 +57,12 @@ padding-bottom: 20px;
 .b1 {
     border: 1px solid black;
 }
+
+.r5{
+  text-align: left;
+  font-weight: bold;
+}
+
+.r5img {
+  border-width: 1px;
+}
