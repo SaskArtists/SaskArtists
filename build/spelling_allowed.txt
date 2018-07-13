@@ -43,6 +43,7 @@ Bateman
 Battleford
 Beaconsfield
 Beasties
+Bedard
 Benesh
 Benning
 Benning's
@@ -63,6 +64,7 @@ Bolen
 bonafide
 Boreal
 Borealis
+Boopular
 Boulanger
 Boutin
 Bowmanville
@@ -175,6 +177,7 @@ Eavestrough
 Edie
 Eggertson
 Eidsness
+Eisenman
 Elphinstone
 emily
 encaustic
@@ -544,6 +547,7 @@ Projekt
 Proto
 Purtroppo
 Qu'Appelle
+Queerville
 Questomatic
 QuickTime
 Radames
@@ -562,6 +566,7 @@ Riddell
 Rimmer
 Ritcher
 Ritchey
+Rizzoli
 Robineau
 Robotech
 Rocamora
@@ -573,6 +578,7 @@ Rosevally
 Roughrider
 Roughriders
 Rouleau
+Routledge
 Royale
 Rubik's
 Sacramento
@@ -591,10 +597,12 @@ scapes
 Scarth
 SCC
 Scenographia
+Schechner
 Schement
 Schumacher
 scriptorium
 Seguin
+semiotically
 Sereda
 Sereda's
 serialistic
@@ -679,6 +687,7 @@ Ubu's
 ubu
 uck
 Ukrainian
+Umberto
 underglazes
 underworked
 unglazed
