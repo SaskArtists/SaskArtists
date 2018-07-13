@@ -14,6 +14,7 @@ Andere
 Androxia
 Ang
 Angewandten
+animalistic
 Anita's
 Antigonish
 Anthea
@@ -29,6 +30,8 @@ Asakv
 Astro
 Atter
 Auguste
+Auteur
+Auteurism
 Autumn
 avant
 Bachelu
@@ -43,6 +46,7 @@ Bas
 Bastian
 Bateman
 Battleford
+Bazin
 Beaconsfield
 Beasties
 Bedard
@@ -53,6 +57,7 @@ Berrien
 Berrigan
 Bettina
 Beug
+Bhabha
 Biennale
 bifocality
 Bilhah
@@ -259,6 +264,7 @@ Glyde
 Gnagy's
 GodFrog
 GodFrog's
+Godivas
 Godrey
 Godwin
 Godwin's
@@ -284,10 +290,12 @@ Halen
 Halkirk
 Hambly
 Hampstead
+Hannagan
 Harbuz
 Hardingham
 Harron
 Hartenberger
+havenots
 Haverstock
 Hauser
 Haut
@@ -309,6 +317,7 @@ hoch
 Hodgeville
 Holdfast
 Holter
+Homi
 Honoris
 Hou
 Hubble
@@ -374,6 +383,7 @@ Knievel
 Knowhere
 knu
 Kommt
+Kracauer
 Kratzman
 Kreutzer
 Krueger
@@ -400,6 +410,7 @@ lEEEve
 Lenhardt
 Lethbridge
 Letraset
+Levinson
 Lewton
 Libbey
 Liebes
@@ -465,6 +476,7 @@ MetaCreations
 Methot
 Methuen
 Métis
+Metz
 merdre
 Michaëlle
 Michaud
@@ -472,12 +484,15 @@ midwestern
 Miliokas
 Missoula
 Moderna
+moharebeh
+Mohtashemi
 Moje
 Monde
 Montreal
 MOV
 MSI
 Mulcaster
+Mulrey
 Musee
 Mykola
 Mysteria
@@ -558,11 +573,13 @@ portrayer
 Postsmouth
 Poundmaker
 Powderhall
+preinterview
 Preparator
 Prepuberty
 Printmaker
 Printmakers
 Projekt
+promotable
 Proto
 Purtroppo
 Qu'Appelle
@@ -585,6 +602,7 @@ Riddell
 Rimmer
 Ritcher
 Ritchey
+ritualists
 Rizzoli
 Robineau
 Robotech
@@ -601,6 +619,7 @@ Rouleau
 Routledge
 Royale
 Rubik's
+RUTIBURI
 Sacramento
 Sainte
 Saltcoats
@@ -608,6 +627,7 @@ Salvadore
 Saposkum
 Sapp
 Sarian
+Sarris
 SaskArtists
 SaskComp
 SaskEnergy
@@ -623,6 +643,7 @@ Schumacher
 scriptorium
 Seguin
 semiotically
+semiological
 Sereda
 Sereda's
 serialistic
@@ -646,6 +667,7 @@ sigilatta
 Silton
 Siwek
 Slade
+Smiler
 smithing
 smorgasborg
 Smythe
@@ -658,6 +680,7 @@ Soonias
 Souris
 Southam
 Spafford
+Spectatorship
 Squeek
 Stanville
 Stickland
@@ -671,6 +694,8 @@ Stylization
 Sures
 Swarovski
 Swetlow
+Syntagmatic
+syntagmatic
 Sztenera
 Tagseth
 Tagseth's
