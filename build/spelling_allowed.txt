@@ -4,6 +4,7 @@ Ahlers
 Aidan
 Akademie
 Akira
+Alain
 Albertville
 Alloway
 alma
@@ -25,6 +26,7 @@ Arendt
 Armes
 Armonia
 Arneson
+Aristaeus
 Ary
 Arnott
 Arnott's
@@ -104,6 +106,7 @@ Cannington
 Caragana
 Carlee's
 Caro
+Carpe
 Catalogue
 Catharines
 Caulfield
@@ -151,6 +154,7 @@ Cranbrook
 Crawley
 Creolization
 Crista
+Christoph
 Critual
 Crocker
 Crouse
@@ -183,6 +187,7 @@ Dmytro
 Dmytro's
 documenter
 Dofasco
+Donazetti
 Dorland
 Doukhobor
 Draconi
@@ -213,6 +218,7 @@ Ermanson
 ERUPTIONSsssssssss
 Estevan
 Etchen
+Euridice
 Eutenier
 Evel
 Everyman
@@ -224,6 +230,7 @@ Fairbairn
 Fanshawe
 Fari
 Farrero
+Felini
 Ferren
 Filmpool
 Fiske
@@ -258,6 +265,7 @@ Garneau
 Garneau's
 Garson
 Garstang
+Gartner
 Gatin
 Gatineau
 Gayland
@@ -275,6 +283,7 @@ Gladwell
 Gladwell's
 Glenbow
 Glenavon
+Gluck
 Glyde
 Gnagy's
 GodFrog
@@ -330,6 +339,7 @@ Hemerocallis
 Henge
 Hermina
 Himmel
+Hiroshimo
 Historica
 hoch
 Hodgeville
@@ -350,6 +360,7 @@ Igniter
 Ileen
 Imagists
 impresaria
+Inerdi
 Ing
 Ing's
 Inglis
@@ -364,7 +375,9 @@ intercut
 Israelites
 Iverson
 Jacklin
+Jacque
 Jalisco
+Janerio
 Jarry
 Jarry's
 Javin
@@ -563,6 +576,7 @@ Onita
 Oohing
 oooooohhhhh
 Ooops
+Orfeo
 Ormerod
 Ortmann
 Oser
@@ -572,6 +586,7 @@ Outerbridge
 Ozenfant
 Pachuco
 Pagliacci
+Paperworkers
 Paschke
 Pasmore
 passant
@@ -629,6 +644,7 @@ Redant
 Reddekopp
 referentiality
 Reminiscents
+Resnais
 Rho
 Riddell
 Rimmer
@@ -678,6 +694,7 @@ scriptorium
 Seguin
 semiotically
 semiological
+senza
 Sereda
 Sereda's
 serialistic
@@ -754,6 +771,7 @@ TIBI
 Timescapes
 Tincher
 Tineola
+Toffler
 Torr
 Tosti
 Treichler
@@ -815,6 +833,7 @@ Wiele
 Wiens
 Wihak
 Wilf
+Willibald
 Wimea
 Winblown
 Woodruff
