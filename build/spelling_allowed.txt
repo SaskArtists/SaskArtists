@@ -52,6 +52,7 @@ Bazin
 Beaconsfield
 Beasties
 Bedard
+BENEDICAMUS
 Benesh
 Benning
 Benning's
@@ -105,6 +106,7 @@ Catharines
 Caulfield
 Causa
 CDs
+Celie
 CenArts
 Centerra
 Chabun
@@ -327,6 +329,7 @@ Homi
 Honoris
 Hou
 Hubble
+Huichol
 Humbolt
 Hustak
 Hyman
@@ -412,6 +415,7 @@ Langgard
 Langham
 Lanza
 L'Atlantide
+LAUS
 Leboldus
 lEEEve
 Lenhardt
@@ -610,6 +614,7 @@ Redant
 Reddekopp
 referentiality
 Reminiscents
+Rho
 Riddell
 Rimmer
 Ritcher
@@ -712,6 +717,7 @@ Sztenera
 Tagseth
 Tagseth's
 Tapp
+Tae
 Technica
 teepees
 Teevo
@@ -725,6 +731,7 @@ Thauberger's
 Thiong'o
 Threepenny
 Thussu
+TIBI
 Timescapes
 Tincher
 Tineola
@@ -795,6 +802,7 @@ Woofio
 Woofyard
 Woofzart
 Wolpe
+Woo
 Worb
 workshopped
 Wynona
