@@ -39,6 +39,7 @@ Auteur
 Auteurism
 Autumn
 avant
+Avrum
 Bachelu
 Badham
 Bagnolet
@@ -107,6 +108,7 @@ Caragana
 Carlee's
 Caro
 Carpe
+Castile
 Catalogue
 Catharines
 Caulfield
@@ -161,6 +163,7 @@ Crouse
 Cupar
 curation
 Curran
+cyberpolice
 Cymbidium
 Dacre's
 Dada
@@ -219,6 +222,7 @@ ERUPTIONSsssssssss
 Estevan
 Etchen
 Euridice
+Euridice's
 Eutenier
 Evel
 Everyman
@@ -284,6 +288,7 @@ Gladwell's
 Glenbow
 Glenavon
 Gluck
+Gluck's
 Glyde
 Gnagy's
 GodFrog
@@ -297,6 +302,7 @@ Gogh
 Gonor
 Goodeve
 Gothenburg
+goy
 Gramsci's
 grande
 Greenberg
@@ -441,6 +447,7 @@ Lanza
 L'Atlantide
 LAUS
 Leboldus
+Lecter's
 lEEEve
 Lenhardt
 Lethbridge
@@ -645,7 +652,6 @@ Reddekopp
 referentiality
 Reminiscents
 Resnais
-Rho
 Riddell
 Rimmer
 Ritcher
@@ -655,6 +661,7 @@ Rizzoli
 Robineau
 Robotech
 Rocamora
+Roh
 Rohatensky
 Roi
 Romanow
@@ -761,7 +768,6 @@ tellings
 Templeton
 terra
 Tetrads
-Teutonic
 Thauberger
 Thauberger's
 Thiong'o
@@ -781,6 +787,7 @@ Tripp
 Tsubo
 Tubello
 Tubingen
+Tuetonic
 Tunison
 Tunison's
 Twayne
