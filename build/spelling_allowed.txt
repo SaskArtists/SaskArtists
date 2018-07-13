@@ -474,6 +474,7 @@ Lewvan
 Libbey
 Liebes
 Lindner
+Linklater
 Lipsitz
 Lisas
 Lismer
@@ -656,6 +657,7 @@ Printmakers
 Projekt
 promotable
 Proto
+Pukatawagan
 Purtroppo
 Qu'Appelle
 Queerville
@@ -789,6 +791,7 @@ syntagmatic
 Sztenera
 Tagseth
 Tagseth's
+TANSI
 Tapp
 Tae
 Technica
