@@ -1,6 +1,7 @@
 Ablex
 Aidan
 Akademie
+Akira
 Albertville
 Alloway
 alma
@@ -23,6 +24,7 @@ Ary
 Arnott
 Arnott's
 Asakv
+Astro
 Atter
 Auguste
 Autumn
@@ -325,6 +327,7 @@ Jazzsuite
 Jeae
 Jeux
 Jesperson
+jinrui
 Junek
 Juried
 Kady
@@ -344,6 +347,7 @@ Kenosee
 Keone
 Khalil
 Kidsafe
+Kimbu
 Kiskayetum
 Klause
 Klieger
@@ -499,6 +503,7 @@ Ooops
 Ormerod
 Ortmann
 Oser
+Otaku
 Othello
 Outerbridge
 Ozenfant
@@ -546,6 +551,7 @@ Rafales
 Rainer
 Raliegh
 Ramones
+Ranma
 Rebecca
 Recondita
 Redant
@@ -557,6 +563,7 @@ Rimmer
 Ritcher
 Ritchey
 Robineau
+Robotech
 Rocamora
 Rohatensky
 Roi
@@ -601,6 +608,8 @@ Shhit
 Shigaraki
 Shih
 Shockwave
+shojo
+shonin
 Shoulda
 Sibelus
 Siegelaub
