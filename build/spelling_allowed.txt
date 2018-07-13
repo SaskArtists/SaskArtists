@@ -213,6 +213,7 @@ Fortescue
 Fortier
 Fortuna
 Foss
+fragmentally
 Fraise
 Franklyn
 Froese
@@ -670,6 +671,7 @@ Technica
 teepees
 Teevo
 TeleTex
+tellings
 Templeton
 terra
 Tetrads
