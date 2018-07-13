@@ -1,3 +1,4 @@
+Ablex
 Aidan
 Akademie
 Albertville
@@ -27,6 +28,7 @@ Auguste
 Autumn
 avant
 Bachelu
+Bagnolet
 Balkwill
 Bandicoots
 Banff
@@ -112,6 +114,7 @@ Connor
 Connaught
 conte
 contemporain
+Contra
 Coover
 Corridon
 Costain
@@ -122,6 +125,7 @@ Cowin's
 Cradleboard
 Cranbrook
 Crawley
+Creolization
 Crista
 Critual
 Crocker
@@ -250,6 +254,7 @@ Gothenburg
 Gramsci's
 grande
 Greenberg
+Grossberg
 Guangzhov
 Guillaume
 Gump
@@ -271,6 +276,7 @@ Hauser
 Haut
 Hebdige
 heimlich
+Heinemann
 Heisler
 Hejira
 Hell's
@@ -373,6 +379,7 @@ Lenhardt
 Lethbridge
 Letraset
 Lewton
+Libbey
 Liebes
 Lindner
 Lipsitz
@@ -382,12 +389,14 @@ Lobos
 Loch
 Lochhead
 lockability
+Longon
 Loran
 Lorne
 Lorne's
 Luciuk
 Lukas
 Lumsden
+Lyotard
 MacGregor
 MacKenzie
 MacLeod
@@ -410,6 +419,7 @@ Marzolf
 MATA
 materiality
 Matic
+Mattelart
 Matumbi
 masonite
 McCargar
@@ -452,6 +462,7 @@ Narcisse
 naturistic
 NEMCO
 Neufeld
+Newbury
 Newnham
 Nichol
 Nicky
@@ -463,6 +474,8 @@ Noland
 Nonie
 Nootokao
 Norbraten
+Nordenstreng
+Norwood
 Notting
 Novak
 Nugent
@@ -478,6 +491,7 @@ Okema
 Olah
 Oleskiw
 Olitski
+Oliveira
 Onita
 Oohing
 oooooohhhhh
@@ -512,8 +526,10 @@ Pipestone
 Piwowar
 Plaskett
 Poitras
+Polysemy
 Ponteix
 portrayer
+Postsmouth
 Poundmaker
 Powderhall
 Preparator
@@ -568,6 +584,7 @@ scapes
 Scarth
 SCC
 Scenographia
+Schement
 Schumacher
 scriptorium
 Seguin
@@ -586,6 +603,7 @@ Shih
 Shockwave
 Shoulda
 Sibelus
+Siegelaub
 Siegmund
 sigilatta
 Silton
@@ -593,6 +611,7 @@ Siwek
 Slade
 smithing
 smorgasborg
+Smythe
 sociocultural
 Sockvile
 Sokoly
@@ -626,7 +645,9 @@ Templeton
 terra
 Thauberger
 Thauberger's
+Thiong'o
 Threepenny
+Thussu
 Timescapes
 Tincher
 Tineola
