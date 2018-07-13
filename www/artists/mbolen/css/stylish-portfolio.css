@@ -416,3 +416,8 @@ p.center{
 p{
     font-size: 1.4em;
 }
+
+.smallercallout
+{
+  width: 35%;
+}
