@@ -1,4 +1,5 @@
 Ablex
+Adonibezek
 Aidan
 Akademie
 Akira
@@ -30,6 +31,7 @@ Asakv
 Astro
 Atter
 Auguste
+Aurele
 Auteur
 Auteurism
 Autumn
@@ -230,6 +232,7 @@ Fraise
 Franklyn
 Froese
 Francophonie
+Frenchie
 Frimkess
 FrogWorld
 Fudgsicle
@@ -287,6 +290,7 @@ Gymnopedia
 Habatat
 Hackewich
 Hafford
+hakkarim
 Halen
 Halkirk
 Hambly
@@ -342,6 +346,7 @@ intertextuality
 intersubjective
 Ionesco
 intercut
+Israelites
 Iverson
 Jacklin
 Jalisco
@@ -412,6 +417,7 @@ Lenhardt
 Lethbridge
 Letraset
 Levinson
+Levites
 Lewton
 Libbey
 Liebes
@@ -435,6 +441,7 @@ Lyotard
 MacGregor
 MacKenzie
 MacLeod
+Madelene
 Mah
 Mahone's
 Maija
@@ -443,6 +450,7 @@ Maja
 Makarow
 Makarow's
 Maksym
+Malchiah
 Manitou
 Marlo
 Marnie
@@ -595,6 +603,7 @@ Raliegh
 Ramones
 Ranma
 Rebecca
+Rechab
 Recondita
 Redant
 Reddekopp
