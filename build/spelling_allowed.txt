@@ -1,7 +1,7 @@
 Ablex
 acimowina
 Adonibezek
-Ahisaw
+Ahasiw
 Ahasiw's
 Ahlers
 Aidan
@@ -170,6 +170,7 @@ Cranbrook
 Crawley
 Creolization
 Crista
+Christianization
 Christoph
 Critual
 Crocker
@@ -202,6 +203,7 @@ Derksen
 Deutscher
 Dewdney
 diaristic
+Dickason
 Diltz
 Disley
 Disting
@@ -282,6 +284,7 @@ Frimkess
 FrogWorld
 Fudgsicle
 Fulford
+fundraise 
 Funomena
 Fyfe
 GABRIEL
@@ -516,6 +519,7 @@ Longon
 Loran
 Lorne
 Lorne's
+Louisburg
 Luciuk
 Lukas
 Lumsden
@@ -577,6 +581,7 @@ Metz
 merdre
 Michaëlle
 Michaud
+micim
 midwestern
 Miliokas
 Missoula
@@ -628,6 +633,7 @@ Nutana
 Nutt
 obliterations
 O'Brian
+Occom
 Oceanids
 OCTOECHOES
 Oddie
@@ -642,7 +648,9 @@ Onita
 Oohing
 oooooohhhhh
 Ooops
+oppositional
 orature
+oratures
 Orfeo
 Ormerod
 Ortmann
@@ -858,6 +866,8 @@ Tineola
 Toffler
 Torr
 Tosti
+Trailbreaking
+trailbreakers
 transformative
 Treherne
 Treichler
@@ -905,6 +915,7 @@ Villina
 Vinci
 Von
 Vormittagsspuk
+Wacaskwa
 Wacom
 Walburga
 Wanuskewin
@@ -913,6 +924,7 @@ Waskesiu
 wearables
 Weidenfeld
 Wellesley
+wemistikosiwi
 Werner
 Westbridge
 Weyburn
