@@ -66,6 +66,7 @@ bifocality
 Bilhah
 Bilhah's
 Blachford
+Blackman
 Blick
 Bloomington
 Bloore
@@ -337,6 +338,7 @@ Hyman
 hyperdeborialforestation
 Hyperdeborealforestation
 HYPERDEBOREALFORESTATION
+Igniter
 Ileen
 Imagists
 impresaria
@@ -604,6 +606,7 @@ Qu'Appelle
 Queerville
 Questomatic
 QuickTime
+Racoo
 Radames
 Rafales
 Rainer
@@ -656,6 +659,7 @@ Sault
 scapes
 Scarth
 SCC
+Schaffer
 Scenographia
 Schechner
 Schement
