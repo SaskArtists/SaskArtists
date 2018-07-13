@@ -281,10 +281,12 @@ Georgia
 GerFilm
 Gerri
 gif
+GIFs
 Gilmour
 Gilhooly
 Gladwell
 Gladwell's
+Glasswork
 Glenbow
 Glenavon
 Gluck
@@ -451,6 +453,7 @@ LAUS
 Leboldus
 Lecter's
 lEEEve
+Leitch
 Lenhardt
 Lethbridge
 Letraset
@@ -691,6 +694,7 @@ SaskComp
 SaskEnergy
 Satie's
 Sault
+Sawblades
 scapes
 Scarth
 SCC
