@@ -123,6 +123,7 @@ Coover
 Corridon
 Costain
 Costain's
+countercultural
 Covent
 Cowin
 Cowin's
@@ -204,6 +205,7 @@ Fiske
 Fiske's
 Flatlanders
 Florae
+Flynt
 Foldform
 Folmer
 Fortescue
@@ -351,6 +353,7 @@ Keone
 Khalil
 Kidsafe
 Kimbu
+Kipnis
 Kiskayetum
 Klause
 Klieger
@@ -670,6 +673,7 @@ Tincher
 Tineola
 Torr
 Tosti
+Treichler
 Trekkies
 Tripp
 Tsubo
@@ -691,6 +695,7 @@ Umberto
 underglazes
 underworked
 unglazed
+unromanticized
 Unwin
 utopian
 Valadon
