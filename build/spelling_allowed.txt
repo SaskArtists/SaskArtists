@@ -1,5 +1,7 @@
+Aayekwew
 Ablex
 acimowina
+Acoose
 Adonibezek
 Ahasiw
 Ahasiw's
@@ -31,6 +33,7 @@ Armes
 Armonia
 Arneson
 Aristaeus
+Artropolis
 Ary
 Arnott
 Arnott's
@@ -192,6 +195,7 @@ Darq
 d'art
 Davis
 de
+Debera
 Delegitimization
 delegitimization
 Delusia
@@ -203,6 +207,7 @@ Derksen
 Deutscher
 Dewdney
 diaristic
+diem
 Dickason
 Diltz
 Disley
@@ -225,6 +230,7 @@ Dulmage
 Dumont
 Dundas
 Dunlop
+Duschenes
 Duval
 Eavestrough
 Edie
@@ -284,7 +290,7 @@ Frimkess
 FrogWorld
 Fudgsicle
 Fulford
-fundraise 
+fundraise
 Funomena
 Fyfe
 GABRIEL
@@ -409,6 +415,7 @@ intentioned
 Intermedia
 intertextuality
 intersubjective
+Interzone
 Ionesco
 inkjet
 Inscapes
@@ -432,6 +439,7 @@ Jahan
 Junek
 Juried
 Kady
+Kahshahkesh's
 Kalra
 Kameradschaft
 Kanin
@@ -489,6 +497,7 @@ L'Atlantide
 Lauderdale
 LAUS
 Lazuli
+le
 Leboldus
 Lecter's
 Lefler
@@ -511,6 +520,7 @@ Lipsitz
 Lisas
 Lismer
 Liss
+Listerine
 Lobos
 Loch
 Lochhead
@@ -524,6 +534,7 @@ Luciuk
 Lukas
 Lumsden
 Lyotard
+Maagisaa
 MacGregor
 MacCrimmon
 MacKenzie
@@ -549,6 +560,7 @@ Marthe
 Marys
 Marzolf
 Maskegon
+Maskeke
 MATA
 materiality
 Matic
@@ -572,7 +584,9 @@ Melies
 Melita
 Mendal
 Mepham
+Mestih'kusowin
 MetaCreations
+Metcalfe
 Methot
 Methuen
 Métis
@@ -584,6 +598,7 @@ Michaud
 micim
 midwestern
 Miliokas
+Missepishu
 Missoula
 Moderna
 Modernnes
@@ -600,9 +615,11 @@ Mulrey
 Musee
 Mykola
 Mysteria
+Nall
 Nanaimo
 nanatawihitowin
 Narcisse
+Nativist
 naturistic
 ne
 Nehiyawak
@@ -619,6 +636,7 @@ Nida
 Niels
 Nipawin
 Nocturnalist
+nohcimihk 
 Noland
 Nonie
 Nootokao
@@ -644,6 +662,8 @@ Olah
 Oleskiw
 Olitski
 Oliveira
+Omasinahikewak
+Onipowak
 Onita
 Oohing
 oooooohhhhh
@@ -752,6 +772,7 @@ Ruchel
 RUTIBURI
 Sacramento
 Sainte
+Sakehitowin
 Saltcoats
 Salvadore
 Saposkum
@@ -924,6 +945,7 @@ Waskesiu
 wearables
 Weidenfeld
 Wellesley
+Wemistikosiwi
 wemistikosiwi
 Werner
 Westbridge
