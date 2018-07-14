@@ -347,3 +347,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 #footer a:hover {
 	color: #333;
 }
+.artists{
+	background-color: #8eb640;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 1.5em;
+	padding: 5px;
+}
+.artists-placement{
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
