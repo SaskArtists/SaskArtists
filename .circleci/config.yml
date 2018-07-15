@@ -21,7 +21,7 @@ jobs:
       - restore_cache:
           key: v1-repo-{{ .Environment.CIRCLE_SHA1 }}
       - run: sudo pip install html5validator
-      - run: html5validator --root . --ignore "Use CSS instead." "Element \"map\" is missing required attribute \"name\"." "The hash-name reference in attribute \"usemap\" referred to \"backforth\", but there is no \"map\" element with a \"name\" attribute with that value."
+      - run: html5validator --root . --ignore "Use CSS instead." "Element \"map\" is missing required attribute \"name\"." "The hash-name reference in attribute \"usemap\" referred to \"backforth\", but there is no \"map\" element with a \"name\" attribute with that value." "Attribute \"v-model\" not allowed on element \"input\" at this point." "Attribute \"v-for\" not allowed on element \"div\" at this point." "Attribute \":href\" not allowed on element \"a\" at this point."
   sh-test:
     machine: true
     working_directory: ~/build-output
