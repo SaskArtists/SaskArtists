@@ -58,8 +58,13 @@ jobs:
     steps:
       -restore_cache:
           key: v1-repo-{{ .Environment.CIRCLE_SHA1 }}
-
-      -run: cd www/ && python ~/build/scripts/deploy.py
+      - restore_cache:
+          key: last-deploy
+      - run: cd www/ && python ~/build/scripts/deploy.py
+      - save_cache:
+          key: last-deploy
+          paths:
+            - ~/deploy-info
 
 workflows:
   version: 2
