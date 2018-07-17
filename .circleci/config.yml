@@ -6,6 +6,7 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
+      - run: echo CIRCLE_COMPARE_URL
       - run: sudo apt update
       - run: python ./build/scripts/gen_artists.py
       - run: cp ~/repo ~/build-output -r
