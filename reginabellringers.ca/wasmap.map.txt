@@ -1,7 +1,0 @@
-default http://spider.regina.ism.ca/orgs/bells/wascana.htm
-
-point	http://spider.regina.ism.ca/orgs/bells/wasbldg.htm  103,171
-point 	http://spider.regina.ism.ca/orgs/bells/wastowr.htm  124,176
-point 	http://spider.regina.ism.ca/orgs/bells/wasrope.htm  160,181
-point	http://spider.regina.ism.ca/orgs/bells/waslege.htm  49,176
-

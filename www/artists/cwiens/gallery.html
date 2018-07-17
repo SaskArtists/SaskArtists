@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Clifford Wiens Artist Page
+        </title>
+        <link rel="stylesheet" type="text/css" href="clifford_wiens_style.css">
+        <script src="photo_cycle.js">
+        </script>
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+        <style type="text/css">
+        table.c4 {margin:auto}
+        td.c3 {height:500px; width:500px}
+        img.c2 {max-width:500px; margin:auto}
+        img.c1 {width:95%}
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="Header">
+                <img src="clifford_wiens_banner.jpg" class="c1" alt="no alt text">
+            </div>
+            <div id="nav">
+                <a href="index.html">Home</a> <a href="gallery.html">Works</a> <a href="about.html">Biography</a>
+            </div>
+            <div class="cycle">
+                <table class="c4">
+                    <tr>
+                        <td>
+                            <button onclick="lastPhoto(0)">Previous</button>
+                        </td>
+                        <td class="c3">
+                            <img src="outdoor_chapel.jpg" alt="The CBC Broadcast Center" class="cycleImage c2">
+                        </td>
+                        <td>
+                            <button onclick="nextPhoto(0)">Next</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <p class="cycleText">
+                                A chapel in Silton, Saskatchewan. Designed by Cliffor Wiens in 1969.
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="footer">
+                <p>
+                    All Buildings &#169; Clifford Wiens. Website Designed by Bennett Eidsness, 2015
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

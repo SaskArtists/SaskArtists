@@ -1,0 +1,25 @@
+.CycleText {
+	background-color:#D9CED2;
+	text-align: center;
+}
+
+body{
+	background-color:#A6959B;
+	text-align: center;
+}
+
+.CycleImage {
+	max-width:500px;
+	max-height:500px;
+	vertical-align:center;
+	margin:auto;
+	display:block;
+}
+
+.CyclerTable {
+	width:700px; 
+	margin:auto;
+	background-color:#43BF96;
+	border-style:solid;
+	border-color:736267;
+}

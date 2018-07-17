@@ -1,0 +1,103 @@
+ #wrapper{
+ 	margin: auto;
+ 	width: 800px;
+ 	padding: 0px;
+ 	border: 0px;
+ 	text-align: center;
+}
+
+#header{
+	margin: auto;
+	width: 800px; 
+	height: 60px;
+	text-align: center;
+}
+
+#nav{
+	width: 800px;
+	text-align: center;
+}
+
+#content{
+	width: 800px;
+	
+}
+
+#footer{
+	width: 800px;
+	text-align: center;
+}
+
+body{
+	background-image:url(pictures/gradient.gif);
+  	background-position: top;
+  	background-repeat: repeat-x;
+  	
+}
+.colone{
+	width: 400px;
+	margin: auto;	
+	text-align: justify;
+}
+
+/*AJAX STUFF */
+/*G EDIT*/
+.selected{
+text-align: center;  
+margin: auto;
+}
+.shadetabs{
+padding: 3px 0;
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 0;
+font: bold 12px Verdana;
+list-style-type: none;
+text-align: center; /*set to left, center, or right to align the menu as desired*/
+}
+
+.shadetabs li{
+display: inline;
+margin: 0;
+}
+
+.shadetabs li a{
+text-decoration: none;
+padding: 3px 7px;
+margin-right: 3px;
+border: 1px solid #778;
+color: #2d2b2b;
+background: white url(shade.gif) top left repeat-x;
+}
+
+.shadetabs li a:visited{
+color: #2d2b2b;
+}
+
+.shadetabs li a:hover{
+text-decoration: underline;
+color: #2d2b2b;
+}
+
+.shadetabs li.selected{
+position: relative; 
+top: 1px;
+}
+
+.shadetabs li.selected a{ /*selected main tab style */
+background-image: url(shadeactive.gif);
+/*border-bottom-color: white;*/
+}
+
+.shadetabs li.selected a:hover{ /*selected main tab style */
+text-decoration: none;
+}
+
+.contentstyle{
+border: 1px solid gray;
+width: 100;
+margin-bottom: 1em; padding: 10px;
+text-align: center;
+align: center;
+
+}
