@@ -1,5 +1,5 @@
 .darken {
-	background-image: 
+	background-image:
 		linear-gradient(
 			rgba(0, 0, 0, 0.5),
 			rgba(0, 0, 0, 0.5)
@@ -8,7 +8,7 @@
 }
 
 .darken {
-	background-image: 
+	background-image:
 		linear-gradient(
 			rgba(0, 0, 0, 0.5),
 			rgba(0, 0, 0, 0.5)
@@ -18,4 +18,8 @@
 
 h2 {
     text-align: center;
+}
+
+ul {
+  list-style-type: none;
 }
