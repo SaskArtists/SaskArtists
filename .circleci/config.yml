@@ -57,7 +57,7 @@ jobs:
     working_directory: ~/build-output
     steps:
       -restore_cache:
-        key: v1-repo-{{ .Environment.CIRCLE_SHA1 }}
+          key: v1-repo-{{ .Environment.CIRCLE_SHA1 }}
 
       -run: cd www/ && python ~/build/scripts/deploy.py
 
