@@ -60,6 +60,7 @@ jobs:
           key: v1-repo-{{ .Environment.CIRCLE_SHA1 }}
       - restore_cache:
           key: last-deploy
+      - run: scp -oStrictHostKeyChecking=no -r www/.htaccess saskarti@saskartists.ca:/home/saskarti/www/.htaccess
       - run: python ./build/scripts/deploy.py
       - save_cache:
           key: last-deploy
