@@ -16,8 +16,8 @@ if os.path.exists(h("~/deploy-info/commit")):
     with open(h("~/deploy-info/commit")) as f:
         COMMIT_PREV = f.read().strip()
 else:
-    os.system("scp -oStrictHostKeyChecking=no -r * saskarti@saskartists.ca:/home/saskarti/www/")
-    os.system("scp -oStrictHostKeyChecking=no -r .htaccess saskarti@saskartists.ca:/home/saskarti/www/.htaccess")
+    os.system("scp -oStrictHostKeyChecking=no -r www/* saskarti@saskartists.ca:/home/saskarti/www/")
+    os.system("scp -oStrictHostKeyChecking=no -r www/.htaccess saskarti@saskartists.ca:/home/saskarti/www/.htaccess")
     with open(h("~/deploy-info/commit"), "w") as f:
         f.write(COMMIT_CURR)
     sys.exit(0)

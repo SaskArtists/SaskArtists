@@ -60,7 +60,7 @@ jobs:
           key: v1-repo-{{ .Environment.CIRCLE_SHA1 }}
       - restore_cache:
           key: last-deploy
-      - run: cd www/ && python ~/build/scripts/deploy.py
+      - run: python ./build/scripts/deploy.py
       - save_cache:
           key: last-deploy
           paths:
