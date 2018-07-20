@@ -77,9 +77,9 @@
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 9.0s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 9.0s;
 }
 
 @-webkit-keyframes fade {
