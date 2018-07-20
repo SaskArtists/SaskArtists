@@ -6,6 +6,7 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
+      - run: echo $CIRCLE_COMPARE_URL
       - run: sudo apt update
       - run: python ./build/scripts/gen_artists.py
       - run: cp ~/repo ~/build-output -r
@@ -21,7 +22,7 @@ jobs:
       - restore_cache:
           key: v1-repo-{{ .Environment.CIRCLE_SHA1 }}
       - run: sudo pip install html5validator
-      - run: html5validator --root . --ignore "Use CSS instead." "Element \"map\" is missing required attribute \"name\"." "The hash-name reference in attribute \"usemap\" referred to \"backforth\", but there is no \"map\" element with a \"name\" attribute with that value."
+      - run: html5validator --root . --ignore "Use CSS instead." "Element \"map\" is missing required attribute \"name\"." "The hash-name reference in attribute \"usemap\" referred to \"backforth\", but there is no \"map\" element with a \"name\" attribute with that value." "Attribute \"v-model\" not allowed on element \"input\" at this point." "Attribute \"v-for\" not allowed on element \"div\" at this point." "Attribute \":href\" not allowed on element \"a\" at this point."
   sh-test:
     machine: true
     working_directory: ~/build-output
@@ -50,9 +51,25 @@ jobs:
           command: python ./build/checks/spelling.py
           when: always
 
+  deploy:
+    docker:
+      - image: circleci/python:3.7-rc-node-browsers
+    working_directory: ~/build-output
+    steps:
+      - restore_cache:
+          key: v1-repo-{{ .Environment.CIRCLE_SHA1 }}
+      - restore_cache:
+          key: last-deploy
+      - run: scp -oStrictHostKeyChecking=no -r www/.htaccess saskarti@saskartists.ca:/home/saskarti/www/.htaccess
+      - run: python ./build/scripts/deploy.py
+      - save_cache:
+          key: last-deploy
+          paths:
+            - ~/deploy-info
+
 workflows:
   version: 2
-  build-and-test:
+  build-test-deploy:
     jobs:
       - build
       - html-test:
@@ -64,3 +81,11 @@ workflows:
       - sh-test:
           requires:
             - build
+      - deploy:
+          requires:
+            - html-test
+            - python-test
+            - sh-test
+          filters:
+            branches:
+              only: master
