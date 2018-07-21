@@ -26,6 +26,8 @@
         h1.c2 {font-family: 'Raleway', sans-serif; font-weight: 100;}
         li.c1 {list-style: none; display: inline}
         </style>
+    </head>
+</html>
 <style>
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
@@ -110,12 +112,12 @@ img {vertical-align: middle;}
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
@@ -133,7 +135,7 @@ img {vertical-align: middle;}
                     </div>
                 </header>
             </section>
-		<a href="index.html"><img src="./img/returntohomepage.jpg" class="center" alt="no alt text"/></a>
+		<a href="index.html"><img src="./img/returntohomepage.jpg" class="center" /></a>
 	<!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -155,7 +157,7 @@ img {vertical-align: middle;}
     <img src="./img/mbolenmothersday.jpg" style="width:100%" alt="no alt text">
     <div class="text">Mel Bolen mothersday.</div>
   </div>
-  
+
   <div class="mySlides fade">
 	<div class="numbertext">4 / 5</div>
 	<img  src="./img/mbolenvase.jpg" style="width:100%" alt="no alt text">
@@ -175,9 +177,9 @@ img {vertical-align: middle;}
 
 <!-- The dots/circles -->
 <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
   <span class="dot" onclick="currentSlide(4)"></span>
   <span class="dot" onclick="currentSlide(5)"></span>
 </div>
@@ -190,16 +192,15 @@ function showSlides() {
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("dot");
     for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";  
+       slides[i].style.display = "none";
     }
     slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
+    if (slideIndex > slides.length) {slideIndex = 1}
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
-    slides[slideIndex-1].style.display = "block";  
+    slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
     setTimeout(showSlides, 9000); // Change image every 9 seconds
 }
 </script>
-
