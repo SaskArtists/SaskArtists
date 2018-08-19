@@ -26,7 +26,7 @@ def save():
     run(f"scp -oStrictHostKeyChecking=no -r {COMMIT_FILE} {DEST}/www/commit")
 
 try:
-    response = urllib.request.urlopen(f"http://{WEB}/commit")
+    response = urllib.request.urlopen(f"https://{WEB}/commit")
     COMMIT_PREV = response.read().decode("utf8").strip()
     print(f"COMMIT_PREV {COMMIT_PREV}")
 except Exception as e:
