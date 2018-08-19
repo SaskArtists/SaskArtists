@@ -3,12 +3,11 @@ jobs:
   build:
     docker:
       - image: circleci/python:3.7-rc-node-browsers
-    working_directory: /tmp/project/repo
+    working_directory: /tmp/project/
     steps:
-      - checkout
-      - run: echo $CIRCLE_COMPARE_URL
-      - run: sudo apt update
-      - run: python ./build/scripts/gen_artists.py
+      - checkout:
+          path: /tmp/project/repo
+      - run: cd /tmp/project/repo && python ./build/scripts/gen_artists.py
       - run: mkdir /tmp/project/workspace
       - run: cp /tmp/project/repo /tmp/project/workspace/build-output -r
       - persist_to_workspace:
