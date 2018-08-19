@@ -7,7 +7,8 @@ import sys
 DIR = "/tmp/project/workspace/build-output/deploy-info/"
 COMMIT_FILE = DIR + "commit"
 
-DEST = "saskarti@saskartists.ca:/home/saskarti/www"
+ENDPOINT = "saskarti@saskartists.ca"
+DEST = f"{ENDPOINT}:/home/saskarti"
 
 COMMIT_CURR = subprocess.getoutput("git rev-parse HEAD")
 print(f"COMMIT_CURR {COMMIT_CURR}")
@@ -26,9 +27,9 @@ if os.path.exists(COMMIT_FILE):
         COMMIT_PREV = f.read().strip()
         print(f"COMMIT_PREV {COMMIT_PREV}")
 else:
-    print("no previous commit, sending all")
-    run(f"scp -oStrictHostKeyChecking=no -r www/* {DEST}")
-    run(f"scp -oStrictHostKeyChecking=no -r www/.htaccess {DEST}/.htaccess")
+    print("No Previous Commit, Sending All")
+    run(f"scp -oStrictHostKeyChecking=no -r www/* {DEST}/www")
+    run(f"scp -oStrictHostKeyChecking=no -r www/.htaccess {DEST}/www/.htaccess")
     save()
     sys.exit(0)
 
@@ -36,6 +37,17 @@ else:
 CHANGED_FILES = subprocess.getoutput(f"git diff --name-only {COMMIT_PREV} {COMMIT_CURR}")
 CHANGED_FILES = CHANGED_FILES.split("\n")
 
-print(CHANGED_FILES)
+print("Processing Changed Files")
+
+for FILE in CHANGED_FILES:
+    if not FILE.startswith("www/"):
+        print("SKIPPING: {FILE}")
+        continue
+    if not os.path.exists(FILE):
+        print(f"FILE DELETED: {FILE}")
+        run(f"ssh {ENDPOINT} \"rm -f {DEST}/{FILE}\"")
+    else:
+        print(f"SENDING FILE: {FILE}")
+        run(f"scp -oStrictHostKeyChecking=no -r {FILE} {DEST}/{FILE}")
 
 save()
