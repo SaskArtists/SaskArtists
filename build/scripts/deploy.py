@@ -3,11 +3,13 @@
 import os
 import subprocess
 import sys
+import urllib.request
 
 DIR = "/tmp/project/workspace/build-output/deploy-info/"
 COMMIT_FILE = DIR + "commit"
 
-ENDPOINT = "saskarti@saskartists.ca"
+WEB = "saskartists.ca"
+ENDPOINT = f"saskarti@{WEB}"
 DEST = f"{ENDPOINT}:/home/saskarti"
 
 COMMIT_CURR = subprocess.getoutput("git rev-parse HEAD")
@@ -21,13 +23,14 @@ def save():
         os.makedirs(DIR)
     with open(COMMIT_FILE, "w") as out:
         out.write(COMMIT_CURR)
+    run(f"scp -oStrictHostKeyChecking=no -r {COMMIT_FILE} {DEST}/www/commit")
 
-if os.path.exists(COMMIT_FILE):
-    with open(COMMIT_FILE) as f:
-        COMMIT_PREV = f.read().strip()
-        print(f"COMMIT_PREV {COMMIT_PREV}")
-else:
-    print("No Previous Commit, Sending All")
+try:
+    response = urllib.request.urlopen(f"http://{WEB}/commit")
+    COMMIT_PREV = response.read().decode("utf8").strip()
+    print(f"COMMIT_PREV {COMMIT_PREV}")
+except:
+    print("Unable to read commit file from remote, sending all")
     run(f"scp -oStrictHostKeyChecking=no -r www/* {DEST}/www")
     run(f"scp -oStrictHostKeyChecking=no -r www/.htaccess {DEST}/www/.htaccess")
     save()
