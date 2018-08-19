@@ -41,7 +41,7 @@ print("Processing Changed Files")
 
 for FILE in CHANGED_FILES:
     if not FILE.startswith("www/"):
-        print("SKIPPING: {FILE}")
+        print(f"SKIPPING: {FILE}")
         continue
     if not os.path.exists(FILE):
         print(f"FILE DELETED: {FILE}")

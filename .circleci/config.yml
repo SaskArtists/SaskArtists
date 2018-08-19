@@ -52,6 +52,9 @@ jobs:
           when: always
 
   deploy:
+    environment:
+      LC_ALL: en_US.UTF-8
+      LANG: en_US.UTF-8
     docker:
       - image: circleci/python:3.7-rc-node-browsers
     working_directory: /tmp/project
