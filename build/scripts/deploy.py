@@ -29,7 +29,8 @@ try:
     response = urllib.request.urlopen(f"http://{WEB}/commit")
     COMMIT_PREV = response.read().decode("utf8").strip()
     print(f"COMMIT_PREV {COMMIT_PREV}")
-except:
+except Exception as e:
+    print(str(e))
     print("Unable to read commit file from remote, sending all")
     run(f"scp -oStrictHostKeyChecking=no -r www/* {DEST}/www")
     run(f"scp -oStrictHostKeyChecking=no -r www/.htaccess {DEST}/www/.htaccess")
