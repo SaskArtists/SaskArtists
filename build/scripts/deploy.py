@@ -4,21 +4,19 @@ import os
 import subprocess
 import sys
 
-def h(path):
-    """Helper to expand the user home directory"""
-    return os.path.expanduser(path)
-
 #Get Environment Variables
 
 COMMIT_CURR = subprocess.getoutput("git rev-parse HEAD")
+print("COMMIT_CURR {}".format(COMMIT_CURR))
 
-if os.path.exists(h("./deploy-info/commit")):
-    with open(h("./deploy-info/commit")) as f:
+if os.path.exists("./deploy-info/commit"):
+    with open("./deploy-info/commit") as f:
         COMMIT_PREV = f.read().strip()
+        print("COMMIT_PREV {}".format(COMMIT_PREV))
 else:
     os.system("scp -oStrictHostKeyChecking=no -r www/* saskarti@saskartists.ca:/home/saskarti/www/")
     os.system("scp -oStrictHostKeyChecking=no -r www/.htaccess saskarti@saskartists.ca:/home/saskarti/www/.htaccess")
-    with open(h("./deploy-info/commit"), "w") as f:
+    with open("./deploy-info/commit", "w") as f:
         f.write(COMMIT_CURR)
     sys.exit(0)
 
@@ -28,5 +26,5 @@ CHANGED_FILES = CHANGED_FILES.split("\n")
 
 print(CHANGED_FILES)
 
-with open(h("./deploy-info/commit"), "w") as f:
+with open("./deploy-info/commit", "w") as f:
     f.write(COMMIT_CURR)
