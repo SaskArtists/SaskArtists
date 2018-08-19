@@ -59,17 +59,7 @@ jobs:
       - image: circleci/python:3.7-rc-node-browsers
     working_directory: /tmp/project
     steps:
-      - attach_workspace:
-          at: /tmp/project/workspace
-      - restore_cache:
-          key: last-deploy
-      - run: cd ./workspace/build-output && scp -oStrictHostKeyChecking=no -r www/.htaccess saskarti@saskartists.ca:/home/saskarti/www/.htaccess
       - run: cd ./workspace/build-output && python ./build/scripts/deploy.py
-      - save_cache:
-          key: last-deploy
-          force: yes
-          paths:
-            - /tmp/project/workspace/build-output/deploy-info
 
 workflows:
   version: 2
