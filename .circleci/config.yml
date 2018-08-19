@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: circleci/python:3.7-rc-node-browsers
-    working_directory: /tmp/project
+    working_directory: /tmp/project/repo
     steps:
       - checkout
       - run: echo $CIRCLE_COMPARE_URL
