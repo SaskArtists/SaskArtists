@@ -12,13 +12,13 @@ def h(path):
 
 COMMIT_CURR = subprocess.getoutput("git rev-parse HEAD")
 
-if os.path.exists(h("~/deploy-info/commit")):
-    with open(h("~/deploy-info/commit")) as f:
+if os.path.exists(h("./deploy-info/commit")):
+    with open(h("./deploy-info/commit")) as f:
         COMMIT_PREV = f.read().strip()
 else:
     os.system("scp -oStrictHostKeyChecking=no -r www/* saskarti@saskartists.ca:/home/saskarti/www/")
     os.system("scp -oStrictHostKeyChecking=no -r www/.htaccess saskarti@saskartists.ca:/home/saskarti/www/.htaccess")
-    with open(h("~/deploy-info/commit"), "w") as f:
+    with open(h("./deploy-info/commit"), "w") as f:
         f.write(COMMIT_CURR)
     sys.exit(0)
 
@@ -28,5 +28,5 @@ CHANGED_FILES = CHANGED_FILES.split("\n")
 
 print(CHANGED_FILES)
 
-with open(h("~/deploy-info/commit"), "w") as f:
+with open(h("./deploy-info/commit"), "w") as f:
     f.write(COMMIT_CURR)
