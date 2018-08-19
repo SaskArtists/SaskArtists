@@ -67,6 +67,7 @@ jobs:
       - run: cd ./workspace/build-output && python ./build/scripts/deploy.py
       - save_cache:
           key: last-deploy
+          force: yes
           paths:
             - /tmp/project/workspace/build-output/deploy-info
 
