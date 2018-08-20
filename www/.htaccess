@@ -1,0 +1,10 @@
+RewriteEngine On
+
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI}
+
+RewriteCond %{HTTP_HOST} ^(www.)?saskartists.ca$
+RewriteCond %{REQUEST_URI} !^/artists/
+RewriteCond %{REQUEST_URI} !^/$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)?$ /artists/$1 [L,QSA]
