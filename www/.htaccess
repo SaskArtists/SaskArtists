@@ -7,5 +7,4 @@ RewriteCond %{HTTP_HOST} ^(www.)?saskartists.ca$
 RewriteCond %{REQUEST_URI} !^/artists/
 RewriteCond %{REQUEST_URI} !^/$
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /artists/$1 [L,QSA]
+RewriteRule ^(.*)?$ /artists/$1 [L,QSA]

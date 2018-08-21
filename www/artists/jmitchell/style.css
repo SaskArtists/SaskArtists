@@ -35,7 +35,7 @@ body {
 	text-align: right;
 }
 
-#returnimg {
+.returnimg {
 	background-repeat: no-repeat;
 	background-image: url("images/return.png");
 	background-position: left bottom;
