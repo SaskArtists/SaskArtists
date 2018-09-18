@@ -20,6 +20,54 @@
         img.c2 {width: 66.6%}
         img.c1 {width: 30%}
         </style>
+		
+		<style>
+	* {box-sizing: border-box}
+	.mySlides1, .mySlides2, .mySlides3, {display: none}
+	img {vertical-align: middle;}
+
+	/* Slideshow container */
+	.slideshow-container {
+	max-width: 66.6;
+	position: relative;
+	margin: auto;
+	border-radius: 3px 0 0 3px;
+	}
+
+	/* Next & previous buttons */
+	.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: auto;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	}
+
+	/* Position the "next button" to the right */
+	.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+	}
+
+	/* On hover, add a grey background color */
+	.prev:hover, .next:hover {
+	background-color: #f1f1f1;
+	color: black;
+	}
+	.centerslideshow {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	}
+	</style>
     </head>
     <body id="page-top">
         <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
@@ -61,88 +109,108 @@
                 </div>
             </div>
         </header>
-        <section class="bg-primary" id="gallery">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <h1 class="section-heading">
-                            Gallery
-                        </h1>
-                        <hr class="light">
-                        <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel blueimp-gallery-controls">
-                            <div class="slides"></div>
-                            <h3 class="title"></h3><a class="prev">‹</a> <a class="next">›</a> <a class="play-pause"></a>
-                            <ol class="indicator"></ol>
-                        </div><button class="btn btn-info btn-lg" data-toggle="modal" data-target="#imageModal">More Information</button>
-                        <div id="imageModal" class="modal fade" role="dialog">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal">×</button>
-                                        <h4 class="modal-title">
-                                            More Information
-                                        </h4>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>
-                                            The Book of Compost (1980)
-                                        </h3>
-                                        <p>
-                                            Victor uses humour with vegetables rotting from the pages his How To manual.
-                                        </p><a href="img/gallery_orig/book_of_composts.jpg">High Resolution</a>
-                                        <br>
-                                        <h3>
-                                            Bench Corn (1992)
-                                        </h3>
-                                        <p>
-                                            This bronze park bench unites practicality with edible vegetable matter.
-                                        </p><a href="img/gallery_orig/bench_corn.jpg">High Resolution</a>
-                                        <br>
-                                        <h3>
-                                            Garden Fence (1984)
-                                        </h3>
-                                        <p>
-                                            This ceramic mural is found in Clifford Wiens's CBC Building, Regina.
-                                        </p><a href="img/gallery_orig/garden_fence.jpg">High Resolution</a>
-                                        <br>
-                                        <h3>
-                                            Mixed Farming (1973)
-                                        </h3>
-                                        <p>
-                                            This Ceramic sculpture is a tableau of rural Saskatchewan life.
-                                        </p><a href="img/gallery_orig/mixed_farming.jpg">High Resolution</a>
-                                        <br>
-                                        <h3>
-                                            Regina, My World (1999)
-                                        </h3><img src="img/regina_my_world_description.jpg" alt="no alt text">
-                                        <p>
-                                            The City of Regina is reduced to only the fish-eye view of the world.
-                                        </p><a href="img/gallery_orig/regina_my_world.jpg">High Resolution</a>
-                                        <br>
-                                        <h3>
-                                            Couch With Green Peppers (1986)
-                                        </h3>
-                                        <p>
-                                            Two affectionate peppers lounge suggestively on the couch.
-                                        </p><a href="img/gallery_orig/couch_with_green_peppers.jpg">High Resolution</a>
-                                        <br>
-                                        <h3>
-                                            All You Need Is Love (2013)
-                                        </h3>
-                                        <p>
-                                            When a cucumber and a tomato cuddle in a blue corduroy easy chair, should we be outraged?
-                                        </p><a href="img/gallery_orig/all_you_need_is_love.jpg">High Resolution</a>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        	<section class="bg-primary" id="gallery">
+	<h1 align="center" class="section-heading">
+	Gallery
+	</h1>
+	<hr class="light">
+
+	<h2 style="text-align:center">Multiple Slideshows</h2>
+	<p style="text-align:center">Slideshow 1: Garden</p>
+	<div class="slideshow-container">
+	<div class="mySlides1">
+	<img class="centerslideshow" src="img/gallery/all_you_need_is_love.jpg" alt="all you need is love" style="width:66.6%">
+	</div>
+
+	<div class="mySlides1">
+	<img class="centerslideshow" src="img/gallery/bench_corn.jpg" alt="bench corn" style="width:66.6%">
+	</div>
+
+	<div class="mySlides1">
+	<img class="centerslideshow" src="img/gallery/book_of_composts.jpg" alt="book of composts" style="width:66.6%">
+	</div>
+
+	<div class="mySlides1">
+	<img class="centerslideshow" src="img/gallery/couch_with_green_peppers.jpg" alt="couch with green peppers" style="width:66.6%">
+	</div>
+
+	<div class="mySlides1">
+	<img class="centerslideshow" src="img/gallery/garden_fence.jpg" alt="garden fence" style="width:66.6%">
+	</div>
+
+	<div class="mySlides1">
+	<img class="centerslideshow" src="img/gallery/mixed_farming.jpg" alt="mixed farming" style="width:66.6">
+	</div>
+
+	<a class="prev" onclick="plusSlides(-1,0)">&#10094;</a>
+	<a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+	</div>
+
+	<p style="text-align:center">Slideshow 2: Benches</p>
+	<div class="slideshow-container">
+	<div class="mySlides2">
+	<img class="centerslideshow" src="img/gallery/bench_corn.jpg" alt="bench corn" style="width:66.6%">
+	</div>
+
+	<div class="mySlides2">
+	<img class="centerslideshow" src="img/gallery/couch_with_green_peppers.jpg" alt="couch with green peppers" style="width:66.6%">
+	</div>
+	</div>
+
+	<a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+	<a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+
+
+	<p style="text-align:center">Slideshow 3: Working class</p>
+	<div class="slideshow-container">
+	<div class="mySlides3">
+	<img class="centerslideshow" src="img/gallery/regina_my_world.jpg" alt="regina my world" style="width:66.6%">
+	</div>
+	</div>
+	<a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+	<a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+	</section>
+	</body>
+	<section class="bg-secondary" id="about">
+	<div class="container">
+	<div class="row">
+	<div class="col-lg-8 col-lg-offset-2">
+	<div class="text-center">
+	<h1 class="section-heading">
+	About Victor Cicansky
+	</h1>
+	<hr class="light">
+	</div>
+	<p>
+	Vic Cicansky is one of Saskatchewan’s best-known ceramic and bronze sculptors. He was born in Regina on February 12, 1935. He grew up in Regina in an area known affectionately as Garlic Flats. He became a carpenter like his father. He studied in Saskatchewan and later at University of California, Davis Campus. He then taught at Central Collegiate with Mac Hone, and at the University of Regina.
+	</p>
+	<p>
+	Victor’s work is driven by nature. He is an avid gardener and his love of vegetation informs much of his work. His early work was funky with references to not only vegetation, but outhouses and the labours of humans. As Victor’s work matured, these themes were carried forward with bold textures ranging from the unglazed terracotta to the high gloss finish of a sensuous tomato. In later years, Cicansky added functionality to his work by building furniture. A close examination of Victor’s work reveals a light-hearted humour that sweetens the salty subtexts of the Prairie life cycle.
+	</p>
+	<p>
+	Cicansky’s work is ever-popular and readily recognized as distinctive Saskatchewan art.
+	</p>
+	<p>
+	Cicansky enjoys universal recognition, receiving the Saskatchewan Order of Merit in 1997 and Order of Canada in 2009.
+	</p>
+	</div>
+	</div>
+	</div>
+	</section>
+	<section class="bg-tertiary" id="press">
+	<div class="container">
+	<div class="row">
+	<div class="col-lg-8 col-lg-offset-2">
+	<div class="text-center">
+	<h1 class="section-heading">
+	Victor in the Media
+	</h1>
+	<hr class="light">
+	</div><img class="pos c1" src="img/in_the_media/order_of_canada.jpg" alt="no alt text"> <img class="pos c2" src="img/in_the_media/garden_started_it_all.jpg" alt="no alt text">
+	</div>
+	</div>
+	</div>
+	</section>
         <section class="bg-secondary" id="about">
             <div class="container">
                 <div class="row">
@@ -236,5 +304,28 @@
         }
         );
         </script>
+		
+	<script>
+	var slideIndex = [1,1,3];
+	var slideId = ["mySlides1", "mySlides2", "mySlides3"]
+	showSlides(1, 0);
+	showSlides(1, 1);
+	showSlides(1, 3);
+
+	function plusSlides(n, no) {
+	showSlides(slideIndex[no] += n, no);
+	}
+
+	function showSlides(n, no) {
+	var i;
+	var x = document.getElementsByClassName(slideId[no]);
+	if (n > x.length) {slideIndex[no] = 1}
+	if (n < 1) {slideIndex[no] = x.length}
+	for (i = 0; i < x.length; i++) {
+	x[i].style.display = "none";
+	}
+	x[slideIndex[no]-1].style.display = "block";
+	}
+	</script>
     </body>
 </html>
