@@ -17,3 +17,6 @@
 - [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
+
+## Affected File/s
+<!--- What file or files that are affected in the pull request? Find the files in the repo and include the links. -->
