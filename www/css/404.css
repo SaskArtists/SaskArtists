@@ -1,63 +1,94 @@
-body {
-font-family: "Source Sans Pro", sans-serif;
-background-color: #323133;
-}
-body:after {
-content: "";
-position: absolute;
-top: 0px;
-left: 0px;
-right: 0px;
-bottom: 0px;
-z-index: 1000;
-background: repeating-linear-gradient(0deg, #111 0px, #111 1px, transparent 2px, transparent 5px);
-background-size: 100% 5px;
-animation: lines 2s ease-out infinite;
-opacity: 0.3;
-mix-blend-mode: color-burn;
-pointer-events: none;
-}
-body .text, body .text > * {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-}
-body .text > * {
-font-size: 80px;
-animation: giggle 1s ease infinite;
-mix-blend-mode: difference;
-}
-body .text .r {
-color: #f00;
-left: -0.5px;
-text-align: center
-}
-body .text .g {
-color: #0f0;
-animation-delay: -0.67s;
-text-align: center
-}
-body .text .b {
-color: #00f;
-animation-delay: -0.33s;
-left: 0.5px;
-text-align: center
+@font-face {
+ font-family: "VCR OSD Mono";
+ src: url("/fonts/fonts/404font.ttf");
 }
 
-@keyframes giggle {
-0%, 100% {
-transform: translate(-50%, -50%) translateY(-2px);
+
+body{
+  font-family: "VCR OSD Mono";
+  /* font VCR -> http://www.dafont.com/fr/vcr-osd-mono.font */
+  background-color:black;
+  color:lightgrey;
+  overflow:hidden;
+  background-image: url("https://68.media.tumblr.com/595a5fa01fe53ca0e4ca8f37bacc849d/tumblr_nve67mJtue1tanofjo1_500.gif");
+    background-size:cover;
+  margin:0;
+  text-shadow: black 2px 2px 1px, black -2px 2px 1px, black -2px -2px 1px, black 2px -2px 1px, black 0px 2px 1px, black 0px -2px 1px, black 2px 0px 1px, black -2px 0px 1px;
+  
 }
-50% {
-transform: translate(-50%, -50%) translateY(2px);
+
+.background{
+  font-family: "VCR OSD Mono";
+  /* font VCR -> https://www.dafont.com/vcr-osd-mono.font */
+  background-color:black;
+  color:lightgrey;
+  overflow:hidden;
+    background-size:cover;
+/*   background-position: center; */
+  margin:0;
+  text-shadow: black 2px 2px 1px, black -2px 2px 1px, black -2px -2px 1px, black 2px -2px 1px, black 0px 2px 1px, black 0px -2px 1px, black 2px 0px 1px, black -2px 0px 1px;
 }
+
+
+
+
+
+.container {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  width:100vw;
+  height:100vh;
 }
-@keyframes lines {
-0% {
-background-position: 0px 0px;
+
+h1{
+  font-weight:normal;
+  font-size:5rem;
+  width:750px;
+  text-align: center;
 }
-100% {
-background-position: 0px 25px;
+
+*::selection {
+    background: white;
 }
+
+.calendar {
+    position: fixed;
+    left: 120px;
+    bottom: 60px;
 }
+
+aside {
+  font-size:3rem;
+}
+
+a{
+  padding:5px;
+}
+
+a:hover {
+  cursor: pointer;
+  background-color:lightgrey;
+  
+}
+
+aside:hover {
+    cursor: default;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.play {
+  position: fixed;
+    left: 120px;
+    top: 60px;
+}
+
+
+
+
+
