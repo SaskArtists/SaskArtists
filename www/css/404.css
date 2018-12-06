@@ -1,12 +1,4 @@
-@font-face {
- font-family: "VCR OSD Mono";
- src: url("/fonts/fonts/404font.ttf");
-}
-
-
 body{
-  font-family: "VCR OSD Mono";
-  /* font VCR -> http://www.dafont.com/fr/vcr-osd-mono.font */
   background-color:black;
   color:lightgrey;
   overflow:hidden;
@@ -18,8 +10,6 @@ body{
 }
 
 .background{
-  font-family: "VCR OSD Mono";
-  /* font VCR -> https://www.dafont.com/vcr-osd-mono.font */
   background-color:black;
   color:lightgrey;
   overflow:hidden;
