@@ -2,6 +2,8 @@ import bs4, os
 
 for root, dirs, filenames in os.walk('www/'):
     for filename in filenames:
+        if "reginabellringers" in filename:
+            continue
         if filename.split('.')[-1] in ['html', 'htm']:
             file = os.path.join(root, filename)
             with open(file, encoding="utf-8") as inf:
