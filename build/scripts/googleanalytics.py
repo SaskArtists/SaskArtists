@@ -10,7 +10,7 @@ for root, dirs, filenames in os.walk('www/'):
     
             gtag = soup.new_tag("script", src="https://www.googletagmanager.com/gtag/js?id=UA-129512949-1")
             gtag.attrs['async'] = None
-            gtag.head.append(gtag)
+            soup.head.append(gtag)
             gtag = soup.new_tag("script")
             gtag.string = "window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-129512949-1');"
             soup.head.append(gtag)
