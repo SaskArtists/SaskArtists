@@ -7,7 +7,8 @@ for root, dirs, filename in os.walk('www/'):
             txt = inf.read()
             soup = bs4.BeautifulSoup(txt)
     
-        gtag = soup.new_tag("script", async="true", src="https://www.googletagmanager.com/gtag/js?id=UA-129512949-1")
+        gtag = soup.new_tag("script", src="https://www.googletagmanager.com/gtag/js?id=UA-129512949-1")
+        gtag.attrs['async'] = None
         gtag.head.append(gtag)
         gtag = soup.new_tag("script")
         gtag.string = "window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-129512949-1');"
