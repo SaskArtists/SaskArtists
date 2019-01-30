@@ -7,6 +7,7 @@ jobs:
     steps:
       - checkout
       - run: sudo apt update
+      - run: sudo pip install beautifulsoup4
       - run: python ./build/scripts/gen_artists.py
       - run: python ./build/scripts/googleanalytics.py 
       - run: cp ~/repo ~/build-output -r
