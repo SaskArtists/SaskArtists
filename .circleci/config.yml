@@ -8,6 +8,7 @@ jobs:
       - checkout
       - run: sudo apt update
       - run: python ./build/scripts/gen_artists.py
+      - run: python ./build/scripts/googleanalytics.py 
       - run: cp ~/repo ~/build-output -r
       - save_cache:
           key: v1-repo-{{ .Environment.CIRCLE_SHA1 }}
