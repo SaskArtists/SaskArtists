@@ -1,7 +1,7 @@
 import bs4, os
 
 for root, dirs, filename in os.walk('www/'):
-    if filename.endswith('.html'):
+    if filename.split('.')[-1] in ['html', 'htm']:
         file = os.path.join(root, filename)
         with open(file) as inf:
             txt = inf.read()
