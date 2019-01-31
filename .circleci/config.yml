@@ -14,7 +14,9 @@ jobs:
       - run: cp /tmp/project/repo /tmp/project/workspace/build-output -r
       - persist_to_workspace:
           root: workspace
-          
+          paths:
+            - build-output
+
   html-test:
     docker:
       - image: circleci/python:3.7-rc-node-browsers
