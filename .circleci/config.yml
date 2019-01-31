@@ -7,13 +7,16 @@ jobs:
     steps:
       - checkout:
           path: /tmp/project/repo
+      - run: sudo pip install beautifulsoup4
       - run: cd /tmp/project/repo && python ./build/scripts/gen_artists.py
+      - run: cd /tmp/project/repo && python ./build/scripts/googleanalytics.py 
       - run: mkdir /tmp/project/workspace
       - run: cp /tmp/project/repo /tmp/project/workspace/build-output -r
       - persist_to_workspace:
           root: workspace
           paths:
             - build-output
+
   html-test:
     docker:
       - image: circleci/python:3.7-rc-node-browsers
