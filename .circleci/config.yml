@@ -3,58 +3,70 @@ jobs:
   build:
     docker:
       - image: circleci/python:3.7-rc-node-browsers
-    working_directory: ~/repo
+    working_directory: /tmp/project/
     steps:
-      - checkout
-      - run: sudo apt update
+      - checkout:
+          path: /tmp/project/repo
       - run: sudo pip install beautifulsoup4
-      - run: python ./build/scripts/gen_artists.py
-      - run: python ./build/scripts/googleanalytics.py 
-      - run: cp ~/repo ~/build-output -r
-      - save_cache:
-          key: v1-repo-{{ .Environment.CIRCLE_SHA1 }}
-          paths:
-            - ~/build-output
+      - run: cd /tmp/project/repo && python ./build/scripts/gen_artists.py
+      - run: cd /tmp/project/repo && python ./build/scripts/googleanalytics.py 
+      - run: mkdir /tmp/project/workspace
+      - run: cp /tmp/project/repo /tmp/project/workspace/build-output -r
+      - persist_to_workspace:
+          root: workspace
+          
   html-test:
     docker:
       - image: circleci/python:3.7-rc-node-browsers
-    working_directory: ~/build-output
+    working_directory: /tmp/project
     steps:
-      - restore_cache:
-          key: v1-repo-{{ .Environment.CIRCLE_SHA1 }}
+      - attach_workspace:
+          at: /tmp/project/workspace
       - run: sudo pip install html5validator
-      - run: html5validator --root . --ignore "Use CSS instead." "Element \"map\" is missing required attribute \"name\"." "The hash-name reference in attribute \"usemap\" referred to \"backforth\", but there is no \"map\" element with a \"name\" attribute with that value."
+      - run: html5validator --root /tmp/project/workspace/build-output --ignore "Use CSS instead." "Element \"map\" is missing required attribute \"name\"." "The hash-name reference in attribute \"usemap\" referred to \"backforth\", but there is no \"map\" element with a \"name\" attribute with that value." "Attribute \"v-model\" not allowed on element \"input\" at this point." "Attribute \"v-for\" not allowed on element \"div\" at this point." "Attribute \":href\" not allowed on element \"a\" at this point."
   sh-test:
     machine: true
-    working_directory: ~/build-output
+    working_directory: /tmp/project
     steps:
-      - restore_cache:
-          key: v1-repo-{{ .Environment.CIRCLE_SHA1 }}
-      - run: sh ./build/checks/run-checks.sh
+      - attach_workspace:
+          at: /tmp/project/workspace
+      - run: cd ./workspace/build-output && sh ./build/checks/run-checks.sh
   python-test:
     docker:
       - image: circleci/python:3.7-rc-node-browsers
-    working_directory: ~/build-output
+    working_directory: /tmp/project
     steps:
-      - restore_cache:
-          key: v1-repo-{{ .Environment.CIRCLE_SHA1 }}
+      - attach_workspace:
+          at: /tmp/project/workspace
       - run: sudo apt install aspell
       - run:
-          command: python ./build/checks/filenames.py
+          command: cd ./workspace/build-output && python ./build/checks/filenames.py
           when: always
       - run:
-          command: python ./build/checks/existence.py
+          command: cd ./workspace/build-output && python ./build/checks/existence.py
           when: always
       - run:
-          command: python ./build/checks/similarity.py
+          command: cd ./workspace/build-output && python ./build/checks/similarity.py
           when: always
       - run:
-          command: python ./build/checks/spelling.py
+          command: cd ./workspace/build-output && python ./build/checks/spelling.py
           when: always
+
+  deploy:
+    environment:
+      LC_ALL: en_US.UTF-8
+      LANG: en_US.UTF-8
+    docker:
+      - image: circleci/python:3.7-rc-node-browsers
+    working_directory: /tmp/project
+    steps:
+      - attach_workspace:
+          at: /tmp/project/workspace
+      - run: cd ./workspace/build-output && python ./build/scripts/deploy.py
 
 workflows:
   version: 2
-  build-and-test:
+  build-test-deploy:
     jobs:
       - build
       - html-test:
@@ -66,3 +78,11 @@ workflows:
       - sh-test:
           requires:
             - build
+      - deploy:
+          requires:
+            - html-test
+            - python-test
+            - sh-test
+          filters:
+            branches:
+              only: master
