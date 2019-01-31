@@ -57,7 +57,6 @@ for artist in artists:
         data = DEFAULT_ARTIST.copy()
         data.update(json.load(info))
         data["link"] = artist
-        output.append(data)
         for att, props in ATTRIBUTES.items():
             if att not in data:
                 fail = True
@@ -65,6 +64,9 @@ for artist in artists:
             elif type(data[att]) != props["type"]:
                 fail = True
                 print("{} has invalid property type for {}".format(artist, att))
+        if data["hidden"]:
+            continue
+        output.append(data)
 
 if fail:
     sys.exit(1)
