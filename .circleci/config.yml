@@ -17,23 +17,7 @@ jobs:
           paths:
             - build-output
 
-  html-test:
-    docker:
-      - image: circleci/python:3.7-rc-node-browsers
-    working_directory: /tmp/project
-    steps:
-      - attach_workspace:
-          at: /tmp/project/workspace
-      - run: sudo pip install html5validator
-      - run: html5validator --root /tmp/project/workspace/build-output --ignore "Use CSS instead." "Element \"map\" is missing required attribute \"name\"." "The hash-name reference in attribute \"usemap\" referred to \"backforth\", but there is no \"map\" element with a \"name\" attribute with that value." "Attribute \"v-model\" not allowed on element \"input\" at this point." "Attribute \"v-for\" not allowed on element \"div\" at this point." "Attribute \":href\" not allowed on element \"a\" at this point."
-  sh-test:
-    machine: true
-    working_directory: /tmp/project
-    steps:
-      - attach_workspace:
-          at: /tmp/project/workspace
-      - run: cd ./workspace/build-output && sh ./build/checks/run-checks.sh
-  python-test:
+  test:
     docker:
       - image: circleci/python:3.7-rc-node-browsers
     working_directory: /tmp/project
@@ -41,6 +25,13 @@ jobs:
       - attach_workspace:
           at: /tmp/project/workspace
       - run: sudo apt install aspell
+      - run: sudo pip install html5validator
+      - run:
+          command: cd ./workspace/build-output && sh ./build/checks/run-checks.sh
+          when: always
+      - run:
+          command: html5validator --root /tmp/project/workspace/build-output --ignore "Use CSS instead." "Element \"map\" is missing required attribute \"name\"." "The hash-name reference in attribute \"usemap\" referred to \"backforth\", but there is no \"map\" element with a \"name\" attribute with that value." "Attribute \"v-model\" not allowed on element \"input\" at this point." "Attribute \"v-for\" not allowed on element \"div\" at this point." "Attribute \":href\" not allowed on element \"a\" at this point."
+          when: always
       - run:
           command: cd ./workspace/build-output && python ./build/checks/filenames.py
           when: always
@@ -71,20 +62,12 @@ workflows:
   build-test-deploy:
     jobs:
       - build
-      - html-test:
-          requires:
-            - build
-      - python-test:
-          requires:
-            - build
-      - sh-test:
+      - test:
           requires:
             - build
       - deploy:
           requires:
-            - html-test
-            - python-test
-            - sh-test
+            - test
           filters:
             branches:
               only: master
