@@ -1,83 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>404 | PAGE NOT FOUND</title>
 <meta name="description" content="A collection of Artists from Saskatchewan">
-<meta name="author" content="">
-
+<meta name="author" content="Javin Zatwarniski">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="css/404.css">
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link href='https://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
 </head>
-<div class="container">
-<aside class="calendar">
-<ul >
-<li id="clock"></li>
-<li id="date"></li>
-</ul>
-</aside>
+<body background="img/404pagebackground.jpg">
 
-<aside class="play">
-<a>PLAY ></a>
-</aside>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center"><font color="#008000">
+<h1 align="center">404</h1>
+<p align="center"><font color="#008000" size="7"">
 
-<h1>404 PAGE NOT FOUND</h1>
-<div>
-<script>
-function clock() {
-//Save the times in variables
-var today = new Date();
-var hours = today.getHours();
-var minutes = today.getMinutes();
-var seconds = today.getSeconds();
-var month = today.getMonth();
-var day = today.getDate();
-var year = today.getFullYear();
-var monthNames = ["JAN.", "FEB.", "MAR.", "APR.", "MAY.", "JUN.", "JUL.", "AUG.", "SEP.", "OCT.", "NOV.", "DEC."];
-//Set the AM or PM time
-if (hours >= 12) {
-meridiem = "PM";
-}
-else {
-meridiem = "AM";
-}
-//convert hours to 12 hour format and put 0 in front
-if (hours > 12) {
-hours = hours - 12;
-}
-else if (hours === 0) {
-hours = 12;
-}
-//Put 0 in front of single digit minutes and seconds
-if (minutes < 10) {
-minutes = "0" + minutes;
-}
-else {
-minutes = minutes;
-}
-if (seconds < 10) {
-seconds = "0" + seconds;
-}
-else {
-seconds = seconds;
-}
-document.getElementById("clock").innerHTML = (meridiem  + " " + hours + ":" + minutes);
-document.getElementById("date").innerHTML = (monthNames[month] + " " + day + " " + year);
-}
-setInterval('clock()', 0);
+<marquee width="380" scrolldelay="0" scrollamount="8">PAGE NOT FOUND</marquee></font></p>
+<p align="center"><b><font size="7" color="#008000">
+<a href="https://saskartists.ca">RETURN HOME</a></font></b></p>
 
-
-
-
-
-function background() {
-var body=document.body;
-var a=document.querySelector('a');
-body.classList.toggle("background");
-}
-</script>
