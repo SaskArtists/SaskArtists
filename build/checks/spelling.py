@@ -9,28 +9,29 @@ ret = 0
 with open("./build/spelling_allowed.txt") as fobj:
     allowed = fobj.read().split("\n")
 
-most = {}
+import test
 
-for artist in filter(lambda x: os.path.isdir(os.path.join(ROOT, x)), os.listdir(ROOT)):
-    if artist == "reginabellringers.ca": continue
-    for dir in os.walk(os.path.join(ROOT, artist)):
-        for file in dir[2]:
-            if not file.endswith(".html") and not file.endswith(".htm"): continue
-            if os.path.join(ROOT, artist, file)=="./www/artists/ahasiw/sake.htm": continue
-            path = os.path.join(dir[0], file)
-            errors = subprocess.getoutput("cat {} | aspell -a -H --master=en_US --extra-dicts=en_GB".format(path)).split("\n")[1:]
-            for line in errors:
-                if line.strip() in ["*", ""]: continue
-                word = line.strip().split(" ")[1]
-                if word in allowed: continue
-                print(path, line.split(":")[0])
-                ret += 1
-                if word in most:
-                    most[word] += 1
-                else:
-                    most[word] = 1
+class Spelling(test.Test):
+    def check(self, source, text):
+        if source == "./www/artists/ahasiw/sake.htm": return
+        errors = subprocess.getoutput("cat {} | aspell -a -H --master=en_US --extra-dicts=en_GB".format(source)).split("\n")[1:]
+        for line in errors:
+            if line.strip() in ["*", ""]: return
+            self.word = line.strip().split(" ")[1]
+            if self.word in allowed: return
+            print(path, line.split(":")[0])
+            self.ret += 1
+            if self.word in self.most:
+                self.most[self.word] += 1
+            else:
+                self.most[self.word] = 1
 
-for spelling in sorted(most.items(), key=lambda x: x[1]):
+check = Spelling()
+check.most = {}
+check.ret = 0
+check.run()
+
+for spelling in sorted(check.most.items(), key=lambda x: x[1]):
     print(spelling)
 
 #In the future we will enable failing
