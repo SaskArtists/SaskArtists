@@ -6,10 +6,10 @@
         </title>
     </head>
     <body>
-        <?php include("title.html"); ?>
+        <?php readfile("title.html"); ?>
         <br/>
-        <?php include("homepage.html"); ?>
-        <?php include("galpage.html"); ?>
-        <?php include("conpage.html"); ?>
+        <?php readfile("homepage.html"); ?>
+        <?php readfile("galpage.html"); ?>
+        <?php readfile("conpage.html"); ?>
     </body>
 </html>
