@@ -7,6 +7,7 @@ artists = []
 with open("./www/artists.json") as artf:
     data = json.loads(artf.read())
     for artist in data:
+        print(artist)
         artists.append({link: artist["link"], name: artist["name"]})
 
 class Crosslinks(test.Test):
