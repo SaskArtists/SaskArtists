@@ -39,6 +39,9 @@ jobs:
           command: cd ./workspace/build-output && python ./build/checks/existence.py
           when: always
       - run:
+          command: cd ./workspace/build-output && python ./build/checks/similarity.py
+          when: always
+      - run:
           command: cd ./workspace/build-output && python ./build/checks/spelling.py
           when: always
       - run:
