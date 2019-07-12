@@ -20,7 +20,7 @@ for root, dirs, files in os.walk(scandir):
             or ".git" in os.path.join(root, file) \
             or os.path.join(root, file) == "./README.md":
             break
-        if "test.py" in file:
+        if "checks/" in file:
             continue
         if " " in file:
             ret += 1
