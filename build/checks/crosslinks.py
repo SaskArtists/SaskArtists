@@ -15,9 +15,8 @@ class Crosslinks(test.Test):
             link = artist["link"].lower()
             if link in source:
                 continue
-            name = artist["name"].lower().split(" ")
             matches = re.finditer(regex.format(name = artist["name"]), text)
-            for matchNum, match in enumerate(matches):
+            for _ in enumerate(matches):
                 artistName = artist["name"]
                 print(source, f"{artistName}")
                 self.ret += 1
@@ -26,5 +25,4 @@ check = Crosslinks()
 check.ret = 0
 check.run()
 
-#sys.exit(check.ret)
-sys.exit(0)
+sys.exit(check.ret)
