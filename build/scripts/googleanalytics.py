@@ -1,5 +1,7 @@
 import bs4, os
 
+TAG = "UA-143857194-1"
+
 for root, dirs, filenames in os.walk('www/'):
     for filename in filenames:
         if filename.split('.')[-1] in ['html', 'htm']:
@@ -10,13 +12,13 @@ for root, dirs, filenames in os.walk('www/'):
             with open(file, encoding="utf-8") as inf:
                 txt = inf.read()
                 soup = bs4.BeautifulSoup(txt, "html.parser")
-    
-            gtag = soup.new_tag("script", src="https://www.googletagmanager.com/gtag/js?id=UA-50411886-2")
+
+            gtag = soup.new_tag("script", src="https://www.googletagmanager.com/gtag/js?id=" + TAG)
             gtag.attrs['async'] = None
             soup.head.append(gtag)
             gtag = soup.new_tag("script")
-            gtag.string = "window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-50411886-2');"
+            gtag.string = "window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', '"+TAG+"');"
             soup.head.append(gtag)
-    
+
             with open(file, "w") as outf:
               outf.write(str(soup))
