@@ -19,7 +19,7 @@ class Spelling(test.Test):
             if line.strip() in ["*", ""]: return
             self.word = line.strip().split(" ")[1]
             if self.word in allowed: return
-            print(path, line.split(":")[0])
+            print(source, line.split(":")[0])
             self.ret += 1
             if self.word in self.most:
                 self.most[self.word] += 1
