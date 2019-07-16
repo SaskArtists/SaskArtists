@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="css/animate.min.css" type="text/css">
         <link rel="stylesheet" href="css/blueimp-gallery.min.css" type="text/css"><!-- Custom CSS -->
         <link rel="stylesheet" href="css/creative.css" type="text/css">
+        <link rel="stylesheet" href="css/slideshow.css" type="text/css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <style type="text/css">
         img.c2 {width: 66.6%}
@@ -62,86 +63,54 @@
             </div>
         </header>
         <section class="bg-primary" id="gallery">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <h1 class="section-heading">
-                            Gallery
-                        </h1>
-                        <hr class="light">
-                        <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel blueimp-gallery-controls">
-                            <div class="slides"></div>
-                            <h3 class="title"></h3><a class="prev">‹</a> <a class="next">›</a> <a class="play-pause"></a>
-                            <ol class="indicator"></ol>
-                        </div><button class="btn btn-info btn-lg" data-toggle="modal" data-target="#imageModal">More Information</button>
-                        <div id="imageModal" class="modal fade" role="dialog">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal">×</button>
-                                        <h4 class="modal-title">
-                                            More Information
-                                        </h4>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>
-                                            The Book of Compost (1980)
-                                        </h3>
-                                        <p>
-                                            Victor uses humour with vegetables rotting from the pages his How To manual.
-                                        </p><a href="img/gallery_orig/book_of_composts.jpg">High Resolution</a>
-                                        <br>
-                                        <h3>
-                                            Bench Corn (1992)
-                                        </h3>
-                                        <p>
-                                            This bronze park bench unites practicality with edible vegetable matter.
-                                        </p><a href="img/gallery_orig/bench_corn.jpg">High Resolution</a>
-                                        <br>
-                                        <h3>
-                                            Garden Fence (1984)
-                                        </h3>
-                                        <p>
-                                            This ceramic mural is found in <a href="/cwiens">Clifford Wiens</a>' CBC Building, Regina.
-                                        </p><a href="img/gallery_orig/garden_fence.jpg">High Resolution</a>
-                                        <br>
-                                        <h3>
-                                            Mixed Farming (1973)
-                                        </h3>
-                                        <p>
-                                            This Ceramic sculpture is a tableau of rural Saskatchewan life.
-                                        </p><a href="img/gallery_orig/mixed_farming.jpg">High Resolution</a>
-                                        <br>
-                                        <h3>
-                                            Regina, My World (1999)
-                                        </h3><img src="img/regina_my_world_description.jpg" alt="no alt text">
-                                        <p>
-                                            The City of Regina is reduced to only the fish-eye view of the world.
-                                        </p><a href="img/gallery_orig/regina_my_world.jpg">High Resolution</a>
-                                        <br>
-                                        <h3>
-                                            Couch With Green Peppers (1986)
-                                        </h3>
-                                        <p>
-                                            Two affectionate peppers lounge suggestively on the couch.
-                                        </p><a href="img/gallery_orig/couch_with_green_peppers.jpg">High Resolution</a>
-                                        <br>
-                                        <h3>
-                                            All You Need Is Love (2013)
-                                        </h3>
-                                        <p>
-                                            When a cucumber and a tomato cuddle in a blue corduroy easy chair, should we be outraged?
-                                        </p><a href="img/gallery_orig/all_you_need_is_love.jpg">High Resolution</a>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <center>Vegetable Gallery</center>
+                <div class="slideshow-container">
+                  <div class="mySlides1">
+                    <img class="center" src="img/gallery/mixed_farming.jpg" style="width:50%">
+                  </div>
+                
+                  <div class="mySlides1">
+                    <img class="center" src="img/gallery/couch_with_green_peppers.jpg" style="width:50%">
+                  </div>
+                
+                  <div class="mySlides1">
+                    <img class="center" src="img/gallery/garden_fence.jpg" style="width:50%">
+                  </div>
+
+                  <div class="mySlides1">
+                      <img class="center" src="img/gallery/bench_corn.jpg" style="width:50%">
+                  </div>
+
+                  <div class="mySlides1">
+                      <img class="center" src="img/gallery/all_you_need_is_love.jpg" style="width:50%">
+                  </div>
+
+                  <div class="mySlides1">
+                      <img class="center" src="img/gallery/book_of_composts.jpg" style="width:50%">
+                  </div>
+                
+                  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
                 </div>
-            </div>
+
+                <center>Benches & Chairs</center>
+                <div class="slideshow-container">
+                <div class="mySlides2">
+                    <img class="center" src="img/gallery/all_you_need_is_love.jpg" style="width:50%">
+                </div>
+
+                <div class="mySlides2">
+                    <img class="center" src="img/gallery/bench_corn.jpg" style="width:50%">
+                </div>
+
+                <div class="mySlides2">
+                    <img class="center" src="img/gallery/couch_with_green_peppers.jpg" style="width:50%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                </div>
+                
         </section>
         <section class="bg-secondary" id="about">
             <div class="container">
@@ -236,5 +205,6 @@
         }
         );
         </script>
+        <script type="text/javascript" src="js/slideshow.js"></script>
     </body>
 </html>
