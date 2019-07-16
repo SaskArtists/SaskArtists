@@ -36,7 +36,15 @@ li a:hover {
 .Image-text{
   font-size: 16pt;
   text-align: center;
+  padding-bottom: 100px;
 }
 .Image{
   max-width: 1000px;
+  display: block;
+  margin: 0 auto;
+}
+.Footer {
+  background-color: #EEEEEE;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
