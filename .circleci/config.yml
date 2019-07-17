@@ -9,7 +9,7 @@ jobs:
           path: /tmp/project/repo
       - run: sudo pip install beautifulsoup4
       - run: cd /tmp/project/repo && python ./build/scripts/gen_artists.py
-      - run: cd /tmp/project/repo && python ./build/scripts/googleanalytics.py 
+      - run: cd /tmp/project/repo && python ./build/scripts/googleanalytics.py
       - run: mkdir /tmp/project/workspace
       - run: cp /tmp/project/repo /tmp/project/workspace/build-output -r
       - persist_to_workspace:
@@ -25,7 +25,7 @@ jobs:
       - attach_workspace:
           at: /tmp/project/workspace
       - run: sudo apt install aspell
-      - run: sudo pip install html5validator
+      - run: sudo pip install html5validator requests
       - run:
           command: cd ./workspace/build-output && sh ./build/checks/run-checks.sh
           when: always
@@ -43,6 +43,12 @@ jobs:
           when: always
       - run:
           command: cd ./workspace/build-output && python ./build/checks/spelling.py
+          when: always
+      - run:
+          command: cd ./workspace/build-output && python ./build/checks/images.py
+          when: always
+      - run:
+          command: cd ./workspace/build-output && python ./build/checks/crosslinks.py
           when: always
 
   deploy:
