@@ -25,7 +25,7 @@ class Existence(test.Test):
                     if "http" not in src and not src.startswith("<?php"):
                         if not os.path.isfile(source):
                             self.ret += 1
-                            print("File not found:", os.path.join(root, src), src)
+                            print("File not found:", source, src)
 
 check = Existence(["html", "htm", "php", "inc"])
 check.ret = 0

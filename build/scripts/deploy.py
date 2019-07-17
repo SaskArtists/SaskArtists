@@ -34,6 +34,7 @@ except Exception as e:
     print("Unable to read commit file from remote, sending all")
     run(f"scp -oStrictHostKeyChecking=no -r www/* {DEST}/www")
     run(f"scp -oStrictHostKeyChecking=no -r www/.htaccess {DEST}/www/.htaccess")
+    run(f"scp -oStrictHostKeyChecking=no -r www/artists.json {DEST}/www/artists.json")
     save()
     sys.exit(0)
 

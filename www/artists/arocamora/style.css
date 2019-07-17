@@ -53,3 +53,11 @@ a:link {
 a:visited {
 	color: #A86D5F;
 }
+
+.imgmap{
+	height: 800;
+	width: 700;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
