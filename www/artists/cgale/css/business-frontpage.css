@@ -12,7 +12,7 @@ body {
 
 .business-header {
     height: 400px;
-    background: url("../Images/Connie.jpg") center center no-repeat scroll;;
+    background: url("../images/connie.jpg") center center no-repeat scroll;;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
