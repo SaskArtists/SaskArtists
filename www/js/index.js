@@ -19,7 +19,7 @@ var artistsApp = new Vue({
         return display;
       }
       else{
-        return display.filter(searchForStart, this.search);
+        return display.filter(searchForStart, this.search.toLowerCase());
       }
     }
   },
