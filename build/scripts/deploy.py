@@ -33,8 +33,6 @@ except Exception as e:
     print(str(e))
     print("Unable to read commit file from remote, sending all")
     run(f"scp -oStrictHostKeyChecking=no -r www/* {DEST}/www")
-    run(f"scp -oStrictHostKeyChecking=no -r www/.htaccess {DEST}/www/.htaccess")
-    run(f"scp -oStrictHostKeyChecking=no -r www/artists.json {DEST}/www/artists.json")
     save()
     sys.exit(0)
 
@@ -54,5 +52,8 @@ for FILE in CHANGED_FILES:
     else:
         print(f"SENDING FILE: {FILE}")
         run(f"scp -oStrictHostKeyChecking=no -r {FILE} {DEST}/{FILE}")
+   
+run(f"scp -oStrictHostKeyChecking=no -r www/.htaccess {DEST}/www/.htaccess")
+run(f"scp -oStrictHostKeyChecking=no -r www/artists.json {DEST}/www/artists.json")
 
 save()
