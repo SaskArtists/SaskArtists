@@ -5,6 +5,7 @@
             Anita Rocamora
         </title>
         <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="imagechanger.js"></script>
     </head>
     <body>
         <div id="wrapper">
@@ -30,14 +31,30 @@
             </div>
             <br>
             <div id="content">
-                <img src="images/naked1.jpg" usemap="#sculpture" alt="no alt text" class="imgmap"> 
+                <img id="sculpture" src="images/naked1.jpg" usemap="#sculpture" alt="no alt text" class="imgmap"> 
                 <map name="sculpture">
-                    <area shape="rect" coords="11,165,205,583" alt="Sculpture 2" href="sculpture2.html">
-                    <area shape="rect" coords="629,223,767,727" alt="Sculpture 6" href="sculpture6.html">
+                    <area id="forward" shape="rect" coords="11,165,205,583" alt="Sculpture" href="">
+                    <area id="back" shape="rect" coords="629,223,767,727" alt="Sculpture" href="">
                 </map> Click on either side of the image for more views
                 <br>
                 <br>
                 <img src="images/nakedinfo.jpg" alt="Meacham: Repose 2011, clay, metal, glaze, 37 x 33 x 29cm" width="400">
+                <script>
+                    var id = parseInt(getQueryVariable("id"));
+                    document.getElementById("sculpture").src = "images/naked" + id + ".jpg";
+                    if (id == 1){
+                        document.getElementById("back").href = "sculpture.html?id=6";
+                    }else{
+                        document.getElementById("back").href = "sculpture.html?id=" + (id - 1);
+                    }
+
+                    if (id == 6){
+                        document.getElementById("forward").href = "sculpture.html?id=1";
+                    }else{
+                        document.getElementById("forward").href = "sculpture.html?id=" + (id + 1);
+                    }
+                    
+                </script>
             </div>
             <div id="footer">
                 Made by Taylor Petrychyn 2012
