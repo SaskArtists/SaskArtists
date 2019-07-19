@@ -1,38 +1,38 @@
 h1 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-size:100%;
-  background-repeat: repeat-y;
-  background-attachment: fixed;
+	font-family: 'Open Sans Condensed', sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-size:100%;
+	background-repeat: repeat-y;
+	background-attachment: fixed;
 }
 
 h3 {
-  font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 p {
-  font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 35%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 35%;
 }
 
 @font-face {
-font-family: "VCR OSD Mono";
-src: url("css/fonts/vcr_font.ttf");
-src: 
-url("css/fonts/Harabara.woff") format("woff"),
-url("css/fonts/Harabara.otf") format("opentype"),
-url("css/fonts/Harabara.svg#filename") format("svg");
+	font-family: "VCR OSD Mono";
+	src: url("css/fonts/vcr_font.ttf");
+	src: 
+		url("css/fonts/Harabara.woff") format("woff"),
+		url("css/fonts/Harabara.otf") format("opentype"),
+		url("css/fonts/Harabara.svg#filename") format("svg");
 }
 
 #center-align {
-  text-align: center;
+	text-align: center;
 }
