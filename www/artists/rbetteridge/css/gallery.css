@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+  }
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 180px;
+    vertical-align:top;
+    text-align: center;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+	font-family: 'Open Sans Condensed', sans-serif;
+    padding: 1px;
+    text-align: center;
+  }
+  .gallery-container {
+    position: inline-block;
+  }
