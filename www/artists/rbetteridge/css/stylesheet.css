@@ -33,3 +33,6 @@ url("css/fonts/Harabara.otf") format("opentype"),
 url("css/fonts/Harabara.svg#filename") format("svg");
 }
 
+#center-align {
+  text-align: center;
+}
