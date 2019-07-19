@@ -36,3 +36,7 @@ p {
 #center-align {
 	text-align: center;
 }
+
+h4 { 
+	display: inline 
+}
