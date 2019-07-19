@@ -12,7 +12,7 @@ WEB = "saskartists.ca"
 ENDPOINT = f"saskarti@{WEB}"
 DEST = f"{ENDPOINT}:/home/saskarti"
 
-os.system(f"rsync -e \"ssh -o StrictHostKeyChecking=no\" -raz {DIR} {DEST}")
+os.system(f"rsync -e \"ssh -o StrictHostKeyChecking=no\" -raz . {DEST}")
 
 # COMMIT_CURR = subprocess.getoutput("git rev-parse HEAD")
 # print(f"COMMIT_CURR {COMMIT_CURR}")
