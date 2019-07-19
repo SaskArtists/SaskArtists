@@ -1,0 +1,191 @@
+/*****************************************
+	Solid White Color
+*****************************************/
+body,
+.case-study, .clients-logo,
+.team, .portfolio, .services,
+.portfolio-single, .blog,
+.blog-single, .contact-form,
+.gallery {
+  background: #fff;
+}
+
+/*****************************************
+	White Gray Color
+*****************************************/
+.case-study-content:nth-child(odd),
+.client-logo, .clients .clients-description,
+.contact-us, .pricing-table,
+.portfolio-single-info,
+.blog-content, .search,
+.blog-sidbar .list-group-item.active,
+.blog-sidbar .list-group-item,
+.post-count, .comments-body,
+.blog-form-input, .blog-form-textarea,
+.th-input, .contact-info, .footer {
+  background: #f6f6f6;
+}
+
+.contact-description {
+  background: linear-gradient(90deg, #f6f6f6 30%, rgba(246, 246, 246, 0.51) 47%, rgba(246, 246, 246, 0.15) 61%);
+}
+
+/*****************************************
+	White Gray Color
+*****************************************/
+h1, h2, h3,
+.case-study .content h4,
+.services-title .title,
+.see-all-post a {
+  color: #ffb340;
+}
+
+body, p,
+.case-study .content p,
+.footer-nav a, .service-description,
+.table-price, .pricing-list,
+.pricing-title, .features-title, .price,
+.blog-title, .solid-btn,
+.blog-sidbar .list-group-item.active,
+.blog-sidbar .list-group-item,
+.blog-description, .blog-inner-heading,
+.blog-comments-text,
+.protfolio-list p,
+.gallery-description p,
+.home-address p, .home-address a,
+.web-address p, .web-address a,
+.phone-address p, .phone-address a,
+.contact-address a,
+.footer-media-link a {
+  color: #939393;
+}
+
+/*****************************************
+	Button Color
+*****************************************/
+.th-btn {
+  background: #ffb340;
+  border-color: #ffb340;
+}
+.th-btn:hover {
+  background: #f6f6f6;
+  border-color: #ffb340;
+}
+
+/********************/
+.team-overlay .th-list p{
+  color: #121212 !important;
+}
+
+.services-icon{
+  background: #f6f6f6;
+  box-shadow: 0px 0px 10px 1px rgba(212, 212, 212, 0.6);
+}
+
+.services-list:hover .services-icon{
+    background: #facd8a;
+    box-shadow: 0px 0px 0px 14px #fff;
+}
+
+.table-price, .pricing-list{
+  border: 1px solid rgba(197, 197, 197, 0.33);
+  transition: 0.5s;
+}
+
+.features-list p{
+  transition: 0.5s;
+  border-bottom: 1px solid rgba(197, 197, 197, 0.33);
+}
+
+.table:hover .features-list p{
+  border-color: #facd8a;
+}
+
+.th-btn-border {
+    color: #111111;
+}
+
+.table:hover .th-btn-border{
+  color: #f6f6f6;
+}
+
+/* portfolio page */
+.protfolio-mixitup-btn .th-btn{
+  color: #333;
+}
+
+.protfolio-mixitup-btn .th-btn:hover{
+    background: #ffb340;
+    color: #212121;
+}
+
+.protfolio-mixitup-btn .th-btn{
+    background: transparent;
+    border-color: #ffb340;
+}
+
+.portfolio-caption{
+    background: #ffb340;
+    padding: 20px 23px !important;
+}
+
+/* single portfolio */
+.portfolio-single-title{
+  color: #ffb340;
+}
+.portfolio-single-info{
+  box-shadow: -50px 0 0 0 #f6f6f6;
+}
+
+.gallery-img:before{
+  background: rgba(212, 212, 212, 0.8);
+}
+
+/* Blog page */
+.solid-btn{
+  background: transparent !important;
+  border-color: transparent !important;
+}
+
+.blog-content{
+  box-shadow: 0px 0px 10px 1px rgba(212, 212, 212, 0.6);
+}
+
+.search{
+  box-shadow: 0px 0px 10px 1px rgba(212, 212, 212, 0.6);
+}
+
+.blog-sidbar .list-group-item.active{
+  border-bottom: 2px solid rgba(197, 197, 197, 0.33);
+}
+
+.blog-sidbar .list-group-item{
+  border-bottom: 1px solid rgba(197, 197, 197, 0.33);
+}
+
+.post-count{
+  box-shadow: 0px 0px 10px 2px rgba(212, 212, 212, 0.6);
+  margin-left: 6px;
+}
+
+.blog-form-input, .blog-form-textarea{
+  border-color: #f6f6f6;
+}
+
+.see-all-post a:hover{
+  color: #333;
+}
+
+.blog-left-img:before{
+  border-color: transparent #f6f6f6 transparent transparent;
+}
+
+/* Contact page */
+
+.contact-info{
+  box-shadow: 0px 0 45px 8px #fafafa;
+}
+
+.th-input{
+  border-color: transparent;
+}
