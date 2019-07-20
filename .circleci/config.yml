@@ -62,7 +62,7 @@ jobs:
       - attach_workspace:
           at: /tmp/project/workspace
       - run: sudo apt install rsync -y
-      - run: cd ./workspace/build-output && python ./build/scripts/deploy.py
+      - run: cd ./workspace/build-output/www && python ./build/scripts/deploy.py
 
 workflows:
   version: 2

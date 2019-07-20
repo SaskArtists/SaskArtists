@@ -10,7 +10,7 @@ DIR = "/tmp/project/workspace/build-output/deploy-info/"
 
 WEB = "saskartists.ca"
 ENDPOINT = f"saskarti@{WEB}"
-DEST = f"{ENDPOINT}:/home/saskarti"
+DEST = f"{ENDPOINT}:/home/saskarti/public_html"
 
 os.system(f"rsync -e \"ssh -o StrictHostKeyChecking=no\" -raz . {DEST}")
 
