@@ -17,10 +17,13 @@ h1{
 	color: yellow;
 }
 
-a:link{
-	color: yellow;
+.title{
+	text-align: center;
+	color: white;
 }
 
-a:hover{
-	color: pink; 
+a, a:visited{
+	text-align: center;
+	color: white;
+	text-decoration: none;
 }

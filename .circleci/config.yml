@@ -9,7 +9,7 @@ jobs:
           path: /tmp/project/repo
       - run: sudo pip install beautifulsoup4
       - run: cd /tmp/project/repo && python ./build/scripts/gen_artists.py
-      - run: cd /tmp/project/repo && python ./build/scripts/googleanalytics.py 
+      - run: cd /tmp/project/repo && python ./build/scripts/googleanalytics.py
       - run: mkdir /tmp/project/workspace
       - run: cp /tmp/project/repo /tmp/project/workspace/build-output -r
       - persist_to_workspace:
@@ -25,7 +25,7 @@ jobs:
       - attach_workspace:
           at: /tmp/project/workspace
       - run: sudo apt install aspell
-      - run: sudo pip install html5validator
+      - run: sudo pip install html5validator requests
       - run:
           command: cd ./workspace/build-output && sh ./build/checks/run-checks.sh
           when: always
@@ -44,18 +44,26 @@ jobs:
       - run:
           command: cd ./workspace/build-output && python ./build/checks/spelling.py
           when: always
+      - run:
+          command: cd ./workspace/build-output && python ./build/checks/images.py
+          when: always
+      - run:
+          command: cd ./workspace/build-output && python ./build/checks/crosslinks.py
+          when: always
 
   deploy:
     environment:
       LC_ALL: en_US.UTF-8
       LANG: en_US.UTF-8
     docker:
-      - image: circleci/python:3.7-rc-node-browsers
+      - image: cimg/python:3.12.3
     working_directory: /tmp/project
     steps:
       - attach_workspace:
           at: /tmp/project/workspace
-      - run: cd ./workspace/build-output && python ./build/scripts/deploy.py
+      - run: sudo apt update
+      - run: sudo apt install rsync -y
+      - run: cd ./workspace/build-output/www && python ../build/scripts/deploy.py
 
 workflows:
   version: 2
@@ -67,7 +75,7 @@ workflows:
             - build
       - deploy:
           requires:
-            - test
+            - build
           filters:
             branches:
               only: master
